@@ -1,0 +1,54 @@
+{
+  "data": {
+    "config_currency": [
+      {
+        "id": "bb9ecacf-f2de-4f71-aee8-9016492861dc",
+        "name": "Pound Sterling",
+        "symbol": "£",
+        "alpha_code": "GBP"
+      },
+      {
+        "id": "804b2152-d5ac-4b4d-ae7e-9623350e62a1",
+        "name": "Euro",
+        "symbol": "€",
+        "alpha_code": "EUR"
+      },
+      {
+        "id": "1f1efb90-f050-4061-9d88-4278b65934ef",
+        "name": "US Dollar",
+        "symbol": "$",
+        "alpha_code": "USD"
+      },
+      {
+        "id": "677e6e7f-1042-433f-a3f1-1df00ec7a8a7",
+        "name": "Polish złoty",
+        "symbol": "zł",
+        "alpha_code": "PLN"
+      },
+      {
+        "id": "a68f143f-bf58-430f-a473-50240ec9b954",
+        "name": "Swedish krona/kronor",
+        "symbol": "kr",
+        "alpha_code": "SEK"
+      },
+      {
+        "id": "6fd601f2-0df1-45bc-8a23-0b8f6d26a711",
+        "name": "Swiss franc",
+        "symbol": "Fr.",
+        "alpha_code": "CHF"
+      },
+      {
+        "id": "388c0395-4305-4d6f-8f15-05194401a8e0",
+        "name": "Indian Rupee",
+        "symbol": "₹",
+        "alpha_code": "INR"
+      },
+      {
+        "id": "47ab17d0-92e0-4815-b12a-0d3bbce70eff",
+        "name": "Afghani",
+        "symbol": "؋",
+        "alpha_code": "AFN"
+      }
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "res": {
+    "success": true,
+    "data": {
+      "records": [
+        {
+          "id": "da01784a-a79d-4c09-8208-48e4fa39babf",
+          "type": "adhoc_fee",
+          "status": "approved",
+          "title": "Adhoc fee invoice creation (Agency to Funder)",
+          "human_id": "ADH-230004586",
+          "funding_model": "indirect",
+          "start_date": null,
+          "end_date": null,
+          "contract_temp_placement": null,
+          "contract_rates": [],
+          "contract_timesheets": [],
+          "placement_invoice_sets": [
+            {
+              "transaction_type": "adhoc_fee",
+              "invoices": [
+                {
+                  "human_id": "INV-230014572",
+                  "generation_type": "adhoc_fee",
+                  "type": "agency-funder"
+                }
+              ]
+            }
+          ],
+          "updated_at": "2023-06-28T11:49:45.718572+00:00",
+          "computed_actions": [
+            {
+              "id": "4bd7f2da-76b1-47d9-b267-a1c239c93030"
+            },
+            {
+              "id": "819417ec-39b6-4909-894b-437e20d05aa5"
+            },
+            {
+              "id": "582f610e-53d5-477f-9cf3-e2ad1f4319c2"
+            },
+            {
+              "id": "976f3b47-7811-4d22-9181-6ffa5aa05c00"
+            }
+          ],
+          "process_actions": [
+            {
+              "id": "0e282217-f100-43b8-b19e-0b7911f461c6"
+            },
+            {
+              "id": "8e66b9e7-1581-4589-a2f3-8f81026af587"
+            },
+            {
+              "id": "d2adff3f-eb03-4892-af84-6f057f574a25"
+            },
+            {
+              "id": "8759a54b-2e54-44fe-8e10-88155ce0476a"
+            }
+          ]
+        }
+      ],
+      "allowed_for_debugging_only": {
+        "query": "query _20230628_114952_1687952992834{records:fundo_contract(where:{_and:[{id:{_eq:\"da01784a-a79d-4c09-8208-48e4fa39babf\"}},{deleted_at:{_is_null:true}}]},limit:1){ id type status title human_id funding_model start_date end_date contract_temp_placement{timesheet_frequency} contract_rates(where:{_and:[{deleted_at:{_is_null:true}}]}){unit_type contractor_rate client_rate} contract_timesheets(where:{_and:[{deleted_at:{_is_null:true}}]}){id human_id transaction_type start_date end_date timesheet_details(where:{_and:[{deleted_at:{_is_null:true}}]}){id date units minutes:unit_fraction hourly:units daily:units}} placement_invoice_sets(where:{_and:[{deleted_at:{_is_null:true}}]}){transaction_type invoices(where:{_and:[{deleted_at:{_is_null:true}}]}){human_id generation_type type}}  updated_at  computed_actions { id }  process_actions { id } }}",
+        "variables": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "res": {
+    "region": "staging4",
+    "internal_by_internal": "TMS-230118597",
+    "internal_by_external": "TMS-230090232",
+    "external_by_internal": "TMS-230090173",
+    "external_by_external": "TMS-230090172",
+    "dismissed_by_external": "TMS-230090156",
+    "dismissed_by_internal": "TMS-230090155",
+    "submittedByInternalRejectedByInternal": "TMS-230090231",
+    "submittedByInternalRejectedByExternal": "TMS-230090230",
+    "submittedByExternalRejectedByInternal": "TMS-230090158",
+    "submittedByExternalRejectedByExternal": "TMS-230090157",
+    "submittedByInternalNoResubmissionByExternal": "TMS-230090155",
+    "submittedByExternalNoResubmissionByExternal": "TMS-230090154",
+    "chaser_for_submission": "TMS-230090155",
+    "chaser_for_approval": "TMS-230090141"
+  }
+}

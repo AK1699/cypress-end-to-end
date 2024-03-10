@@ -1,0 +1,80 @@
+{
+  "dependencies": {
+    "@faker-js/faker": "^8.3.1",
+    "@testing-library/cypress": "^10.0.1",
+    "csv-parser": "^3.0.0",
+    "cypress-multi-reporters": "^1.6.3",
+    "date-fns": "^3.2.0",
+    "fast-csv": "^4.3.6",
+    "fs": "^0.0.1-security",
+    "pdf-parse": "^1.1.1",
+    "pdfjs-dist": "^4.0.269",
+    "pg": "^8.11.3",
+    "xlsx": "^0.18.5"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "stepDefinitions": "cypress/e2e/step_definitions",
+    "json": {
+      "enabled": true,
+      "formatter": "cucumber-json-formatter",
+      "output": "cypress/cucumber-json"
+    },
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  },
+  "devDependencies": {
+    "@cypress-audit/lighthouse": "^1.4.2",
+    "concurrently": "^8.2.2",
+    "cross-env": "^7.0.3",
+    "csv-stringify": "^6.4.4",
+    "cypress": "^13.6.6",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-if": "^1.10.5",
+    "cypress-parallel": "^0.13.0",
+    "cypress-real-events": "^1.10.1",
+    "cypress-wait-until": "^3.0.1",
+    "date-and-time": "^3.0.3",
+    "dotenv": "^16.3.1",
+    "jwt-decode": "^3.1.2",
+    "lighthouse": "^11.0.0",
+    "lodash": "^4.17.21",
+    "multiple-cucumber-html-reporter": "^3.5.0",
+    "prettier": "^3.1.0"
+  },
+  "scripts": {
+    "report": "node cucumberReport.js",
+    "cy:run": "npm run set-testing-env staging1 && npx cypress run --headed --browser electron --env TAGS=@E2E",
+    "E2E": "npx cypress-parallel -s cy:run -t 1 -d 'cypress/e2e/features/entities_onboarding'",
+    "staging-headless": "export REGION=staging1; npx cypress run --config-file staging.config.js --config --env region=$REGION --spec cypress/e2e/features/transactions/expense.feature --headed --browser chrome && npm run report",
+    "production": "npx cypress open --config-file production.config.js",
+    "local": "npx cypress open --config-file cypress.config.js",
+    "cypress:staging:headless": "npx cypress run --spec 'file-path' --headed --browser chrome --config-file staging.config.js --config --env region=$REGION",
+    "test": "npx cypress run -e 'TAGS=@E2E' --spec cypress/e2e/**/*.feature --headed --browser chrome",
+    "set-testing-env": "node env.js staging1",
+    "set-prod-env": "node env.js prod",
+    "set-beta-env": "node env.js beta",
+    "staging": "npm run set-testing-env && npm run cypress:open",
+    "beta": "npm run set-beta-env && npm run cypress:open",
+    "prod": "npm run set-prod-env && npm run cypress:open",
+    "cypress:open": "cypress open --e2e",
+    "funder": "npm run set-testing-env && npx cypress run --spec cypress/e2e/features/entities_onboarding/1_funder.feature --headless --browser electron --env TAGS=@E2E",
+    "agency": "npm run set-testing-env && npx cypress run --spec cypress/e2e/features/entities_onboarding/2_agency.feature --headless --browser electron --env TAGS=@E2E",
+    "limited": "npm run set-testing-env && npx cypress run --spec cypress/e2e/features/entities_onboarding/3_limited.feature --headless --browser electron --env TAGS=@E2E",
+    "umbrella": "npm run set-testing-env && npx cypress run --spec cypress/e2e/features/entities_onboarding/4_umbrella.feature --headless --browser electron --env TAGS=@E2E",
+    "client": "npm run set-testing-env && npx cypress run --spec cypress/e2e/features/entities_onboarding/client.feature --headless --browser electron --env TAGS=@E2E",
+    "contractor": "npm run set-testing-env && npx cypress run --spec cypress/e2e/features/entities_onboarding/contractor.feature --headless --browser electron --env TAGS=@E2E",
+    "entities": "npm run funder && npm run agency && npm run limited && npm run umbrella && npm run client && npm run contractor",
+    "temporary-placement": "npx cypress run --spec cypress/e2e/features/contracts/temporaryPlacement.feature --headed --browser electron --env TAGS=@E2E",
+    "permanent-placement": "npx cypress run --spec cypress/e2e/features/contracts/permanentPlacement.feature --headed --browser electron --env TAGS=@E2E",
+    "self-serve": "npx cypress run --spec cypress/e2e/features/agencySelfService/tempRequest/temporaryPlacementRequest.feature --headed --browser electron",
+    "scheduleEsign": "npx cypress run --spec cypress/e2e/features/agencySelfService/tempRequest/scheduleEsign.feature --headed --browser electron",
+    "self-serve-beta": "npm run set-beta-env && npx cypress run --spec cypress/e2e/features/agencySelfService/permRequest/permanentPlacementRequest.feature --headed --browser electron",
+    "timesheet": "npm run set-testing-env && npx cypress run --spec cypress/e2e/features/transactions/timesheet.feature --headed --browser electron",
+    "expense": "npm run set-testing-env && npx cypress run --spec cypress/e2e/features/transactions/expense.feature --headed --browser electron"
+  }
+}

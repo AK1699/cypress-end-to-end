@@ -1,0 +1,1764 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Temporary Placement",
+    "line": 1,
+    "id": "temporary-placement",
+    "tags": [],
+    "uri": "temporaryPlacement.feature",
+    "elements": [
+      {
+        "id": "temporary-placement;create-a-temporary-placement-for-weekly-hours-with-funding-type-as-funded-and-funding-model-as-direct,-reviewed-and-approved-by-internal-users-on-behalf-of-external-users",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "Create a temporary placement for Weekly-Hours with funding type as Funded and funding model as Direct, reviewed and approved by internal users on behalf of external users",
+        "tags": [
+          {
+            "name": "@focus",
+            "line": 7
+          },
+          {
+            "name": "@E2E",
+            "line": 7
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "login as Onboarding agent Maker user",
+            "result": {
+              "status": "passed",
+              "duration": 5037000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "navigate to the temporary placement list page",
+            "result": {
+              "status": "passed",
+              "duration": 620000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "temporary placement details",
+            "result": {
+              "status": "passed",
+              "duration": 325000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "select the funding type \"Funded\" in temporary placement form",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "select the currency in the temporary placement form",
+            "result": {
+              "status": "passed",
+              "duration": 70000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 12,
+            "name": "select the \"Direct\" model agency in the temporary placement form",
+            "result": {
+              "status": "passed",
+              "duration": 1427000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 13,
+            "name": "select the \"Direct\" model client in the temporary placement form",
+            "result": {
+              "status": "passed",
+              "duration": 5602000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 14,
+            "name": "select the \"Direct\" model contractor in the temporary placement form",
+            "result": {
+              "status": "passed",
+              "duration": 2512000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 15,
+            "name": "fill the placement details in the temporary placement form",
+            "result": {
+              "status": "passed",
+              "duration": 6869000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 16,
+            "name": "select the \"Weekly\" frequency in the temporary placement form",
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 17,
+            "name": "fill the standard rate details according to the unit type-\"Hours\" in the temporary placement form",
+            "result": {
+              "status": "passed",
+              "duration": 9484000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 18,
+            "name": "Add the Additional rate according to the unit type-\"Hours\" in the temporary placement form, if required",
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "Submit the temporary placement for Agency Approval",
+            "result": {
+              "status": "passed",
+              "duration": 3373000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 20,
+            "name": "upload the Proof for Agency Approval-Rejection for the temporary placement",
+            "result": {
+              "status": "passed",
+              "duration": 10980000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "Approve the temporary placement on behalf of Agency user",
+            "result": {
+              "status": "passed",
+              "duration": 5335000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 22,
+            "name": "upload the Proof for Client Approval-Rejection for the temporary placement",
+            "result": {
+              "status": "passed",
+              "duration": 11136000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 23,
+            "name": "Approve the temporary placement on behalf of Client user",
+            "result": {
+              "status": "passed",
+              "duration": 5335000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 24,
+            "name": "upload the Proof for Contractor Approval-Rejection for the temporary placement",
+            "result": {
+              "status": "passed",
+              "duration": 11751000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 25,
+            "name": "Accept the temporary placement on behalf of Contractor user",
+            "result": {
+              "status": "passed",
+              "duration": 5308000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "\"Weekly\"-\"Hours\" Timesheets should get autogenerated for the \"Direct\" model maped entites with funding type as \"Funded\"",
+            "result": {
+              "status": "passed",
+              "duration": 938000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "temporary-placement;create-a-temporary-placement-for-monthly-hours-with-funding-type-as-funded-and-funding-model-as-direct,-reviewed-and-approved-by-internal-users-on-behalf-of-external-users",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "Create a temporary placement for Monthly-Hours with funding type as Funded and funding model as Direct, reviewed and approved by internal users on behalf of external users",
+        "tags": [
+          {
+            "name": "@focus",
+            "line": 7
+          },
+          {
+            "name": "@E2E",
+            "line": 7
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "login as Onboarding agent Maker user",
+            "result": {
+              "status": "passed",
+              "duration": 4864000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "navigate to the temporary placement list page",
+            "result": {
+              "status": "passed",
+              "duration": 616000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "temporary placement details",
+            "result": {
+              "status": "passed",
+              "duration": 256000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "select the funding type \"Funded\" in temporary placement form",
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "select the currency in the temporary placement form",
+            "result": {
+              "status": "passed",
+              "duration": 91000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 12,
+            "name": "select the \"Direct\" model agency in the temporary placement form",
+            "result": {
+              "status": "passed",
+              "duration": 1386000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 13,
+            "name": "select the \"Direct\" model client in the temporary placement form",
+            "result": {
+              "status": "passed",
+              "duration": 5836000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 14,
+            "name": "select the \"Direct\" model contractor in the temporary placement form",
+            "result": {
+              "status": "passed",
+              "duration": 2517000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 15,
+            "name": "fill the placement details in the temporary placement form",
+            "result": {
+              "status": "passed",
+              "duration": 6811000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 16,
+            "name": "select the \"Monthly\" frequency in the temporary placement form",
+            "result": {
+              "status": "passed",
+              "duration": 115000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 17,
+            "name": "fill the standard rate details according to the unit type-\"Hours\" in the temporary placement form",
+            "result": {
+              "status": "passed",
+              "duration": 9528000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 18,
+            "name": "Add the Additional rate according to the unit type-\"Hours\" in the temporary placement form, if required",
+            "result": {
+              "status": "passed",
+              "duration": 40000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "Submit the temporary placement for Agency Approval",
+            "result": {
+              "status": "passed",
+              "duration": 3373000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 20,
+            "name": "upload the Proof for Agency Approval-Rejection for the temporary placement",
+            "result": {
+              "status": "passed",
+              "duration": 11383000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "Approve the temporary placement on behalf of Agency user",
+            "result": {
+              "status": "passed",
+              "duration": 5328000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 22,
+            "name": "upload the Proof for Client Approval-Rejection for the temporary placement",
+            "result": {
+              "status": "passed",
+              "duration": 11288000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 23,
+            "name": "Approve the temporary placement on behalf of Client user",
+            "result": {
+              "status": "passed",
+              "duration": 5369000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 24,
+            "name": "upload the Proof for Contractor Approval-Rejection for the temporary placement",
+            "result": {
+              "status": "passed",
+              "duration": 11730000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 25,
+            "name": "Accept the temporary placement on behalf of Contractor user",
+            "result": {
+              "status": "passed",
+              "duration": 5275000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "\"Monthly\"-\"Hours\" Timesheets should get autogenerated for the \"Direct\" model maped entites with funding type as \"Funded\"",
+            "result": {
+              "status": "passed",
+              "duration": 325000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "temporary-placement;create-a-temporary-placement-for-weekly-days-with-funding-type-as-funded-and-funding-model-as-direct,-reviewed-and-approved-by-internal-users-on-behalf-of-external-users",
+        "keyword": "Scenario",
+        "line": 31,
+        "name": "Create a temporary placement for Weekly-Days with funding type as Funded and funding model as Direct, reviewed and approved by internal users on behalf of external users",
+        "tags": [
+          {
+            "name": "@focus",
+            "line": 7
+          },
+          {
+            "name": "@E2E",
+            "line": 7
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "login as Onboarding agent Maker user",
+            "result": {
+              "status": "passed",
+              "duration": 4664000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "navigate to the temporary placement list page",
+            "result": {
+              "status": "passed",
+              "duration": 617000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "temporary placement details",
+            "result": {
+              "status": "passed",
+              "duration": 245000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "select the funding type \"Funded\" in temporary placement form",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "select the currency in the temporary placement form",
+            "result": {
+              "status": "passed",
+              "duration": 90000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 12,
+            "name": "select the \"Direct\" model agency in the temporary placement form",
+            "result": {
+              "status": "passed",
+              "duration": 1400000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 13,
+            "name": "select the \"Direct\" model client in the temporary placement form",
+            "result": {
+              "status": "passed",
+              "duration": 5885000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 14,
+            "name": "select the \"Direct\" model contractor in the temporary placement form",
+            "result": {
+              "status": "passed",
+              "duration": 2549000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 15,
+            "name": "fill the placement details in the temporary placement form",
+            "result": {
+              "status": "passed",
+              "duration": 7023000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 16,
+            "name": "select the \"Weekly\" frequency in the temporary placement form",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 17,
+            "name": "fill the standard rate details according to the unit type-\"Days\" in the temporary placement form",
+            "result": {
+              "status": "passed",
+              "duration": 9892000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 18,
+            "name": "Add the Additional rate according to the unit type-\"Days\" in the temporary placement form, if required",
+            "result": {
+              "status": "passed",
+              "duration": 43000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "Submit the temporary placement for Agency Approval",
+            "result": {
+              "status": "passed",
+              "duration": 3372000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 20,
+            "name": "upload the Proof for Agency Approval-Rejection for the temporary placement",
+            "result": {
+              "status": "passed",
+              "duration": 11444000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "Approve the temporary placement on behalf of Agency user",
+            "result": {
+              "status": "passed",
+              "duration": 5354000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 22,
+            "name": "upload the Proof for Client Approval-Rejection for the temporary placement",
+            "result": {
+              "status": "passed",
+              "duration": 11252000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 23,
+            "name": "Approve the temporary placement on behalf of Client user",
+            "result": {
+              "status": "passed",
+              "duration": 5337000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 24,
+            "name": "upload the Proof for Contractor Approval-Rejection for the temporary placement",
+            "result": {
+              "status": "passed",
+              "duration": 11316000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 25,
+            "name": "Accept the temporary placement on behalf of Contractor user",
+            "result": {
+              "status": "passed",
+              "duration": 5276000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "\"Weekly\"-\"Days\" Timesheets should get autogenerated for the \"Direct\" model maped entites with funding type as \"Funded\"",
+            "result": {
+              "status": "passed",
+              "duration": 346000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "temporary-placement;create-a-temporary-placement-for-monthly-days-with-funding-type-as-funded-and-funding-model-as-direct,-reviewed-and-approved-by-internal-users-on-behalf-of-external-users",
+        "keyword": "Scenario",
+        "line": 32,
+        "name": "Create a temporary placement for Monthly-Days with funding type as Funded and funding model as Direct, reviewed and approved by internal users on behalf of external users",
+        "tags": [
+          {
+            "name": "@focus",
+            "line": 7
+          },
+          {
+            "name": "@E2E",
+            "line": 7
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "login as Onboarding agent Maker user",
+            "result": {
+              "status": "passed",
+              "duration": 4740000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "navigate to the temporary placement list page",
+            "result": {
+              "status": "passed",
+              "duration": 613000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "temporary placement details",
+            "result": {
+              "status": "passed",
+              "duration": 314000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "select the funding type \"Funded\" in temporary placement form",
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "select the currency in the temporary placement form",
+            "result": {
+              "status": "passed",
+              "duration": 70000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 12,
+            "name": "select the \"Direct\" model agency in the temporary placement form",
+            "result": {
+              "status": "passed",
+              "duration": 1369000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 13,
+            "name": "select the \"Direct\" model client in the temporary placement form",
+            "result": {
+              "status": "passed",
+              "duration": 5713000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 14,
+            "name": "select the \"Direct\" model contractor in the temporary placement form",
+            "result": {
+              "status": "passed",
+              "duration": 2526000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 15,
+            "name": "fill the placement details in the temporary placement form",
+            "result": {
+              "status": "passed",
+              "duration": 7201000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 16,
+            "name": "select the \"Monthly\" frequency in the temporary placement form",
+            "result": {
+              "status": "passed",
+              "duration": 110000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 17,
+            "name": "fill the standard rate details according to the unit type-\"Days\" in the temporary placement form",
+            "result": {
+              "status": "passed",
+              "duration": 9611000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 18,
+            "name": "Add the Additional rate according to the unit type-\"Days\" in the temporary placement form, if required",
+            "result": {
+              "status": "passed",
+              "duration": 43000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "Submit the temporary placement for Agency Approval",
+            "result": {
+              "status": "passed",
+              "duration": 3377000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 20,
+            "name": "upload the Proof for Agency Approval-Rejection for the temporary placement",
+            "result": {
+              "status": "passed",
+              "duration": 11428000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "Approve the temporary placement on behalf of Agency user",
+            "result": {
+              "status": "passed",
+              "duration": 5325000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 22,
+            "name": "upload the Proof for Client Approval-Rejection for the temporary placement",
+            "result": {
+              "status": "passed",
+              "duration": 11492000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 23,
+            "name": "Approve the temporary placement on behalf of Client user",
+            "result": {
+              "status": "passed",
+              "duration": 5353000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 24,
+            "name": "upload the Proof for Contractor Approval-Rejection for the temporary placement",
+            "result": {
+              "status": "passed",
+              "duration": 11702000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 25,
+            "name": "Accept the temporary placement on behalf of Contractor user",
+            "result": {
+              "status": "passed",
+              "duration": 5318000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "\"Monthly\"-\"Days\" Timesheets should get autogenerated for the \"Direct\" model maped entites with funding type as \"Funded\"",
+            "result": {
+              "status": "passed",
+              "duration": 349000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "temporary-placement;create-a-temporary-placement-for-weekly-hours-with-funding-type-as-funded-and-funding-model-as-indirect,-reviewed-and-approved-by-internal-users-on-behalf-of-external-users",
+        "keyword": "Scenario",
+        "line": 33,
+        "name": "Create a temporary placement for Weekly-Hours with funding type as Funded and funding model as Indirect, reviewed and approved by internal users on behalf of external users",
+        "tags": [
+          {
+            "name": "@focus",
+            "line": 7
+          },
+          {
+            "name": "@E2E",
+            "line": 7
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "login as Onboarding agent Maker user",
+            "result": {
+              "status": "passed",
+              "duration": 4768000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "navigate to the temporary placement list page",
+            "result": {
+              "status": "passed",
+              "duration": 635000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "temporary placement details",
+            "result": {
+              "status": "passed",
+              "duration": 269000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "select the funding type \"Funded\" in temporary placement form",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "select the currency in the temporary placement form",
+            "result": {
+              "status": "passed",
+              "duration": 71000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 12,
+            "name": "select the \"Indirect\" model agency in the temporary placement form",
+            "result": {
+              "status": "passed",
+              "duration": 1513000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 13,
+            "name": "select the \"Indirect\" model client in the temporary placement form",
+            "result": {
+              "status": "passed",
+              "duration": 6502000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 14,
+            "name": "select the \"Indirect\" model contractor in the temporary placement form",
+            "result": {
+              "status": "passed",
+              "duration": 949000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 15,
+            "name": "fill the placement details in the temporary placement form",
+            "result": {
+              "status": "passed",
+              "duration": 7133000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 16,
+            "name": "select the \"Weekly\" frequency in the temporary placement form",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 17,
+            "name": "fill the standard rate details according to the unit type-\"Hours\" in the temporary placement form",
+            "result": {
+              "status": "passed",
+              "duration": 9461000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 18,
+            "name": "Add the Additional rate according to the unit type-\"Hours\" in the temporary placement form, if required",
+            "result": {
+              "status": "passed",
+              "duration": 20000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "Submit the temporary placement for Agency Approval",
+            "result": {
+              "status": "passed",
+              "duration": 3336000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 20,
+            "name": "upload the Proof for Agency Approval-Rejection for the temporary placement",
+            "result": {
+              "status": "passed",
+              "duration": 11402000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "Approve the temporary placement on behalf of Agency user",
+            "result": {
+              "status": "passed",
+              "duration": 5349000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 22,
+            "name": "upload the Proof for Client Approval-Rejection for the temporary placement",
+            "result": {
+              "status": "passed",
+              "duration": 11371000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 23,
+            "name": "Approve the temporary placement on behalf of Client user",
+            "result": {
+              "status": "passed",
+              "duration": 5346000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 24,
+            "name": "upload the Proof for Contractor Approval-Rejection for the temporary placement",
+            "result": {
+              "status": "passed",
+              "duration": 11381000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 25,
+            "name": "Accept the temporary placement on behalf of Contractor user",
+            "result": {
+              "status": "passed",
+              "duration": 5265000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "\"Weekly\"-\"Hours\" Timesheets should get autogenerated for the \"Indirect\" model maped entites with funding type as \"Funded\"",
+            "result": {
+              "status": "passed",
+              "duration": 356000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "temporary-placement;create-a-temporary-placement-for-monthly-hours-with-funding-type-as-funded-and-funding-model-as-indirect,-reviewed-and-approved-by-internal-users-on-behalf-of-external-users",
+        "keyword": "Scenario",
+        "line": 34,
+        "name": "Create a temporary placement for Monthly-Hours with funding type as Funded and funding model as Indirect, reviewed and approved by internal users on behalf of external users",
+        "tags": [
+          {
+            "name": "@focus",
+            "line": 7
+          },
+          {
+            "name": "@E2E",
+            "line": 7
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "login as Onboarding agent Maker user",
+            "result": {
+              "status": "passed",
+              "duration": 5042000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "navigate to the temporary placement list page",
+            "result": {
+              "status": "passed",
+              "duration": 627000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "temporary placement details",
+            "result": {
+              "status": "passed",
+              "duration": 237000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "select the funding type \"Funded\" in temporary placement form",
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "select the currency in the temporary placement form",
+            "result": {
+              "status": "passed",
+              "duration": 43000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 12,
+            "name": "select the \"Indirect\" model agency in the temporary placement form",
+            "result": {
+              "status": "passed",
+              "duration": 1608000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 13,
+            "name": "select the \"Indirect\" model client in the temporary placement form",
+            "result": {
+              "status": "passed",
+              "duration": 5827000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 14,
+            "name": "select the \"Indirect\" model contractor in the temporary placement form",
+            "result": {
+              "status": "passed",
+              "duration": 935000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 15,
+            "name": "fill the placement details in the temporary placement form",
+            "result": {
+              "status": "passed",
+              "duration": 7117000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 16,
+            "name": "select the \"Monthly\" frequency in the temporary placement form",
+            "result": {
+              "status": "passed",
+              "duration": 112000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 17,
+            "name": "fill the standard rate details according to the unit type-\"Hours\" in the temporary placement form",
+            "result": {
+              "status": "passed",
+              "duration": 9516000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 18,
+            "name": "Add the Additional rate according to the unit type-\"Hours\" in the temporary placement form, if required",
+            "result": {
+              "status": "passed",
+              "duration": 39000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "Submit the temporary placement for Agency Approval",
+            "result": {
+              "status": "passed",
+              "duration": 3464000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 20,
+            "name": "upload the Proof for Agency Approval-Rejection for the temporary placement",
+            "result": {
+              "status": "passed",
+              "duration": 11454000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "Approve the temporary placement on behalf of Agency user",
+            "result": {
+              "status": "passed",
+              "duration": 5300000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 22,
+            "name": "upload the Proof for Client Approval-Rejection for the temporary placement",
+            "result": {
+              "status": "passed",
+              "duration": 11561000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 23,
+            "name": "Approve the temporary placement on behalf of Client user",
+            "result": {
+              "status": "passed",
+              "duration": 5347000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 24,
+            "name": "upload the Proof for Contractor Approval-Rejection for the temporary placement",
+            "result": {
+              "status": "passed",
+              "duration": 11649000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 25,
+            "name": "Accept the temporary placement on behalf of Contractor user",
+            "result": {
+              "status": "passed",
+              "duration": 5277000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "\"Monthly\"-\"Hours\" Timesheets should get autogenerated for the \"Indirect\" model maped entites with funding type as \"Funded\"",
+            "result": {
+              "status": "passed",
+              "duration": 342000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "temporary-placement;create-a-temporary-placement-for-weekly-days-with-funding-type-as-funded-and-funding-model-as-indirect,-reviewed-and-approved-by-internal-users-on-behalf-of-external-users",
+        "keyword": "Scenario",
+        "line": 35,
+        "name": "Create a temporary placement for Weekly-Days with funding type as Funded and funding model as Indirect, reviewed and approved by internal users on behalf of external users",
+        "tags": [
+          {
+            "name": "@focus",
+            "line": 7
+          },
+          {
+            "name": "@E2E",
+            "line": 7
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "login as Onboarding agent Maker user",
+            "result": {
+              "status": "passed",
+              "duration": 5034000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "navigate to the temporary placement list page",
+            "result": {
+              "status": "passed",
+              "duration": 619000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "temporary placement details",
+            "result": {
+              "status": "passed",
+              "duration": 244000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "select the funding type \"Funded\" in temporary placement form",
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "select the currency in the temporary placement form",
+            "result": {
+              "status": "passed",
+              "duration": 53000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 12,
+            "name": "select the \"Indirect\" model agency in the temporary placement form",
+            "result": {
+              "status": "passed",
+              "duration": 1549000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 13,
+            "name": "select the \"Indirect\" model client in the temporary placement form",
+            "result": {
+              "status": "passed",
+              "duration": 5814000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 14,
+            "name": "select the \"Indirect\" model contractor in the temporary placement form",
+            "result": {
+              "status": "passed",
+              "duration": 939000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 15,
+            "name": "fill the placement details in the temporary placement form",
+            "result": {
+              "status": "passed",
+              "duration": 7355000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 16,
+            "name": "select the \"Weekly\" frequency in the temporary placement form",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 17,
+            "name": "fill the standard rate details according to the unit type-\"Days\" in the temporary placement form",
+            "result": {
+              "status": "passed",
+              "duration": 9636000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 18,
+            "name": "Add the Additional rate according to the unit type-\"Days\" in the temporary placement form, if required",
+            "result": {
+              "status": "passed",
+              "duration": 34000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "Submit the temporary placement for Agency Approval",
+            "result": {
+              "status": "passed",
+              "duration": 3488000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 20,
+            "name": "upload the Proof for Agency Approval-Rejection for the temporary placement",
+            "result": {
+              "status": "passed",
+              "duration": 11481000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "Approve the temporary placement on behalf of Agency user",
+            "result": {
+              "status": "passed",
+              "duration": 5316000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 22,
+            "name": "upload the Proof for Client Approval-Rejection for the temporary placement",
+            "result": {
+              "status": "passed",
+              "duration": 11475000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 23,
+            "name": "Approve the temporary placement on behalf of Client user",
+            "result": {
+              "status": "passed",
+              "duration": 5339000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 24,
+            "name": "upload the Proof for Contractor Approval-Rejection for the temporary placement",
+            "result": {
+              "status": "passed",
+              "duration": 11400000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 25,
+            "name": "Accept the temporary placement on behalf of Contractor user",
+            "result": {
+              "status": "passed",
+              "duration": 5282000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "\"Weekly\"-\"Days\" Timesheets should get autogenerated for the \"Indirect\" model maped entites with funding type as \"Funded\"",
+            "result": {
+              "status": "passed",
+              "duration": 319000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "temporary-placement;create-a-temporary-placement-for-monthly-days-with-funding-type-as-funded-and-funding-model-as-indirect,-reviewed-and-approved-by-internal-users-on-behalf-of-external-users",
+        "keyword": "Scenario",
+        "line": 36,
+        "name": "Create a temporary placement for Monthly-Days with funding type as Funded and funding model as Indirect, reviewed and approved by internal users on behalf of external users",
+        "tags": [
+          {
+            "name": "@focus",
+            "line": 7
+          },
+          {
+            "name": "@E2E",
+            "line": 7
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "login as Onboarding agent Maker user",
+            "result": {
+              "status": "passed",
+              "duration": 4831000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "navigate to the temporary placement list page",
+            "result": {
+              "status": "passed",
+              "duration": 2472000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "temporary placement details",
+            "result": {
+              "status": "passed",
+              "duration": 248000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "select the funding type \"Funded\" in temporary placement form",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "select the currency in the temporary placement form",
+            "result": {
+              "status": "passed",
+              "duration": 40000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 12,
+            "name": "select the \"Indirect\" model agency in the temporary placement form",
+            "result": {
+              "status": "passed",
+              "duration": 1536000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 13,
+            "name": "select the \"Indirect\" model client in the temporary placement form",
+            "result": {
+              "status": "passed",
+              "duration": 5854000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 14,
+            "name": "select the \"Indirect\" model contractor in the temporary placement form",
+            "result": {
+              "status": "passed",
+              "duration": 948000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 15,
+            "name": "fill the placement details in the temporary placement form",
+            "result": {
+              "status": "passed",
+              "duration": 7214000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 16,
+            "name": "select the \"Monthly\" frequency in the temporary placement form",
+            "result": {
+              "status": "passed",
+              "duration": 111000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 17,
+            "name": "fill the standard rate details according to the unit type-\"Days\" in the temporary placement form",
+            "result": {
+              "status": "passed",
+              "duration": 9625000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 18,
+            "name": "Add the Additional rate according to the unit type-\"Days\" in the temporary placement form, if required",
+            "result": {
+              "status": "passed",
+              "duration": 42000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "Submit the temporary placement for Agency Approval",
+            "result": {
+              "status": "passed",
+              "duration": 3426000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 20,
+            "name": "upload the Proof for Agency Approval-Rejection for the temporary placement",
+            "result": {
+              "status": "passed",
+              "duration": 11521000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "Approve the temporary placement on behalf of Agency user",
+            "result": {
+              "status": "passed",
+              "duration": 5355000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 22,
+            "name": "upload the Proof for Client Approval-Rejection for the temporary placement",
+            "result": {
+              "status": "passed",
+              "duration": 11366000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 23,
+            "name": "Approve the temporary placement on behalf of Client user",
+            "result": {
+              "status": "passed",
+              "duration": 5355000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 24,
+            "name": "upload the Proof for Contractor Approval-Rejection for the temporary placement",
+            "result": {
+              "status": "passed",
+              "duration": 11634000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 25,
+            "name": "Accept the temporary placement on behalf of Contractor user",
+            "result": {
+              "status": "passed",
+              "duration": 5277000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "\"Monthly\"-\"Days\" Timesheets should get autogenerated for the \"Indirect\" model maped entites with funding type as \"Funded\"",
+            "result": {
+              "status": "passed",
+              "duration": 350000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

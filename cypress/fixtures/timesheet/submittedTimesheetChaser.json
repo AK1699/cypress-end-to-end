@@ -1,0 +1,11 @@
+{
+  "errors": [
+    {
+      "message": "Could not verify JWT: JWSError (CompactDecodeError Invalid number of parts: Expected 3 parts; got 1)",
+      "extensions": {
+        "path": "$",
+        "code": "invalid-jwt"
+      }
+    }
+  ]
+}

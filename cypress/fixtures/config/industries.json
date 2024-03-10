@@ -1,0 +1,69 @@
+{
+  "data": {
+    "config_option": [
+      {
+        "name": "Building Services"
+      },
+      {
+        "name": "Charity"
+      },
+      {
+        "name": "Construction"
+      },
+      {
+        "name": "Education"
+      },
+      {
+        "name": "Engineering"
+      },
+      {
+        "name": "Estate"
+      },
+      {
+        "name": "Financial Services"
+      },
+      {
+        "name": "Food"
+      },
+      {
+        "name": "Gambling"
+      },
+      {
+        "name": "Healthcare"
+      },
+      {
+        "name": "Information Technology"
+      },
+      {
+        "name": "Manufacturing"
+      },
+      {
+        "name": "Media"
+      },
+      {
+        "name": "Professional Services"
+      },
+      {
+        "name": "Research and Consultancy"
+      },
+      {
+        "name": "Training"
+      },
+      {
+        "name": "Transport"
+      },
+      {
+        "name": "Travel and Accommodation"
+      },
+      {
+        "name": "UK School"
+      },
+      {
+        "name": "Utilities"
+      },
+      {
+        "name": "Wholesale and Retail"
+      }
+    ]
+  }
+}

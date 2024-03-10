@@ -1,0 +1,90 @@
+{
+  "data": {
+    "fundo_timesheet": [
+      {
+        "human_id": "TMS-230097472",
+        "status": "approved",
+        "start_date": "2023-07-01",
+        "end_date": "2023-09-19",
+        "contract_human_id": "TMP-230007093",
+        "client_name": "Client  24 Oct 2023 16:27:59",
+        "agency_name": "Agency  24 Oct 2023 15:17:53",
+        "contractor_name": "Dwayne Garcia  25 Oct 2023 16:28:08",
+        "contractor_payment_name": "Umbrella  24 Oct 2023 13:18:29",
+        "funder_name": "Funder  24 Oct 2023 15:14:40",
+        "contract": {
+          "id": "514a615f-ea75-4f9f-a8c3-ba42bc9c8a84",
+          "status": "active",
+          "funding_type": "funded",
+          "funding_model": "direct",
+          "title": "Regression placement 12 Dec 2023 13:10:48",
+          "human_id": "TMP-230007093",
+          "type": "temp_placement",
+          "contract_temp_placement": {
+            "timesheet_frequency": "weekly"
+          },
+          "contract_rates": [
+            {
+              "id": "c49df2e9-aaa9-4a2c-8033-8a4869f5b71c",
+              "unit_type": "hourly",
+              "name": "Standard",
+              "contractor_rate": 14,
+              "client_rate": 27,
+              "standard_units": 37.5
+            },
+            {
+              "id": "3b02596c-549d-43d7-a2cf-65b68c877803",
+              "unit_type": "hourly",
+              "name": "Overtime Rate",
+              "contractor_rate": 19,
+              "client_rate": 38,
+              "standard_units": 3
+            }
+          ],
+          "contract_business_contacts": [
+            {
+              "type": [
+                "agency_consultant"
+              ],
+              "user": {
+                "id": "5c8b900b-fd66-4b1d-80b2-599cd6fd47f5",
+                "name": "Lara Brown",
+                "email": "shelbyagency2022+6229@gmail.com"
+              }
+            },
+            {
+              "type": [
+                "hiring_manager"
+              ],
+              "user": {
+                "id": "f66613d1-88d8-435e-915b-cc2f5d953d26",
+                "name": "Lara Jones",
+                "email": "shelbyclient2022+3084@gmail.com"
+              }
+            },
+            {
+              "type": [
+                "timesheet_approver"
+              ],
+              "user": {
+                "id": "877ec597-b600-49b9-ac21-1f081e470d90",
+                "name": "Emma Bond",
+                "email": "shelbyclient2022+7103@gmail.com"
+              }
+            },
+            {
+              "type": [
+                "invoice_contact"
+              ],
+              "user": {
+                "id": "c9c691d7-d1c6-4470-928d-7181794f523f",
+                "name": "Jack Smith",
+                "email": "shelbyclient2022+5173@gmail.com"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

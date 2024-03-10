@@ -1,0 +1,164 @@
+{
+  "body": {
+    "data": {
+      "fundo_timesheet": [
+        {
+          "id": "a5074bba-7d63-4fef-bdd8-35143f418a29",
+          "status": "draft",
+          "human_id": "TMS-240104007",
+          "start_date": "2023-10-20",
+          "end_date": "2023-10-31"
+        },
+        {
+          "id": "76b5fce3-9ff6-484f-b0aa-d4e2c02c59f6",
+          "status": "draft",
+          "human_id": "TMS-240104008",
+          "start_date": "2023-11-01",
+          "end_date": "2023-11-30"
+        },
+        {
+          "id": "c0334f0f-5d2b-4858-a0dd-2535e6238e98",
+          "status": "draft",
+          "human_id": "TMS-240104009",
+          "start_date": "2023-12-01",
+          "end_date": "2023-12-31"
+        },
+        {
+          "id": "dbbbe239-c261-4b40-a927-40a0c025390d",
+          "status": "draft",
+          "human_id": "TMS-240104010",
+          "start_date": "2024-01-01",
+          "end_date": "2024-01-31"
+        },
+        {
+          "id": "ef737590-4971-4d21-af80-ef5ed84cb78b",
+          "status": "draft",
+          "human_id": "TMS-240104011",
+          "start_date": "2024-02-01",
+          "end_date": "2024-02-29"
+        },
+        {
+          "id": "24a3a4a6-e662-461a-9c95-82c76624facc",
+          "status": "draft",
+          "human_id": "TMS-240104012",
+          "start_date": "2024-03-01",
+          "end_date": "2024-03-31"
+        }
+      ]
+    }
+  },
+  "headers": {
+    "server": "nginx",
+    "date": "Fri, 08 Mar 2024 08:35:49 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "335",
+    "connection": "keep-alive",
+    "x-request-id": "2079ff8c-a2c4-43b3-8254-0f8ec071eb9e",
+    "content-encoding": "gzip",
+    "x-frame-options": "DENY",
+    "content-security-policy": "frame-ancestors 'none';",
+    "x-xss-protection": "1; mode=block",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+    "x-content-type-options": "nosniff",
+    "access-control-expose-headers": "Origin",
+    "access-control-allow-methods": "GET,POST,PUT,PATCH,DELETE,OPTIONS",
+    "access-control-allow-headers": "X-Custom-Software, X-My-Custom"
+  },
+  "status": 200,
+  "statusText": "OK",
+  "isOkStatusCode": true,
+  "requestHeaders": {
+    "Connection": "keep-alive",
+    "Authorization": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwczovL2hhc3VyYS5pby9qd3QvY2xhaW1zIjoie1wieC1oYXN1cmEtdXNlci1pZFwiOlwiYjk2MWNlODQtNjBkNC00YjgzLWI2OTUtNmI5MDcwM2Q1MzNkXCIsXCJ4LWhhc3VyYS1idXNpbmVzcy1pZFwiOlwiMGRkZGMwNzctNGM4NC00OTJlLThmMTMtMzI1NWYzYThjODk5XCIsXCJ4LWhhc3VyYS1idXNpbmVzcy1jb250YWN0LWlkXCI6XCIzYjAxMTY0OS02YWZkLTQ1YzItOTA1MC02Y2E1NzIzZjNlODJcIixcIngtaGFzdXJhLXVzZXItYnVzaW5lc3MtdHlwZVwiOlwiZnVuZG9fcHJvdmlkZXJcIixcIngtaGFzdXJhLWFsbG93ZWQtcm9sZXNcIjpbXCJwcm92aWRlclwiXSxcIngtaGFzdXJhLWRlZmF1bHQtcm9sZVwiOlwicHJvdmlkZXJcIixcIngtaGFzdXJhLXJvbGVcIjpcInByb3ZpZGVyXCIsXCJ4LWhhc3VyYS1hc3NvY2lhdGVkLWlkXCI6XCJiOTYxY2U4NC02MGQ0LTRiODMtYjY5NS02YjkwNzAzZDUzM2RcIixcIngtaGFzdXJhLWNvbXBhbnktaWRcIjpcIjg0MDdkMWVhLTA3OGEtNGVmZC1hMWEwLTk1MWZkZWZjNjkwMVwifSIsImFsbG93ZWRfcm9sZXMiOiJbXCJmdW5kb19wcm92aWRlcl9vbmJvYXJkaW5nX2FnZW50XCJdIiwiaWF0IjoxNzA5ODg2ODY1fQ.oK-0ETb2eb237DtmEUWOjQrVNg2DA-IVDjXHZlHKwbVuW3bSFtZiPhaZr0G02xhKW6qUq5W_J4hteoKKDc-0hTze5ljuziQV8GgMGh1d7wJV41VsCGFYSBz8SLnrb314xtDgUKOw4x1v92x7Rv6oOqqk0B8yiiq00PzQd8t1IN54TPvV7pWbtgBsGGrq5lQPKycQlbpaAhLrWsX6sK-XXsYEIoOhtmxUwjNSXsbjb4av1chHoM_5nayul86ZSfz37OqXXozXT7_DjqstAq-W3BUGWe43-LGWKWQF0moWVMrTjt9Cm8t5jzKEs2uCfPcm8Z7N0oV1wg_Y1P2PsVqkyw",
+    "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/13.6.6 Chrome/118.0.5993.159 Electron/27.1.3 Safari/537.36",
+    "accept": "*/*",
+    "cookie": "_ga=GA1.1.1099699578.1709886864; _ga_QXGJMZCY3H=GS1.1.1709886864.1.1.1709886889.35.0.0",
+    "accept-encoding": "gzip, deflate",
+    "content-type": "application/json",
+    "content-length": 192
+  },
+  "requestBody": "{\"query\":\"{\\n    fundo_timesheet(where:{transaction_id:{_eq:\\\"7534ee88-f722-4221-b99a-889e3a931203\\\"}}){\\n      id\\n      status\\n      human_id\\n      start_date\\n      end_date\\n    }\\n  }\"}",
+  "duration": 27,
+  "allRequestResponses": [
+    {
+      "Request Body": "{\"query\":\"{\\n    fundo_timesheet(where:{transaction_id:{_eq:\\\"7534ee88-f722-4221-b99a-889e3a931203\\\"}}){\\n      id\\n      status\\n      human_id\\n      start_date\\n      end_date\\n    }\\n  }\"}",
+      "Request Headers": {
+        "Connection": "keep-alive",
+        "Authorization": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwczovL2hhc3VyYS5pby9qd3QvY2xhaW1zIjoie1wieC1oYXN1cmEtdXNlci1pZFwiOlwiYjk2MWNlODQtNjBkNC00YjgzLWI2OTUtNmI5MDcwM2Q1MzNkXCIsXCJ4LWhhc3VyYS1idXNpbmVzcy1pZFwiOlwiMGRkZGMwNzctNGM4NC00OTJlLThmMTMtMzI1NWYzYThjODk5XCIsXCJ4LWhhc3VyYS1idXNpbmVzcy1jb250YWN0LWlkXCI6XCIzYjAxMTY0OS02YWZkLTQ1YzItOTA1MC02Y2E1NzIzZjNlODJcIixcIngtaGFzdXJhLXVzZXItYnVzaW5lc3MtdHlwZVwiOlwiZnVuZG9fcHJvdmlkZXJcIixcIngtaGFzdXJhLWFsbG93ZWQtcm9sZXNcIjpbXCJwcm92aWRlclwiXSxcIngtaGFzdXJhLWRlZmF1bHQtcm9sZVwiOlwicHJvdmlkZXJcIixcIngtaGFzdXJhLXJvbGVcIjpcInByb3ZpZGVyXCIsXCJ4LWhhc3VyYS1hc3NvY2lhdGVkLWlkXCI6XCJiOTYxY2U4NC02MGQ0LTRiODMtYjY5NS02YjkwNzAzZDUzM2RcIixcIngtaGFzdXJhLWNvbXBhbnktaWRcIjpcIjg0MDdkMWVhLTA3OGEtNGVmZC1hMWEwLTk1MWZkZWZjNjkwMVwifSIsImFsbG93ZWRfcm9sZXMiOiJbXCJmdW5kb19wcm92aWRlcl9vbmJvYXJkaW5nX2FnZW50XCJdIiwiaWF0IjoxNzA5ODg2ODY1fQ.oK-0ETb2eb237DtmEUWOjQrVNg2DA-IVDjXHZlHKwbVuW3bSFtZiPhaZr0G02xhKW6qUq5W_J4hteoKKDc-0hTze5ljuziQV8GgMGh1d7wJV41VsCGFYSBz8SLnrb314xtDgUKOw4x1v92x7Rv6oOqqk0B8yiiq00PzQd8t1IN54TPvV7pWbtgBsGGrq5lQPKycQlbpaAhLrWsX6sK-XXsYEIoOhtmxUwjNSXsbjb4av1chHoM_5nayul86ZSfz37OqXXozXT7_DjqstAq-W3BUGWe43-LGWKWQF0moWVMrTjt9Cm8t5jzKEs2uCfPcm8Z7N0oV1wg_Y1P2PsVqkyw",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/13.6.6 Chrome/118.0.5993.159 Electron/27.1.3 Safari/537.36",
+        "accept": "*/*",
+        "cookie": "_ga=GA1.1.1099699578.1709886864; _ga_QXGJMZCY3H=GS1.1.1709886864.1.1.1709886889.35.0.0",
+        "accept-encoding": "gzip, deflate",
+        "content-type": "application/json",
+        "content-length": 192
+      },
+      "Request URL": "https://hasura-staging1.raisetech.io/v1/graphql",
+      "Response Body": {
+        "data": {
+          "fundo_timesheet": [
+            {
+              "id": "a5074bba-7d63-4fef-bdd8-35143f418a29",
+              "status": "draft",
+              "human_id": "TMS-240104007",
+              "start_date": "2023-10-20",
+              "end_date": "2023-10-31"
+            },
+            {
+              "id": "76b5fce3-9ff6-484f-b0aa-d4e2c02c59f6",
+              "status": "draft",
+              "human_id": "TMS-240104008",
+              "start_date": "2023-11-01",
+              "end_date": "2023-11-30"
+            },
+            {
+              "id": "c0334f0f-5d2b-4858-a0dd-2535e6238e98",
+              "status": "draft",
+              "human_id": "TMS-240104009",
+              "start_date": "2023-12-01",
+              "end_date": "2023-12-31"
+            },
+            {
+              "id": "dbbbe239-c261-4b40-a927-40a0c025390d",
+              "status": "draft",
+              "human_id": "TMS-240104010",
+              "start_date": "2024-01-01",
+              "end_date": "2024-01-31"
+            },
+            {
+              "id": "ef737590-4971-4d21-af80-ef5ed84cb78b",
+              "status": "draft",
+              "human_id": "TMS-240104011",
+              "start_date": "2024-02-01",
+              "end_date": "2024-02-29"
+            },
+            {
+              "id": "24a3a4a6-e662-461a-9c95-82c76624facc",
+              "status": "draft",
+              "human_id": "TMS-240104012",
+              "start_date": "2024-03-01",
+              "end_date": "2024-03-31"
+            }
+          ]
+        }
+      },
+      "Response Headers": {
+        "server": "nginx",
+        "date": "Fri, 08 Mar 2024 08:35:49 GMT",
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "335",
+        "connection": "keep-alive",
+        "x-request-id": "2079ff8c-a2c4-43b3-8254-0f8ec071eb9e",
+        "content-encoding": "gzip",
+        "x-frame-options": "DENY",
+        "content-security-policy": "frame-ancestors 'none';",
+        "x-xss-protection": "1; mode=block",
+        "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+        "x-content-type-options": "nosniff",
+        "access-control-expose-headers": "Origin",
+        "access-control-allow-methods": "GET,POST,PUT,PATCH,DELETE,OPTIONS",
+        "access-control-allow-headers": "X-Custom-Software, X-My-Custom"
+      },
+      "Response Status": 200
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "data": {
+    "config_option": [
+      {
+        "id": "43f7b11d-9dc5-438a-b310-a31ed1dcecd0",
+        "name": "10 Days"
+      },
+      {
+        "id": "f7b71fef-0ef3-4d22-bb65-3fc6e2fa960c",
+        "name": "15 Days"
+      },
+      {
+        "id": "03bde5c4-24d5-4837-aaa7-170fc92de355",
+        "name": "1 Day"
+      },
+      {
+        "id": "5c2779e1-38a2-4497-b168-14aa81962c69",
+        "name": "1 Day first 2 weeks - 2 weeks thereafter"
+      },
+      {
+        "id": "796284e9-1f9a-4b58-aeb2-cd4d4a8cddd0",
+        "name": "1 Day first week - 1 week thereafter"
+      },
+      {
+        "id": "eaf34b56-1978-433f-b2ad-79cfe7fe1e40",
+        "name": "1 Day first week - 2 weeks thereafter"
+      },
+      {
+        "id": "13e0547a-7f25-4d9f-89f9-a5a7a4fa864a",
+        "name": "1 Month"
+      },
+      {
+        "id": "707613c7-97e3-4655-b967-5f2f43dbc032",
+        "name": "1 Week"
+      },
+      {
+        "id": "76668931-30fc-48ae-a48a-9813645072c2",
+        "name": "1 week first 2 weeks - 2 weeks thereafter"
+      },
+      {
+        "id": "702eb050-d9ab-4e60-8dd1-12cf5252704d",
+        "name": "1 week first 3 months - 2 weeks thereafter"
+      },
+      {
+        "id": "9fa2fecd-bb3e-4c53-8b2e-027a499cc26d",
+        "name": "1 week first month - 2 weeks thereafter"
+      },
+      {
+        "id": "fa049c4d-a6a9-496a-8367-beb36dd1b834",
+        "name": "1 week first month - 4 weeks thereafter"
+      },
+      {
+        "id": "016f9967-35e7-4f06-9d67-d7a26965287a",
+        "name": "1 week first week - 4 weeks thereafter"
+      },
+      {
+        "id": "97f012ef-1825-46e4-a18f-98c788cddfac",
+        "name": "2 Months"
+      },
+      {
+        "id": "2ada949a-109b-4275-a9b7-d7a743124026",
+        "name": "2 Weeks"
+      },
+      {
+        "id": "ea3b7734-f14b-4ed5-b903-d173b436e52f",
+        "name": "2 weeks in the first 4 weeks - 4 weeks thereafter"
+      },
+      {
+        "id": "1e90cd95-fd0b-414e-aa23-735dfbbff904",
+        "name": "30 Days"
+      },
+      {
+        "id": "f94e0a18-6f73-4521-985e-fc1d705c5bf7",
+        "name": "3 Days"
+      },
+      {
+        "id": "7e665c2a-66d3-4136-bf62-d561af247689",
+        "name": "3 Months"
+      },
+      {
+        "id": "8a08f73f-8316-4d09-a2e2-d8cffa9964e9",
+        "name": "3 Weeks"
+      },
+      {
+        "id": "a128c47b-e51e-4f64-ac5f-2d447ff2fcf6",
+        "name": "4 Months"
+      },
+      {
+        "id": "febb29aa-9294-42b9-9414-48c0ad555a92",
+        "name": "4 Weeks"
+      },
+      {
+        "id": "74dd14f5-1719-4b67-b3ef-b40a2f924f03",
+        "name": "5 Days"
+      },
+      {
+        "id": "51ff4fce-7984-43cc-afa2-b7f84aa9a680",
+        "name": "6 Months"
+      },
+      {
+        "id": "c6d37b11-fc7f-4c59-9958-5deea26a77ae",
+        "name": "Immediate"
+      },
+      {
+        "id": "d2d0c889-217e-4b8b-9eb3-c3424f12b3c4",
+        "name": "Immediate first 2 weeks - 1 month thereafter"
+      },
+      {
+        "id": "29285e29-6e79-4d5f-988c-9001e06c46e7",
+        "name": "Immediate first 2 weeks - 1 week thereafter"
+      },
+      {
+        "id": "cf75228c-b5ac-40e2-851a-9ae6cb8212c3",
+        "name": "Immediate first 2 weeks - 2 week thereafter"
+      },
+      {
+        "id": "cb51146f-4357-457d-a580-10a97c98a24f",
+        "name": "Immediate first 4 weeks - 1 week thereafter"
+      },
+      {
+        "id": "b23487b9-08f0-4173-aba9-ff0f60bc38d8",
+        "name": "Immediate first 5 days - 1 week thereafter"
+      },
+      {
+        "id": "0372a84c-7a99-4d89-bf2d-d5608458d3ff",
+        "name": "Immediate first 5 days - 4 week thereafter"
+      },
+      {
+        "id": "869df075-05a4-46e6-8e6f-ff8f0312cee7",
+        "name": "Immediate first week - 1 week thereafter"
+      },
+      {
+        "id": "f134f376-e381-477d-af7e-1b98ba58b236",
+        "name": "Immediate first week - 2 week thereafter"
+      },
+      {
+        "id": "0d65ead7-9f16-4724-b162-bbed332528a5",
+        "name": "No right to serve notice"
+      },
+      {
+        "id": "723ee34f-41b7-4667-a3be-9ba70d70423a",
+        "name": "Standard"
+      }
+    ]
+  }
+}

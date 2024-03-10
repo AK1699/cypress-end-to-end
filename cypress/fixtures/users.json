@@ -1,0 +1,19 @@
+{
+  "rows": [
+    {
+      "region": "staging1",
+      "onboarding_agent_1": "staging2.raise.testing+OA1@gmail.com",
+      "onboarding_agent_2": "staging2.raise.testing+OA2@gmail.com",
+      "compliance_manager": "staging2.raise.testing+CM@gmail.com",
+      "compliance_approver": "staging2.raise.testing+CA@gmail.com",
+      "payment_assistant": "staging2.raise.testing+PA1@gmail.com",
+      "payment_approver": "staging2.raise.testing+PAP@gmail.com",
+      "credit_risk_assistant": "staging2.raise.testing+CRA@gmail.com",
+      "credit_risk_manager": "staging2.raise.testing+CRM@gmail.com",
+      "collections_lead": "staging2.raise.testing+COL@gmail.com",
+      "collection_assistant": "staging2.raise.testing+COA@gmail.com",
+      "financial_management": "staging2.raise.testing+FM@gmail.com",
+      "provider_user_management": "staging2.raise.testing+PUM@gmail.com"
+    }
+  ]
+}

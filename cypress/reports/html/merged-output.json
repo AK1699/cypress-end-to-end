@@ -1,0 +1,97 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Test the parameterisation",
+    "line": 1,
+    "id": "test-the-parameterisation",
+    "tags": [],
+    "uri": "test.feature",
+    "elements": [
+      {
+        "id": "test-the-parameterisation;test2",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "test2",
+        "tags": [
+          {
+            "name": "@test2",
+            "line": 6
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "test login",
+            "result": {
+              "status": "passed",
+              "duration": 11790000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-the-parameterisation;test3",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "test3",
+        "tags": [
+          {
+            "name": "@test3",
+            "line": 9
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "test login",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-the-parameterisation;test4",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "test4",
+        "tags": [
+          {
+            "name": "@test4",
+            "line": 12
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "test login",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "reportTime": "2024/03/03 19:32:19",
+      "browser": {
+        "name": "chrome",
+        "version": "121.0.6167.184"
+      },
+      "device": "Local test machine",
+      "platform": {
+        "name": "windows",
+        "version": "16.04"
+      }
+    }
+  }
+]

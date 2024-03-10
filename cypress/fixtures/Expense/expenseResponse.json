@@ -1,0 +1,63 @@
+{
+  "data": {
+    "fundo_expense": [
+      {
+        "id": "88082879-2f3f-48c0-9a2c-f7415acd74c8",
+        "human_id": "EXP-230000818",
+        "status": "approved",
+        "agency": {
+          "id": "affa6e0a-65b5-4fc3-9373-5b760c2cd1bd",
+          "human_id": "AGY-0004320",
+          "name": "Agency  24 Oct 2023 15:26:56",
+          "service_charges": [
+            {
+              "id": "7d70c954-9791-472f-bffd-d7cae2797415",
+              "value": 1.88,
+              "type": "percent",
+              "funding_type": "funded",
+              "service_type": "expense",
+              "fee_type": "platform_fee",
+              "effective_from": "2023-10-24",
+              "effective_to": null
+            },
+            {
+              "id": "cb8a5025-ef0f-41f8-a12a-76f55f198c61",
+              "value": 3.81,
+              "type": "percent",
+              "funding_type": "paid_when_paid",
+              "service_type": "expense",
+              "fee_type": "platform_fee",
+              "effective_from": "2023-10-24",
+              "effective_to": null
+            }
+          ]
+        },
+        "contract": {
+          "id": "fe1d79b7-81bd-48bd-a0b0-7b81edd26ef3",
+          "human_id": "TMP-230005535",
+          "currency": {
+            "id": "bb9ecacf-f2de-4f71-aee8-9016492861dc",
+            "symbol": "£",
+            "name": "Pound Sterling",
+            "alpha_code": "GBP"
+          },
+          "timesheet_approver_details": [
+            {
+              "id": "aec29469-e444-4f48-9daa-5fd219daacda",
+              "name": "James Wayne",
+              "email": "shelbyclient2022+3828@gmail.com"
+            }
+          ]
+        },
+        "contractor": {
+          "individual": {
+            "user": {
+              "email": "shelbycontractorumb2022+8259@gmail.com",
+              "name": "Sophia Jones  25 Oct 2023 16:30:24"
+            }
+          }
+        }
+      }
+    ]
+  }
+}

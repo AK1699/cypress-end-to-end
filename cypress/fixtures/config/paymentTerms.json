@@ -1,0 +1,45 @@
+{
+  "data": {
+    "config_option": [
+      {
+        "name": "14 Days"
+      },
+      {
+        "name": "15 Days"
+      },
+      {
+        "name": "21 Days"
+      },
+      {
+        "name": "28 Days"
+      },
+      {
+        "name": "30 Days"
+      },
+      {
+        "name": "30 Days After Month End"
+      },
+      {
+        "name": "35 Days"
+      },
+      {
+        "name": "40 Days"
+      },
+      {
+        "name": "45 Days"
+      },
+      {
+        "name": "60 Days"
+      },
+      {
+        "name": "7 Days"
+      },
+      {
+        "name": "90 Days"
+      },
+      {
+        "name": "Payment On Receipt"
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "res": {
+    "data": {
+      "platform_business": [
+        {
+          "name": "Erik Koch",
+          "human_id": "SLF-0018192",
+          "payment_type": [],
+          "services_by_from_business": []
+        },
+        {
+          "name": "Erik Koch",
+          "human_id": "CON-0018191",
+          "payment_type": [
+            "umbrella"
+          ],
+          "services_by_from_business": [
+            {
+              "type": "contractor-umbrella",
+              "to_business": {
+                "name": "Rowe - Kutch",
+                "human_id": "UMB-0018182",
+                "type": "umbrella",
+                "status": "onboarded"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

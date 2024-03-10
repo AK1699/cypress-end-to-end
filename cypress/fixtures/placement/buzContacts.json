@@ -1,0 +1,26 @@
+{
+  "res": {
+    "data": {
+      "platform_business": [
+        {
+          "name": "Erik Koch",
+          "business_contacts": [
+            {
+              "type": [
+                "contractor"
+              ],
+              "user": {
+                "name": "Erik Koch",
+                "first_name": "Erik",
+                "last_name": "Koch",
+                "is_active": true,
+                "is_confirmed": true,
+                "email": "shelbycontractorumb2022+9615673864@gmail.com"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,276 @@
+{
+  "paymentCompanies": [
+    {
+      "limitedCompanies": "Ajay Limited Company GBP",
+      "umbrellaCompanies": "Umbrella Payment 005"
+    }
+  ],
+  "directEntities": [
+    {
+      "agencies": "EUR Ajay Agency Direct - 2",
+      "clients": "EUR Ajay Client Direct -2",
+      "funders": "Ajay Direct",
+      "umbrellaContractor": "Newcontractor umbrella 005",
+      "limitedContractor": "Contractor  Direct St2 002",
+      "selfEmployedContractor": ""
+    }
+  ],
+  "indirectEntities": [
+    {
+      "agencies": "Ajay Indirect Agency test",
+      "clients": "Ajay Indirect Client",
+      "funders": "Lebsack LLC",
+      "umbrellaContractor": "Ajay umb Incont",
+      "limitedContractor": "Raynor Flintoffe",
+      "selfEmployedContractor": ""
+    }
+  ],
+  "directContracts": [
+    {
+      "funded": {
+        "temporaryPlacement": "TMP-230007336",
+        "permanentPlacement": "PEM-240007573",
+        "purchaseLedger": "PRL-230006015",
+        "salesInvoice": "SLI-230006022",
+        "Adhoc": {
+          "provider-agency": "ADH-230005558",
+          "agency-provider": "ADH-230005559",
+          "funder-agency": "ADH-240007763",
+          "agency-funder": "ADH-230005560"
+        }
+      },
+      "paidWhenPaid": {
+        "temporaryPlacement": "TMP-230005687",
+        "permanentPlacement": ""
+      }
+    }
+  ],
+  "indirectContracts": [
+    {
+      "funded": {
+        "temporaryPlacement": "TMP-240008128",
+        "permanentPlacement": "PEM-230005871",
+        "purchaseLedger": "PRL-240007649",
+        "salesInvoice": "SLI-240007665",
+        "Adhoc": {
+          "provider-agency": "ADH-230005562",
+          "agency-provider": "ADH-230005316",
+          "funder-agency": "ADH-230005561",
+          "agency-funder": "ADH-230005299"
+        }
+      },
+      "paidWhenPaid": {
+        "temporaryPlacement": "TMP-230023844",
+        "permanentPlacement": "PEM-230023632"
+      }
+    }
+  ],
+  "directTransactions": [
+    {
+      "funded": {
+        "draft": {
+          "weeklyHourlyTimesheets": [],
+          "monthlyHourlyTimesheets": [
+            "TMS-230099141",
+            "TMS-230099142",
+            "TMS-230099143",
+            "TMS-230099144"
+          ],
+          "weeklyDailyTimesheets": [
+            "TMS-230098858",
+            "TMS-230098859"
+          ],
+          "monthlyDailyTimesheets": [
+            "TMS-230098884",
+            "TMS-230098885",
+            "TMS-230098886",
+            "TMS-230098887",
+            "TMS-230098888",
+            "TMS-230098889"
+          ]
+        },
+        "approved": {
+          "weeklyHourlyTimesheets": [
+            "TMS-230095667",
+            "TMS-230095668"
+          ],
+          "monthlyHourlyTimesheets": [
+            "TMS-230095685"
+          ],
+          "weeklyDailyTimesheets": [],
+          "monthlyDailyTimesheets": []
+        },
+        "payrollTimesheet": "",
+        "expenses": ""
+      },
+      "paidWhenPaid": {
+        "draft": {
+          "weeklyHourlyTimesheets": [],
+          "monthlyHourlyTimesheets": [],
+          "weeklyDailyTimesheets": [],
+          "monthlyDailyTimesheets": []
+        },
+        "approved": {
+          "weeklyHourlyTimesheets": [],
+          "monthlyHourlyTimesheets": [],
+          "weeklyDailyTimesheets": [],
+          "monthlyDailyTimesheets": []
+        },
+        "payrollTimesheet": "",
+        "expenses": ""
+      }
+    },
+    {
+      "invoices": {
+        "contractor-agency": [],
+        "agency-client": []
+      },
+      "creditnote": {
+        "contractor-agency": [],
+        "provider-client": []
+      }
+    }
+  ],
+  "indirectTransactions": [
+    {
+      "funded": {
+        "draft": {
+          "weeklyHourlyTimesheets": [
+            "TMS-240101207",
+            "TMS-240101208",
+            "TMS-240101209"
+          ],
+          "monthlyHourlyTimesheets": [
+            "TMS-240101811",
+            "TMS-240101812"
+          ],
+          "weeklyDailyTimesheets": [
+            "TMS-240101802",
+            "TMS-240101803",
+            "TMS-240101804",
+            "TMS-240101805"
+          ],
+          "monthlyDailyTimesheets": [
+            "TMS-240101817",
+            "TMS-240101818",
+            "TMS-240101819"
+          ]
+        },
+        "approved": {
+          "weeklyHourlyTimesheets": [],
+          "monthlyHourlyTimesheets": [],
+          "weeklyDailyTimesheets": [],
+          "monthlyDailyTimesheets": []
+        },
+        "payrollTimesheet": "",
+        "expenses": ""
+      },
+      "paidWhenPaid": {
+        "draft": {
+          "weeklyHourlyTimesheets": [
+            "TMS-230126376",
+            "TMS-230126377",
+            "TMS-230126378",
+            "TMS-230126379",
+            "TMS-230126380",
+            "TMS-230126381",
+            "TMS-230126382",
+            "TMS-230126383",
+            "TMS-230126384",
+            "TMS-230126385",
+            "TMS-230126386",
+            "TMS-230126387",
+            "TMS-230126388",
+            "TMS-230126389",
+            "TMS-230126390",
+            "TMS-230126391",
+            "TMS-230126392",
+            "TMS-230126393",
+            "TMS-230126394",
+            "TMS-230126395",
+            "TMS-230126396",
+            "TMS-230126397",
+            "TMS-230126398",
+            "TMS-230126399",
+            "TMS-230126400",
+            "TMS-230126401",
+            "TMS-230126402",
+            "TMS-230126403",
+            "TMS-230126404",
+            "TMS-230126405",
+            "TMS-230126406"
+          ],
+          "monthlyHourlyTimesheets": [
+            "TMS-230126407",
+            "TMS-230126408",
+            "TMS-230126409",
+            "TMS-230126410",
+            "TMS-230126411",
+            "TMS-230126412",
+            "TMS-230126413"
+          ],
+          "weeklyDailyTimesheets": [
+            "TMS-230126414",
+            "TMS-230126415",
+            "TMS-230126416",
+            "TMS-230126417",
+            "TMS-230126418",
+            "TMS-230126419",
+            "TMS-230126420",
+            "TMS-230126421",
+            "TMS-230126422",
+            "TMS-230126423",
+            "TMS-230126424",
+            "TMS-230126425",
+            "TMS-230126426",
+            "TMS-230126427",
+            "TMS-230126428",
+            "TMS-230126429",
+            "TMS-230126430",
+            "TMS-230126431",
+            "TMS-230126432",
+            "TMS-230126433",
+            "TMS-230126434",
+            "TMS-230126435",
+            "TMS-230126436",
+            "TMS-230126437",
+            "TMS-230126438",
+            "TMS-230126439",
+            "TMS-230126440",
+            "TMS-230126441",
+            "TMS-230126442",
+            "TMS-230126443",
+            "TMS-230126444"
+          ],
+          "monthlyDailyTimesheets": [
+            "TMS-230126445",
+            "TMS-230126446",
+            "TMS-230126447",
+            "TMS-230126448",
+            "TMS-230126449",
+            "TMS-230126450",
+            "TMS-230126451"
+          ]
+        },
+        "approved": {
+          "weeklyHourlyTimesheets": [],
+          "monthlyHourlyTimesheets": [],
+          "weeklyDailyTimesheets": [],
+          "monthlyDailyTimesheets": []
+        },
+        "payrollTimesheet": "",
+        "expenses": ""
+      }
+    },
+    {
+      "invoices": {
+        "contractor-agency": [],
+        "provider-client": []
+      },
+      "creditnote": {
+        "contractor-agency": [],
+        "provider-client": []
+      }
+    }
+  ]
+}

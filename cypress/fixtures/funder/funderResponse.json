@@ -1,0 +1,40 @@
+{
+  "success": true,
+  "data": {
+    "platform_business": [
+      {
+        "id": "50726b72-7a9d-44d5-94fc-1628964698ea",
+        "human_id": "FUN-0017081",
+        "name": "Funder 08:01:46",
+        "status": "onboarded",
+        "funding_model": [
+          "indirect"
+        ],
+        "updated_at": "2023-08-06T02:32:59.130913+00:00",
+        "computed_actions": [
+          {
+            "id": "0c66097e-9028-4545-8503-796610b5833d"
+          },
+          {
+            "id": "efd1dc32-d57c-4007-9389-303ccf1b2e4b"
+          },
+          {
+            "id": "fe7d6168-165e-49e3-89a0-20072e4c31eb"
+          }
+        ],
+        "process_actions": [
+          {
+            "id": "276e3b10-414a-4c94-84b3-2611e418a8af"
+          },
+          {
+            "id": "3cd4aa88-4539-4d08-a591-787de252d4d7"
+          }
+        ]
+      }
+    ],
+    "allowed_for_debugging_only": {
+      "query": "query _20230806_023304_1691289184607{platform_business(where:{_and:[{id:{_eq:\"50726b72-7a9d-44d5-94fc-1628964698ea\"}},{deleted_at:{_is_null:true}}]}){ id human_id name status funding_model  updated_at  computed_actions { id }  process_actions { id } }}",
+      "variables": {}
+    }
+  }
+}

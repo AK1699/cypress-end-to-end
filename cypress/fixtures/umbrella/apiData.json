@@ -1,0 +1,63 @@
+{
+  "res": {
+    "success": true,
+    "data": {
+      "records": [
+        {
+          "human_id": "UMB-0003574",
+          "updated_at": "2023-06-21T14:16:10.379359+00:00",
+          "computed_actions": [
+            {
+              "id": "0c66097e-9028-4545-8503-796610b5833d"
+            },
+            {
+              "id": "efd1dc32-d57c-4007-9389-303ccf1b2e4b"
+            },
+            {
+              "id": "fe7d6168-165e-49e3-89a0-20072e4c31eb"
+            }
+          ],
+          "process_actions": [
+            {
+              "id": "080bcce0-cde9-4e73-acd3-59cc372d1d13"
+            },
+            {
+              "id": "1607822c-e8a9-4650-a903-0dd2f43caebb"
+            },
+            {
+              "id": "7354e4a5-5b94-49cf-af2a-e648003a1e61"
+            },
+            {
+              "id": "7285be9d-9b99-4e50-8f1d-7e302a0335d2"
+            },
+            {
+              "id": "de146a34-b465-4d92-b4bb-8ac792fa4230"
+            },
+            {
+              "id": "1432de86-797a-42d4-a49a-eeabd9aa1bae"
+            },
+            {
+              "id": "5d873aa1-8b37-48f0-8c7f-38c379f4939e"
+            },
+            {
+              "id": "ae0b4061-289c-4a65-abcc-beed42e1a6f7"
+            },
+            {
+              "id": "252604d9-8849-4a2d-a678-5a074ef98c13"
+            },
+            {
+              "id": "a64edf80-a8db-40ab-bb66-c98ced0fac03"
+            },
+            {
+              "id": "6169eeaa-e177-4254-a7fd-6843eeb1a7ea"
+            }
+          ]
+        }
+      ],
+      "allowed_for_debugging_only": {
+        "query": "query _20230621_141627_1687356987397{records:platform_business(where:{_and:[{id:{_eq:\"807100cd-43c4-485b-9aa7-410ab36b22e9\"}},{deleted_at:{_is_null:true}}]}){ human_id  updated_at  computed_actions { id }  process_actions { id } }}",
+        "variables": {}
+      }
+    }
+  }
+}

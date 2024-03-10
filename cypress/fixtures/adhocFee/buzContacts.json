@@ -1,0 +1,175 @@
+{
+  "res": {
+    "success": true,
+    "data": {
+      "records": [
+        {
+          "name": "RECRUITMENT AGENCY",
+          "business_contacts": [
+            {
+              "type": [
+                "agency_read_only",
+                "agency_admin",
+                "agency_consultant"
+              ],
+              "user": {
+                "name": "email check",
+                "first_name": "email",
+                "last_name": "check",
+                "is_active": true,
+                "is_confirmed": false,
+                "email": "shelbyagency2022+emailcheck@gmail.com"
+              }
+            },
+            {
+              "type": [
+                "director",
+                "agency_admin"
+              ],
+              "user": {
+                "name": "Managing Director",
+                "first_name": "Managing",
+                "last_name": "Director",
+                "is_active": true,
+                "is_confirmed": true,
+                "email": "shelbyagency2022+MD@gmail.com"
+              }
+            },
+            {
+              "type": [
+                "agency_read_only"
+              ],
+              "user": {
+                "name": "Agency Read-only",
+                "first_name": "Agency",
+                "last_name": "Read-only",
+                "is_active": true,
+                "is_confirmed": true,
+                "email": "jeevaraisetesting+agencyREADoNLY@gmail.com"
+              }
+            },
+            {
+              "type": [
+                "agency_consultant"
+              ],
+              "user": {
+                "name": "good  for nothing",
+                "first_name": "good ",
+                "last_name": "for nothing",
+                "is_active": true,
+                "is_confirmed": false,
+                "email": "jeevaraisetesting+agencyAdmin54343535436546@gmail.com"
+              }
+            },
+            {
+              "type": [
+                "agency_consultant"
+              ],
+              "user": {
+                "name": "Agency  Consultant",
+                "first_name": "Agency ",
+                "last_name": "Consultant",
+                "is_active": true,
+                "is_confirmed": true,
+                "email": "shelbyagency2022+consultant@gmail.com"
+              }
+            },
+            {
+              "type": [
+                "agency_consultant"
+              ],
+              "user": {
+                "name": "Ajay Consultant",
+                "first_name": "Ajay",
+                "last_name": "Consultant",
+                "is_active": true,
+                "is_confirmed": true,
+                "email": "jeevaraisetesting+agencyA5453543dmin@gmail.com"
+              }
+            },
+            {
+              "type": [
+                "agency_consultant"
+              ],
+              "user": {
+                "name": "new  user",
+                "first_name": "new ",
+                "last_name": "user",
+                "is_active": true,
+                "is_confirmed": false,
+                "email": "shelbyagency2022+Agency45@gmail.com"
+              }
+            },
+            {
+              "type": [
+                "agency_admin"
+              ],
+              "user": {
+                "name": "Ajay Admin",
+                "first_name": "Ajay",
+                "last_name": "Admin",
+                "is_active": true,
+                "is_confirmed": true,
+                "email": "sit.external.users+St2InDir_Agyadm002@gmail.com"
+              }
+            }
+          ],
+          "updated_at": "2023-06-22T05:37:27.413518+00:00",
+          "computed_actions": [
+            {
+              "id": "0c66097e-9028-4545-8503-796610b5833d"
+            },
+            {
+              "id": "efd1dc32-d57c-4007-9389-303ccf1b2e4b"
+            },
+            {
+              "id": "fe7d6168-165e-49e3-89a0-20072e4c31eb"
+            }
+          ],
+          "process_actions": [
+            {
+              "id": "ffaea3db-7d03-4d9b-9775-1821a50a1449"
+            },
+            {
+              "id": "a51b7a1b-3ef9-4686-a4a3-bdfbc2180b9b"
+            },
+            {
+              "id": "565095cc-96bf-43a8-8332-69818448f753"
+            },
+            {
+              "id": "374da46f-c5ba-4645-9d7d-dcfa74caa96e"
+            },
+            {
+              "id": "8e04f9f3-ae19-4bf0-9ecc-f46ce029c853"
+            },
+            {
+              "id": "f04b3b3b-d3d4-4bb3-9c22-615812dd2057"
+            },
+            {
+              "id": "32117c22-8da3-46f8-a3e6-45e3fd4f825c"
+            },
+            {
+              "id": "b8f8528c-af00-4dfa-a136-517368ab6fba"
+            },
+            {
+              "id": "e8442fd8-fda7-4bf0-873c-368a6b118173"
+            },
+            {
+              "id": "2e04412e-b53b-43b2-bbc3-812542e234a4"
+            },
+            {
+              "id": "367a6ad2-f660-42cf-a8e7-1c88080463d2"
+            },
+            {
+              "id": "1867c538-411c-40a7-a297-1982a9daa547"
+            }
+          ]
+        }
+      ],
+      "allowed_for_debugging_only": {
+        "query": "query _20230628_114732_1687952852356{records:platform_business(where:{_and:[{name:{_eq:\"RECRUITMENT AGENCY\"}},{deleted_at:{_is_null:true}}]},limit:1){ name business_contacts(where:{_and:[{preferences:{_neq:{}}},{deleted_at:{_is_null:true}}]},order_by:{updated_at:desc}){type user{name first_name last_name is_active is_confirmed email}}  updated_at  computed_actions { id }  process_actions { id } }}",
+        "variables": {}
+      }
+    }
+  }
+}

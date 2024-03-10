@@ -1,0 +1,42 @@
+{
+  "res": {
+    "success": true,
+    "data": {
+      "records": [
+        {
+          "human_id": "LTD-0003575",
+          "updated_at": "2023-06-21T14:43:06.931355+00:00",
+          "computed_actions": [
+            {
+              "id": "0c66097e-9028-4545-8503-796610b5833d"
+            },
+            {
+              "id": "efd1dc32-d57c-4007-9389-303ccf1b2e4b"
+            },
+            {
+              "id": "fe7d6168-165e-49e3-89a0-20072e4c31eb"
+            }
+          ],
+          "process_actions": [
+            {
+              "id": "1af0336e-0aae-4221-b0ad-068a22dd49c3"
+            },
+            {
+              "id": "90cbb27e-f30d-4e34-a01a-6cee7c6effae"
+            },
+            {
+              "id": "7fc3acc3-80b6-46fd-ad00-bf9293ebad78"
+            },
+            {
+              "id": "cadcf467-74d8-449b-8cae-6ea58b7141d4"
+            }
+          ]
+        }
+      ],
+      "allowed_for_debugging_only": {
+        "query": "query _20230621_144312_1687358592827{records:platform_business(where:{_and:[{id:{_eq:\"8d2d35d0-5513-4e1e-a653-f5972e2af519\"}},{deleted_at:{_is_null:true}}]}){ human_id  updated_at  computed_actions { id }  process_actions { id } }}",
+        "variables": {}
+      }
+    }
+  }
+}

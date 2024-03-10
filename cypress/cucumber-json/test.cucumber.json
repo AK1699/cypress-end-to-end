@@ -1,0 +1,37 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Test the parameterisation",
+    "line": 1,
+    "id": "test-the-parameterisation",
+    "tags": [],
+    "uri": "test.feature",
+    "elements": [
+      {
+        "id": "test-the-parameterisation;test1",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "test1",
+        "tags": [
+          {
+            "name": "@test1",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "test login",
+            "result": {
+              "status": "passed",
+              "duration": 898000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

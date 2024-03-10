@@ -1,0 +1,21 @@
+[
+  {
+    "Business name": "SP_CLIENT_DIRECT",
+    "Invoices overdue": "122",
+    "Invoices Disallowed": "0",
+    "Currency": "GBP",
+    "Outstanding invoices": "124",
+    "name": "Pound Sterling",
+    "alpha_code": "GBP",
+    "Total Cost 0-30": "£53,790.00",
+    "0-30 days count": "17",
+    "Total Cost 31-60": "£21,510.50",
+    "31-60 days count": "14",
+    "Total Cost 61-90": "£4,680.00",
+    "61-90 days count": "1",
+    "Total Cost 91-120": "£33,224.64",
+    "90-120 days count": "29",
+    "Total Cost>120": "£189,644.75",
+    ">120 days count": "63"
+  }
+]

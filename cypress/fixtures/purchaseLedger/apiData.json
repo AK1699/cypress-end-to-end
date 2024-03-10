@@ -1,0 +1,91 @@
+{
+  "res": {
+    "success": true,
+    "data": {
+      "records": [
+        {
+          "services_by_to_business": [
+            {
+              "type": "client-agency",
+              "from_business": {
+                "name": "RAJESH DIR CLIENT"
+              }
+            },
+            {
+              "type": "client-agency",
+              "from_business": {
+                "name": "Rajesh Accounting ledger"
+              }
+            },
+            {
+              "type": "client-agency",
+              "from_business": {
+                "name": "The Meadows Montessori School"
+              }
+            },
+            {
+              "type": "client-agency",
+              "from_business": {
+                "name": "regggg"
+              }
+            }
+          ],
+          "updated_at": "2023-07-07T12:18:35.804038+00:00",
+          "computed_actions": [
+            {
+              "id": "0c66097e-9028-4545-8503-796610b5833d"
+            },
+            {
+              "id": "efd1dc32-d57c-4007-9389-303ccf1b2e4b"
+            },
+            {
+              "id": "fe7d6168-165e-49e3-89a0-20072e4c31eb"
+            }
+          ],
+          "process_actions": [
+            {
+              "id": "f04b3b3b-d3d4-4bb3-9c22-615812dd2057"
+            },
+            {
+              "id": "367a6ad2-f660-42cf-a8e7-1c88080463d2"
+            },
+            {
+              "id": "374da46f-c5ba-4645-9d7d-dcfa74caa96e"
+            },
+            {
+              "id": "8e04f9f3-ae19-4bf0-9ecc-f46ce029c853"
+            },
+            {
+              "id": "ffaea3db-7d03-4d9b-9775-1821a50a1449"
+            },
+            {
+              "id": "32117c22-8da3-46f8-a3e6-45e3fd4f825c"
+            },
+            {
+              "id": "b8f8528c-af00-4dfa-a136-517368ab6fba"
+            },
+            {
+              "id": "e8442fd8-fda7-4bf0-873c-368a6b118173"
+            },
+            {
+              "id": "a51b7a1b-3ef9-4686-a4a3-bdfbc2180b9b"
+            },
+            {
+              "id": "1867c538-411c-40a7-a297-1982a9daa547"
+            },
+            {
+              "id": "2e04412e-b53b-43b2-bbc3-812542e234a4"
+            },
+            {
+              "id": "565095cc-96bf-43a8-8332-69818448f753"
+            }
+          ]
+        }
+      ],
+      "allowed_for_debugging_only": {
+        "query": "query _20230710_073154_1688974314659{records:platform_business(where:{_and:[{name:{_eq:\"RAJESH DIR AGENCY\"}},{deleted_at:{_is_null:true}}]},limit:1){ services_by_to_business(where:{_and:[{type:{_eq:\"client-agency\"}},{deleted_at:{_is_null:true}}]}){type from_business{name}}  updated_at  computed_actions { id }  process_actions { id } }}",
+        "variables": {}
+      }
+    }
+  }
+}

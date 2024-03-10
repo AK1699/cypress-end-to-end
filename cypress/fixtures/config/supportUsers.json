@@ -1,0 +1,384 @@
+{
+  "data": {
+    "platform_user": [
+      {
+        "id": "11011011-1010-1010-1010-110110110110",
+        "name": "1PS Admin",
+        "email": "admin@raisetech.io",
+        "first_name": "1PS",
+        "last_name": "Admin"
+      },
+      {
+        "id": "ebad0e09-c085-4a49-986e-1256b1980fc7",
+        "name": "1PS Support (1PS)",
+        "email": "automailer.oneps+firstlast17005@gmail.com",
+        "first_name": "1PS",
+        "last_name": "Support (1PS)"
+      },
+      {
+        "id": "7c86d1db-cc27-4527-bd90-dcdd67b3ba29",
+        "name": "Adiul Alam Adil",
+        "email": "aadil@raisetech.io",
+        "first_name": "Adiul Alam",
+        "last_name": "Adil"
+      },
+      {
+        "id": "ac986c9f-aa7b-45f0-8c00-d3883f56f408",
+        "name": "Adrienne Webb",
+        "email": "awebb@raisetech.io",
+        "first_name": "Adrienne",
+        "last_name": "Webb"
+      },
+      {
+        "id": "ae0baeb8-43a6-4afe-be2a-731094ce3b3a",
+        "name": "Aishwarya Sakthivelan",
+        "email": "asakthivelan@raisetech.io",
+        "first_name": "Aishwarya",
+        "last_name": "Sakthivelan"
+      },
+      {
+        "id": "2bbfbdd7-c2ec-449e-9a69-3b1c1872a7d4",
+        "name": "Ajay C",
+        "email": "achandru@raisetech.io",
+        "first_name": "Ajay",
+        "last_name": "C"
+      },
+      {
+        "id": "649cf200-c875-4105-b7aa-8554de6feccd",
+        "name": "Akash KS",
+        "email": "asashidharan@raisetech.io",
+        "first_name": "Akash",
+        "last_name": "KS"
+      },
+      {
+        "id": "119e7f4d-782a-46e7-bbb7-90003d430c53",
+        "name": "Alex Taylor (1PS)",
+        "email": "ataylor@raisetech.io",
+        "first_name": "Alex",
+        "last_name": "Taylor (1PS)"
+      },
+      {
+        "id": "7f0052b9-651d-495d-9687-3e944da830c4",
+        "name": "Alex Taylor (1PS)",
+        "email": "automailer.oneps+firstlast9189@gmail.com",
+        "first_name": "Alex",
+        "last_name": "Taylor (1PS)"
+      },
+      {
+        "id": "59849e51-8988-4b01-9dd6-250e0a2a138f",
+        "name": "Amelia Coen",
+        "email": "acoen@raisetech.io",
+        "first_name": "Amelia",
+        "last_name": "Coen"
+      },
+      {
+        "id": "77f4c159-a09d-417b-8069-6c185dff5c30",
+        "name": "Amy Reid",
+        "email": "areid@raisetech.io",
+        "first_name": "Amy",
+        "last_name": "Reid"
+      },
+      {
+        "id": "ee88c89c-e11f-40aa-85c0-cbb399ff8d28",
+        "name": "Andy  Stone ",
+        "email": "astone@raisetech.io",
+        "first_name": "Andy ",
+        "last_name": "Stone "
+      },
+      {
+        "id": "da66332d-722d-4052-a99e-e6eee729b6b4",
+        "name": "Anirudha Sathishkumar",
+        "email": "anirudha@raisetech.io",
+        "first_name": "Anirudha",
+        "last_name": "Sathishkumar"
+      },
+      {
+        "id": "aaff00cb-55f5-437c-aa6e-c99e989f43f0",
+        "name": "Anne Marie Cheeseman",
+        "email": "acheeseman@raisetech.io",
+        "first_name": "Anne Marie",
+        "last_name": "Cheeseman"
+      },
+      {
+        "id": "ae4c3095-5156-45e1-85b6-60a1dbd56c31",
+        "name": "Aravind aravamudhan",
+        "email": "aravind@raisetech.io",
+        "first_name": "Aravind",
+        "last_name": "aravamudhan"
+      },
+      {
+        "id": "fd02db53-49e2-4ce0-87a4-57b95e3c27e1",
+        "name": "Arthur Hansen",
+        "email": "automailer.oneps+firstlast18271@gmail.com",
+        "first_name": "Arthur",
+        "last_name": "Hansen"
+      },
+      {
+        "id": "e7de6fdb-e2d2-4324-9bae-af2fdf1e1dd0",
+        "name": "Bea Stafford",
+        "email": "bstafford@raisetech.io",
+        "first_name": "Bea",
+        "last_name": "Stafford"
+      },
+      {
+        "id": "e1f35ca2-2c0d-4a75-af62-ba3a2f2e6dfb",
+        "name": "Ben Davis",
+        "email": "bdavies@raisetech.io",
+        "first_name": "Ben",
+        "last_name": "Davis"
+      },
+      {
+        "id": "eeaef5c6-9e38-48f8-9806-6417b2b8384f",
+        "name": "Beta Super User",
+        "email": "uat.testing.raisetech+SP_Superuser@gmail.com",
+        "first_name": "Beta",
+        "last_name": "Super User"
+      },
+      {
+        "id": "c0092286-f925-11eb-a2fd-069db7b9f0b0",
+        "name": "Beth Higbee",
+        "email": "bhigbee@raisetech.io",
+        "first_name": "Beth",
+        "last_name": "Higbee"
+      },
+      {
+        "id": "2992ce22-ee87-4761-95a4-c8712a9714c8",
+        "name": "Bonny Friend (1PS)",
+        "email": "bfriend@raisetech.io",
+        "first_name": "Bonny",
+        "last_name": "Friend (1PS)"
+      },
+      {
+        "id": "98936faf-6cf4-40af-ba3d-22a2538d1522",
+        "name": "Arul RO",
+        "email": "sit.raise.testing2022+staging1RO@gmail.com",
+        "first_name": "Arul",
+        "last_name": "RO"
+      },
+      {
+        "id": "b1189fcc-5048-41d5-84c6-72bd2b8d7540",
+        "name": "Byron Madden",
+        "email": "bmadden@raisetech.io",
+        "first_name": "Byron",
+        "last_name": "Madden"
+      },
+      {
+        "id": "da2946de-7e95-4ced-9a3d-fc531310a596",
+        "name": "Cameron Teague",
+        "email": "cteague@raisetech.io",
+        "first_name": "Cameron",
+        "last_name": "Teague"
+      },
+      {
+        "id": "d2a8d0dd-7034-4cff-95a4-7f8d7b08c109",
+        "name": "Caspar Pallett",
+        "email": "automailer.oneps+firstlast15227@gmail.com",
+        "first_name": "Caspar",
+        "last_name": "Pallett"
+      },
+      {
+        "id": "69268357-bd61-42ba-8616-8fbef3597e66",
+        "name": "Charlene  Nugent ",
+        "email": "cnugent@raisetech.io",
+        "first_name": "Charlene ",
+        "last_name": "Nugent "
+      },
+      {
+        "id": "a89dd664-d9d6-4c95-bb31-bb7fe6ae2b28",
+        "name": "Chloe Phillips",
+        "email": "cphillips@raisetech.io",
+        "first_name": "Chloe",
+        "last_name": "Phillips"
+      },
+      {
+        "id": "0108351f-f855-4e00-ae79-4b1ccab5c89c",
+        "name": "Chris Harrop",
+        "email": "automailer.oneps+firstlast69@gmail.com",
+        "first_name": "Chris",
+        "last_name": "Harrop"
+      },
+      {
+        "id": "d6b2a9da-186b-4a18-b43a-875a8e428f8c",
+        "name": "Chris Wilby (1PS)",
+        "email": "cwilby@raisetech.io",
+        "first_name": "Chris",
+        "last_name": "Wilby (1PS)"
+      },
+      {
+        "id": "47c83e61-c184-4c1b-99a8-d86d86f85c31",
+        "name": "Claudia Silva ",
+        "email": "csilva@raisetech.io",
+        "first_name": "Claudia",
+        "last_name": "Silva "
+      },
+      {
+        "id": "19053b5c-074b-43f7-bb59-74419180c8bb",
+        "name": "Collection Assistant",
+        "email": "uat.testing.raisetech+COA@gmail.com",
+        "first_name": "Collection",
+        "last_name": "Assistant"
+      },
+      {
+        "id": "ce82e00c-c0bb-4652-b291-ace86b5f80c6",
+        "name": "Collection Lead",
+        "email": "uat.testing.raisetech+CL@gmail.com",
+        "first_name": "Collection",
+        "last_name": "Lead"
+      },
+      {
+        "id": "9daaa362-1383-4fda-b6b9-069c142d2381",
+        "name": "Compliance Approver",
+        "email": "uat.testing.raisetech+CA@gmail.com",
+        "first_name": "Compliance",
+        "last_name": "Approver"
+      },
+      {
+        "id": "919eccb7-52d6-4574-b73c-1edaa97706a6",
+        "name": "Compliance Manager",
+        "email": "uat.testing.raisetech+CM@gmail.com",
+        "first_name": "Compliance",
+        "last_name": "Manager"
+      },
+      {
+        "id": "8c543f29-05ac-4ae2-8f9d-1721c84fcbb5",
+        "name": "Collection Lead Ajay",
+        "email": "sit.external.users+COL_user01@gmail.com",
+        "first_name": "Collection Lead",
+        "last_name": "Ajay"
+      },
+      {
+        "id": "c0425033-36a6-4941-978f-08799e77fef7",
+        "name": "Credit Risk Assistant",
+        "email": "uat.testing.raisetech+CRA@gmail.com",
+        "first_name": "Credit Risk",
+        "last_name": "Assistant"
+      },
+      {
+        "id": "cd101c39-9ab1-401c-8e42-a9996e55a7db",
+        "name": "Credit Risk Manager",
+        "email": "uat.testing.raisetech+CRM@gmail.com",
+        "first_name": "Credit Risk",
+        "last_name": "Manager"
+      },
+      {
+        "id": "8c603d3e-f24e-4d59-a17c-9760efe98142",
+        "name": "Cristina Sta-Ana",
+        "email": "csta-ana@raisetech.io",
+        "first_name": "Cristina",
+        "last_name": "Sta-Ana"
+      },
+      {
+        "id": "0e9d7e0d-158a-4a2e-8763-177a69b7e96e",
+        "name": "Daniel Tabiri",
+        "email": "automailer.oneps+firstlast991@gmail.com",
+        "first_name": "Daniel",
+        "last_name": "Tabiri"
+      },
+      {
+        "id": "e4e34619-c2e4-468e-9efc-0a4ca215f02b",
+        "name": "Deepalakshmi Varatharajan",
+        "email": "dvaratharajan@raisetech.io",
+        "first_name": "Deepalakshmi",
+        "last_name": "Varatharajan"
+      },
+      {
+        "id": "b1974d83-8a5d-47f6-b76f-aa3a6005aec0",
+        "name": "Deinma Paul-Worika ",
+        "email": "dpworika@raisetech.io",
+        "first_name": "Deinma",
+        "last_name": "Paul-Worika "
+      },
+      {
+        "id": "376f5f82-f8f9-442c-b5ab-7ead3e3908f6",
+        "name": "Dennis Hansen",
+        "email": "dhansen@raisetech.io",
+        "first_name": "Dennis",
+        "last_name": "Hansen"
+      },
+      {
+        "id": "8a15af39-23cf-4e69-a37b-844d7073c607",
+        "name": "Devendar Rajkumar",
+        "email": "dmrajkumar@raisetech.io",
+        "first_name": "Devendar",
+        "last_name": "Rajkumar"
+      },
+      {
+        "id": "1eeec552-8f79-4514-9984-803c0ceca438",
+        "name": "Dhivya Lakshmi Murali",
+        "email": "dlmurali@raisetech.io",
+        "first_name": "Dhivya Lakshmi",
+        "last_name": "Murali"
+      },
+      {
+        "id": "d960d62b-0720-4ba0-a1f1-d1f28203c93e",
+        "name": "Diego Paganelli",
+        "email": "dpaganelli@raisetech.io",
+        "first_name": "Diego",
+        "last_name": "Paganelli"
+      },
+      {
+        "id": "e49d01e9-3a23-4bb1-a462-5472ecba9dfc",
+        "name": "Dinara Loktionova",
+        "email": "dloktionova@raisetech.io",
+        "first_name": "Dinara",
+        "last_name": "Loktionova"
+      },
+      {
+        "id": "a68ad78c-eab8-4a9f-ab0f-23d9aa20fdbc",
+        "name": "Dinesh Lakshman",
+        "email": "dlakshmanan@raisetech.io",
+        "first_name": "Dinesh",
+        "last_name": "Lakshman"
+      },
+      {
+        "id": "ffe4437f-285c-426a-a1db-54421b51c212",
+        "name": "Douglas Crook",
+        "email": "automailer.oneps+firstlast18465@gmail.com",
+        "first_name": "Douglas",
+        "last_name": "Crook"
+      },
+      {
+        "id": "84a6b260-84d1-4247-9cd5-589e1bba7222",
+        "name": "Emma Dawson",
+        "email": "edawson@raisetech.io",
+        "first_name": "Emma",
+        "last_name": "Dawson"
+      },
+      {
+        "id": "c2de42b4-adf1-4fe0-99d7-d3698c6507a2",
+        "name": "Evelyn Ayland",
+        "email": "dummy+bibbyuser@raisetech.io",
+        "first_name": "Evelyn",
+        "last_name": "Ayland"
+      },
+      {
+        "id": "2a6714a4-3093-4d92-a50e-c5cdb00da90e",
+        "name": "Financial Management",
+        "email": "uat.testing.raisetech+FM@gmail.com",
+        "first_name": "Financial",
+        "last_name": "Management"
+      },
+      {
+        "id": "970ef321-880f-44da-9dd2-7d1ab5c7ef63",
+        "name": "Collections Lead",
+        "email": "staging.testing.raise+CL752@gmail.com",
+        "first_name": "Collections",
+        "last_name": "Lead"
+      },
+      {
+        "id": "6874836d-dc19-466f-9b22-a762889fe572",
+        "name": "Collections Lead",
+        "email": "staging.testing.raise+CL279@gmail.com",
+        "first_name": "Collections",
+        "last_name": "Lead"
+      },
+      {
+        "id": "048cbbaf-5b29-4422-bf2f-fd7fbc72306b",
+        "name": "Fleur  White ",
+        "email": "fwhite@raisetech.io",
+        "first_name": "Fleur ",
+        "last_name": "White "
+      }
+    ]
+  }
+}

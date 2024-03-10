@@ -1,0 +1,159 @@
+[
+  {
+    "description": "    Platform allows the external and internal users to create expense for the respective temporary placement. \n    Permissions: Externally contractor can raise expense and get approved by client timesheet approver\n                 Internally Payment Assistant can raise expense on behalf of contractor and get approved by payment approver on behalf of client timesheet approver",
+    "keyword": "Feature",
+    "name": "Expense",
+    "line": 1,
+    "id": "expense",
+    "tags": [],
+    "uri": "expense.feature",
+    "elements": [
+      {
+        "id": "expense;create-an-expense-claim-by-contractor-user-for-indirect-model,-submitted-and-approved-by-external-users",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "Create an expense claim by contractor user for Indirect model, submitted and approved by external users",
+        "tags": [
+          {
+            "name": "@focus",
+            "line": 6
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "expense claim form details for \"Indirect\" model contract of \"Funded\" funding type",
+            "result": {
+              "status": "passed",
+              "duration": 4681000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "login as contractor, to submit a expense claim form",
+            "result": {
+              "status": "passed",
+              "duration": 4137000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "Navigate to the expense list page",
+            "result": {
+              "status": "passed",
+              "duration": 1444000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 11,
+            "name": "Insert the basic information for expense claim form for \"Funded\" funding type",
+            "result": {
+              "status": "failed",
+              "duration": 80667000000,
+              "error_message": "AssertionError: Timed out retrying after 80000ms: Expected to find element: `[id=\"funding_type\"]`, but never found it.\n    at Context.eval (cypress/support/commands.js:1118:5)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "fill the expense details in the expense claim form",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 13,
+            "name": "Submit the expense claim form for approval",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 14,
+            "name": "login as timesheet approver, to review the expense claim form",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "Navigate to the expense list page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 16,
+            "name": "Select the respective expense",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 17,
+            "name": "Approve the expense claim form",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "login as Payment Assistant user",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "Navigate to the expense list page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 20,
+            "name": "Select the respective expense",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "Invoices will be genereated for the expense",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

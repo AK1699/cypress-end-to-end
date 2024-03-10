@@ -1,0 +1,13 @@
+{
+  "rows": [
+    {
+      "company_name": "Funder",
+      "currency": "Pound Sterling, Euro, US Dollar, Polish złoty, Swedish krona/kronor",
+      "address_line2": null,
+      "address_line3": null,
+      "address_line4": null,
+      "county": null,
+      "country": "United Kingdom"
+    }
+  ]
+}

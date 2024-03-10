@@ -1,0 +1,22 @@
+image: firstrisksolutions/eric-ui
+
+pipelines:
+    custom: # Pipelines that are triggered manually
+        deployment-to-cypress-env:
+            - step:
+                  name: Build & Test-> cypress
+                  caches:
+                      - node
+                  script:
+                      - source ./set-build-environment.sh cypress
+                      - aws s3 cp s3://$ONERS_IN_DEVOPS_SCRIPTS_S3_BUCKET/build-scripts/raise-cypress.build.sh pipeline-build.sh
+                      - chmod 775 pipeline-build.sh
+                      - ./pipeline-build.sh
+                  artifacts:
+                      - build/artifact.zip
+            - step:
+                  name: AWS Deploy-> cypress
+                  script:
+                      - source ./set-build-environment.sh cypress
+                      # run the deployment script
+                      - python /opt/deployment-scripts/beanstalk_deploy.py 'build/artifact.zip'

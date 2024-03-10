@@ -1,0 +1,214 @@
+{
+  "app": 0,
+  "customMetadata": false,
+  "customData": {
+    "title": "Run info",
+    "data": [
+      {
+        "label": "Project",
+        "value": "Raise"
+      },
+      {
+        "label": "Release",
+        "value": "Sprint - 2402"
+      },
+      {
+        "label": "Start Time",
+        "value": "3/3/2024, 9:54:52 PM"
+      },
+      {
+        "label": "End Time",
+        "value": "3/3/2024, 9:54:52 PM"
+      }
+    ]
+  },
+  "style": "style.css",
+  "useCDN": false,
+  "hideMetadata": false,
+  "displayReportTime": true,
+  "displayDuration": true,
+  "browser": 1,
+  "name": "",
+  "version": "version",
+  "time": "2024-03-03T16:24:52.455Z",
+  "features": [
+    {
+      "keyword": "Feature",
+      "name": "Test the parameterisation",
+      "line": 1,
+      "id": "e585aded-1fba-43f1-9db2-242d2c97d3eb-test-the-parameterisation",
+      "tags": [],
+      "uri": "test.feature",
+      "elements": [
+        {
+          "id": "test-the-parameterisation;test2",
+          "keyword": "Scenario",
+          "line": 7,
+          "name": "test2",
+          "tags": [
+            {
+              "name": "@test2",
+              "line": 6
+            }
+          ],
+          "type": "scenario",
+          "steps": [
+            {
+              "arguments": [],
+              "keyword": "Given ",
+              "line": 8,
+              "name": "test login",
+              "result": {
+                "status": "passed",
+                "duration": 11790000000
+              },
+              "time": "00:00:11.790"
+            }
+          ],
+          "passed": 1,
+          "failed": 0,
+          "notDefined": 0,
+          "skipped": 0,
+          "pending": 0,
+          "ambiguous": 0,
+          "duration": 11790000000,
+          "time": "00:00:11.790"
+        },
+        {
+          "id": "test-the-parameterisation;test3",
+          "keyword": "Scenario",
+          "line": 10,
+          "name": "test3",
+          "tags": [
+            {
+              "name": "@test3",
+              "line": 9
+            }
+          ],
+          "type": "scenario",
+          "steps": [
+            {
+              "arguments": [],
+              "keyword": "Given ",
+              "line": 11,
+              "name": "test login",
+              "result": {
+                "status": "skipped"
+              }
+            }
+          ],
+          "passed": 0,
+          "failed": 0,
+          "notDefined": 0,
+          "skipped": 1,
+          "pending": 0,
+          "ambiguous": 0,
+          "duration": 0,
+          "time": "00:00:00.000"
+        },
+        {
+          "id": "test-the-parameterisation;test4",
+          "keyword": "Scenario",
+          "line": 13,
+          "name": "test4",
+          "tags": [
+            {
+              "name": "@test4",
+              "line": 12
+            }
+          ],
+          "type": "scenario",
+          "steps": [
+            {
+              "arguments": [],
+              "keyword": "Given ",
+              "line": 14,
+              "name": "test login",
+              "result": {
+                "status": "skipped"
+              }
+            }
+          ],
+          "passed": 0,
+          "failed": 0,
+          "notDefined": 0,
+          "skipped": 1,
+          "pending": 0,
+          "ambiguous": 0,
+          "duration": 0,
+          "time": "00:00:00.000"
+        }
+      ],
+      "metadata": {
+        "reportTime": "2024/03/03 19:32:19",
+        "browser": {
+          "name": "chrome",
+          "version": "121.0.6167.184"
+        },
+        "device": "Local test machine",
+        "platform": {
+          "name": "windows",
+          "version": "16.04"
+        }
+      },
+      "scenarios": {
+        "passed": 1,
+        "failed": 0,
+        "notDefined": 0,
+        "skipped": 2,
+        "pending": 0,
+        "ambiguous": 0,
+        "passedPercentage": "33.33",
+        "failedPercentage": "0.00",
+        "notDefinedPercentage": "0.00",
+        "skippedPercentage": "66.67",
+        "pendingPercentage": "0.00",
+        "ambiguousPercentage": "0.00",
+        "total": 3
+      },
+      "duration": 11790000000,
+      "time": "00:00:11.790",
+      "isFailed": false,
+      "isAmbiguous": false,
+      "isSkipped": false,
+      "isNotdefined": false,
+      "isPending": false,
+      "app": 0,
+      "browser": 0,
+      "passed": null,
+      "totalTime": null
+    }
+  ],
+  "featureCount": {
+    "ambiguous": 0,
+    "failed": 0,
+    "passed": 1,
+    "notDefined": 0,
+    "pending": 0,
+    "skipped": 0,
+    "total": 1,
+    "ambiguousPercentage": "0.00",
+    "failedPercentage": "0.00",
+    "notDefinedPercentage": "0.00",
+    "pendingPercentage": "0.00",
+    "skippedPercentage": "0.00",
+    "passedPercentage": "100.00"
+  },
+  "reportName": "Regression Report",
+  "scenarios": {
+    "failed": 0,
+    "ambiguous": 0,
+    "notDefined": 0,
+    "pending": 0,
+    "skipped": 2,
+    "passed": 1,
+    "total": 3,
+    "ambiguousPercentage": "0.00",
+    "failedPercentage": "0.00",
+    "notDefinedPercentage": "0.00",
+    "passedPercentage": "33.33",
+    "pendingPercentage": "0.00",
+    "skippedPercentage": "66.67"
+  },
+  "totalTime": 0
+}

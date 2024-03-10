@@ -1,0 +1,126 @@
+{
+  "data": {
+    "fundo_contract": [
+      {
+        "id": "db2a80ee-292c-45e9-9267-1de72036619e",
+        "type": "perm_placement",
+        "contract_perm_placement": {
+          "id": "b58b527b-4d8f-481f-a3e5-daedbdacab16",
+          "invoice_value": 1500,
+          "candidate_name": "Jacob Ondricka",
+          "total_amount": 1800,
+          "is_active": true,
+          "contract_start_date": "2023-01-06",
+          "description": null
+        },
+        "contract_entities": [
+          {
+            "id": "501b41ed-97a2-4228-8740-756fc6d05b9a",
+            "business": {
+              "id": "3d4b91d9-1e06-42df-a643-4e74ac7b26a7",
+              "name": "Runolfsdottir, Hermiston and Kuhic",
+              "human_id": "CLI-0017671",
+              "type": "client",
+              "business_taxes": [
+                {
+                  "id": "4ea25055-0adf-44e5-baad-aee188642e11",
+                  "value": 20,
+                  "type": "vat",
+                  "is_vat_applicable": true,
+                  "effective_to": null,
+                  "currency": {
+                    "id": "bb9ecacf-f2de-4f71-aee8-9016492861dc",
+                    "name": "Pound Sterling",
+                    "alpha_code": "GBP"
+                  }
+                }
+              ],
+              "service_charges": []
+            }
+          },
+          {
+            "id": "37ae1773-7f1f-4802-b2c7-1c7e48dbdd6f",
+            "business": {
+              "id": "7c97a0f4-a0ff-4d79-8625-36d62d302b8a",
+              "name": "Gottlieb, Heaney and Douglas",
+              "human_id": "AGY-0017658",
+              "type": "agency",
+              "business_taxes": [
+                {
+                  "id": "1763ece7-a8d2-4616-b9df-876f430aa2db",
+                  "value": 20,
+                  "type": "vat",
+                  "is_vat_applicable": true,
+                  "effective_to": null,
+                  "currency": {
+                    "id": "bb9ecacf-f2de-4f71-aee8-9016492861dc",
+                    "name": "Pound Sterling",
+                    "alpha_code": "GBP"
+                  }
+                }
+              ],
+              "service_charges": [
+                {
+                  "value": 1.59,
+                  "type": "percent",
+                  "fee_type": "platform_fee",
+                  "funding_type": "funded",
+                  "service_type": "perm_placement",
+                  "effective_to": null
+                }
+              ]
+            }
+          },
+          {
+            "id": "18b40849-2f16-46a4-a5f6-0b7827f2a6f4",
+            "business": {
+              "id": "383f33c6-44a5-4cb6-ad73-067f1cd9f43e",
+              "name": "1PS",
+              "human_id": "ADM-0001",
+              "type": "provider",
+              "business_taxes": [
+                {
+                  "id": "95711ed0-6438-4392-8372-64de14bfc015",
+                  "value": 20,
+                  "type": "vat",
+                  "is_vat_applicable": true,
+                  "effective_to": null,
+                  "currency": {
+                    "id": "bb9ecacf-f2de-4f71-aee8-9016492861dc",
+                    "name": "Pound Sterling",
+                    "alpha_code": "GBP"
+                  }
+                }
+              ],
+              "service_charges": []
+            }
+          },
+          {
+            "id": "c5733709-8f9c-4c65-ae80-8888873f8b27",
+            "business": {
+              "id": "49787f0e-824f-4d1c-9aa1-24762f84f92a",
+              "name": "Cormier LLC",
+              "human_id": "FUN-0017654",
+              "type": "funder",
+              "business_taxes": [
+                {
+                  "id": "0ffc3665-e47d-4bc5-bd8a-a0a58b7b5367",
+                  "value": 20,
+                  "type": "vat",
+                  "is_vat_applicable": true,
+                  "effective_to": null,
+                  "currency": {
+                    "id": "bb9ecacf-f2de-4f71-aee8-9016492861dc",
+                    "name": "Pound Sterling",
+                    "alpha_code": "GBP"
+                  }
+                }
+              ],
+              "service_charges": []
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

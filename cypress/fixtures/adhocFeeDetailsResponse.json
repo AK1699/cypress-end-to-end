@@ -1,0 +1,98 @@
+{
+  "success": true,
+  "data": {
+    "fundo_contract": [
+      {
+        "id": "4098d39d-f0f8-42b9-bf7f-e99860ffb903",
+        "type": "adhoc_fee",
+        "requisites": {
+          "to": "funder",
+          "tax": "20",
+          "from": "agency",
+          "amount": 26948
+        },
+        "contract_entities": [
+          {
+            "id": "513afdfd-39c4-4d7d-bb16-0b78bb84b603",
+            "business": {
+              "id": "65a2a4f4-be2b-4321-87cb-4f35fba2e286",
+              "name": "Funder  11 Sep 2023 12:08:32",
+              "human_id": "FUN-0004124",
+              "type": "funder",
+              "business_taxes": [
+                {
+                  "id": "a2e9dc0d-6d8f-4d6a-a674-54359d3a3be9",
+                  "value": 20,
+                  "type": "vat",
+                  "is_vat_applicable": true,
+                  "effective_to": null,
+                  "currency": {
+                    "id": "bb9ecacf-f2de-4f71-aee8-9016492861dc",
+                    "name": "Pound Sterling",
+                    "alpha_code": "GBP"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "eb95eda9-6646-47d6-a61b-7406a18dc82c",
+            "business": {
+              "id": "0f8e8496-5d9c-4364-bcb5-922315f51757",
+              "name": "Agency  11 Sep 2023 12:26:14",
+              "human_id": "AGY-0004129",
+              "type": "agency",
+              "business_taxes": [
+                {
+                  "id": "cd8eb615-460b-4e36-8a2f-468103377104",
+                  "value": 20,
+                  "type": "vat",
+                  "is_vat_applicable": true,
+                  "effective_to": null,
+                  "currency": {
+                    "id": "bb9ecacf-f2de-4f71-aee8-9016492861dc",
+                    "name": "Pound Sterling",
+                    "alpha_code": "GBP"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "updated_at": "2023-09-12T03:55:23.850864+00:00",
+        "computed_actions": [
+          {
+            "id": "4bd7f2da-76b1-47d9-b267-a1c239c93030"
+          },
+          {
+            "id": "819417ec-39b6-4909-894b-437e20d05aa5"
+          },
+          {
+            "id": "582f610e-53d5-477f-9cf3-e2ad1f4319c2"
+          },
+          {
+            "id": "976f3b47-7811-4d22-9181-6ffa5aa05c00"
+          }
+        ],
+        "process_actions": [
+          {
+            "id": "0e282217-f100-43b8-b19e-0b7911f461c6"
+          },
+          {
+            "id": "8e66b9e7-1581-4589-a2f3-8f81026af587"
+          },
+          {
+            "id": "d2adff3f-eb03-4892-af84-6f057f574a25"
+          },
+          {
+            "id": "8759a54b-2e54-44fe-8e10-88155ce0476a"
+          }
+        ]
+      }
+    ],
+    "allowed_for_debugging_only": {
+      "query": "query _20230912_035528_1694490928294{fundo_contract(where:{_and:[{human_id:{_eq:\"ADH-230005299\"}},{deleted_at:{_is_null:true}}]}){ id type requisites contract_entities(where:{_and:[{deleted_at:{_is_null:true}}]}){id business{id name human_id type business_taxes(where:{_and:[{effective_to:{_is_null:true}},{deleted_at:{_is_null:true}}]}){id value type is_vat_applicable effective_to currency{id name alpha_code}}}}  updated_at  computed_actions { id }  process_actions { id } }}",
+      "variables": {}
+    }
+  }
+}

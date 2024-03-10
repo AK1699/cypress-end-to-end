@@ -1,0 +1,22 @@
+{
+  "data": {
+    "log_mail": [
+      {
+        "id": "1bb5bd0f-89da-495a-87fc-452a7727b3db",
+        "is_sent": true,
+        "subject": "[staging1] Draft Timesheet Reminder",
+        "to": [
+          "shelbycontractorumb2022+2808557641@gmail.com"
+        ]
+      },
+      {
+        "id": "9c7fc5d4-d23e-44f6-942d-c1f3dccbb531",
+        "is_sent": true,
+        "subject": "[staging1] Draft Timesheet Reminder",
+        "to": [
+          "shelbycontractorumb2022+2808557641@gmail.com"
+        ]
+      }
+    ]
+  }
+}

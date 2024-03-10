@@ -1,0 +1,47 @@
+{
+  "res": {
+    "success": true,
+    "data": {
+      "fundo_contract": [
+        {
+          "status": "draft",
+          "human_id": "SLI-230022677",
+          "funding_model": "direct",
+          "updated_at": "2023-07-10T07:39:43.293852+00:00",
+          "computed_actions": [
+            {
+              "id": "976f3b47-7811-4d22-9181-6ffa5aa05c00"
+            },
+            {
+              "id": "582f610e-53d5-477f-9cf3-e2ad1f4319c2"
+            },
+            {
+              "id": "4bd7f2da-76b1-47d9-b267-a1c239c93030"
+            },
+            {
+              "id": "819417ec-39b6-4909-894b-437e20d05aa5"
+            }
+          ],
+          "process_actions": [
+            {
+              "id": "cfa5b49c-f71d-4581-ad61-09c05c5cd731"
+            },
+            {
+              "id": "f27346e3-9bf1-4f5d-b38c-bf2539da36e2"
+            },
+            {
+              "id": "de0acf44-f81d-42b9-aacc-8b726d17b361"
+            },
+            {
+              "id": "15f850ba-e622-474b-9334-6a9c3c9bfdf1"
+            }
+          ]
+        }
+      ],
+      "allowed_for_debugging_only": {
+        "query": "query _20230710_073952_1688974792899{fundo_contract(where:{_and:[{id:{_eq:\"ec91feaf-2747-47c1-8f5e-242fe5563caf\"}},{deleted_at:{_is_null:true}}]}){ status human_id funding_model  updated_at  computed_actions { id }  process_actions { id } }}",
+        "variables": {}
+      }
+    }
+  }
+}

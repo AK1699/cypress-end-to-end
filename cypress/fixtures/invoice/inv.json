@@ -1,0 +1,13 @@
+{
+  "res": {
+    "region": "staging4",
+    "TMS_human_id": "TMS-230119191",
+    "perm_placement_human_id": "PEM-230022430",
+    "purchase_ledger_human_id": "PRL-230022425",
+    "sales_invoice_human_id": "SLI-230022423",
+    "agency_funder_human_id": "ADH-230004289",
+    "agency_provider_human_id": "ADH-230004288",
+    "funder_agency_human_id": "ADH-230004290",
+    "provider_agency_human_id": "ADH-230004291"
+  }
+}

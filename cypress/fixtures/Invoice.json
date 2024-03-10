@@ -1,0 +1,260 @@
+{
+  "body": {
+    "data": {
+      "fundo_invoice": [
+        {
+          "id": "f6172833-9f28-44aa-93c4-f295c873649f",
+          "human_id": "INV-240021890",
+          "status": "open",
+          "finance_status": "initiated",
+          "amount": 195,
+          "tax_amount": 0,
+          "outstanding_balance": 195,
+          "is_debit": true,
+          "type": "contractor-agency",
+          "generation_type": "timesheet",
+          "funding_model": "direct",
+          "funding_type": "funded",
+          "invoice_set": {
+            "fee_transactions": [
+              {
+                "id": "1cc20ab6-0fd6-48db-ab27-2fee8e6c1112",
+                "human_id": "ACOM-0016755",
+                "type": "agency_commission",
+                "amount": 162.5,
+                "tax_amount": 78.65,
+                "payment_status": "ready",
+                "status": "open"
+              },
+              {
+                "id": "81d5a381-9d89-4c00-8bb8-42853cf6bc67",
+                "human_id": "PFEE-0016756",
+                "type": "platform_fee",
+                "amount": -3.06,
+                "tax_amount": -0.61,
+                "payment_status": "ready",
+                "status": "open"
+              },
+              {
+                "id": "4f0328d1-92b2-4aad-a356-1b944da38824",
+                "human_id": "FFEE-0016757",
+                "type": "funder_fee",
+                "amount": -6.73,
+                "tax_amount": -1.35,
+                "payment_status": "ready",
+                "status": "open"
+              }
+            ]
+          }
+        },
+        {
+          "id": "2514e227-95f8-4859-a0be-43e5fe4dd83f",
+          "human_id": "INV-240021891",
+          "status": "open",
+          "finance_status": "initiated",
+          "amount": 357.5,
+          "tax_amount": 78.65,
+          "outstanding_balance": 436.15,
+          "is_debit": true,
+          "type": "agency-client",
+          "generation_type": "timesheet",
+          "funding_model": "direct",
+          "funding_type": "funded",
+          "invoice_set": {
+            "fee_transactions": [
+              {
+                "id": "1cc20ab6-0fd6-48db-ab27-2fee8e6c1112",
+                "human_id": "ACOM-0016755",
+                "type": "agency_commission",
+                "amount": 162.5,
+                "tax_amount": 78.65,
+                "payment_status": "ready",
+                "status": "open"
+              },
+              {
+                "id": "81d5a381-9d89-4c00-8bb8-42853cf6bc67",
+                "human_id": "PFEE-0016756",
+                "type": "platform_fee",
+                "amount": -3.06,
+                "tax_amount": -0.61,
+                "payment_status": "ready",
+                "status": "open"
+              },
+              {
+                "id": "4f0328d1-92b2-4aad-a356-1b944da38824",
+                "human_id": "FFEE-0016757",
+                "type": "funder_fee",
+                "amount": -6.73,
+                "tax_amount": -1.35,
+                "payment_status": "ready",
+                "status": "open"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "headers": {
+    "server": "nginx",
+    "date": "Thu, 07 Mar 2024 13:38:37 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "533",
+    "connection": "keep-alive",
+    "x-request-id": "ca03a102-353f-4ad3-ada1-98afe08a15a6",
+    "content-encoding": "gzip",
+    "x-frame-options": "DENY",
+    "content-security-policy": "frame-ancestors 'none';",
+    "x-xss-protection": "1; mode=block",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+    "x-content-type-options": "nosniff",
+    "access-control-expose-headers": "Origin",
+    "access-control-allow-methods": "GET,POST,PUT,PATCH,DELETE,OPTIONS",
+    "access-control-allow-headers": "X-Custom-Software, X-My-Custom"
+  },
+  "status": 200,
+  "statusText": "OK",
+  "isOkStatusCode": true,
+  "requestHeaders": {
+    "Connection": "keep-alive",
+    "Authorization": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwczovL2hhc3VyYS5pby9qd3QvY2xhaW1zIjoie1wieC1oYXN1cmEtdXNlci1pZFwiOlwiMTkyNDhhNjEtZGZiYi00NzRjLTkwYjctZDA5N2RkMjQ2N2M1XCIsXCJ4LWhhc3VyYS1idXNpbmVzcy1pZFwiOlwiMGRkZGMwNzctNGM4NC00OTJlLThmMTMtMzI1NWYzYThjODk5XCIsXCJ4LWhhc3VyYS1idXNpbmVzcy1jb250YWN0LWlkXCI6XCI1NzViM2U4Mi1lYzAyLTRiY2MtOTJhNy1jZTMyYmVjNjA2ZGNcIixcIngtaGFzdXJhLXVzZXItYnVzaW5lc3MtdHlwZVwiOlwiZnVuZG9fcHJvdmlkZXJcIixcIngtaGFzdXJhLWFsbG93ZWQtcm9sZXNcIjpbXCJwcm92aWRlclwiXSxcIngtaGFzdXJhLWRlZmF1bHQtcm9sZVwiOlwicHJvdmlkZXJcIixcIngtaGFzdXJhLXJvbGVcIjpcInByb3ZpZGVyXCIsXCJ4LWhhc3VyYS1hc3NvY2lhdGVkLWlkXCI6XCIxOTI0OGE2MS1kZmJiLTQ3NGMtOTBiNy1kMDk3ZGQyNDY3YzVcIixcIngtaGFzdXJhLWNvbXBhbnktaWRcIjpcIjg0MDdkMWVhLTA3OGEtNGVmZC1hMWEwLTk1MWZkZWZjNjkwMVwifSIsImFsbG93ZWRfcm9sZXMiOiJbXCJmdW5kb19wcm92aWRlcl9wYXltZW50X2Fzc2lzdGFudFwiXSIsImlhdCI6MTcwOTgxODY5N30.oDVNF2ayGKo8L52tv3Nv48DLsF-RZBV9CeHnHqxbSYrLyNKja014aeAtyrl_j3EsqbLLW3ULgZ_ESEEbEgYj93ccULMitgu-iitzlWFdlpJTNkykDtpvdZdvMX5fvP34HaApl_Lknkj4jH-92xYQZq84gbf6iBTmAw2vwDBRmtZ-Hscrh59ICtpE8aEqx1AyCmgQN-eOYTTQHIDa_ryTqK4U97q_YsH3KZekw1X0N-GYbfOqNMAGP_sqmtBrp2dys4G_v-ZWozwQ4S9SwbSXYvhdcd-X24bATS6NQ41nuS_7sIqu7q6LKu8XWl9TrpgoM7of1KwQWRKu7UJkY2Y0hw",
+    "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/13.6.6 Chrome/118.0.5993.159 Electron/27.1.3 Safari/537.36",
+    "accept": "*/*",
+    "cookie": "intercom-session-exwli1la=V3YyaXlsU29zVFVCbmtuVjZ0bTNmd05PWjJiMU54MEJDZWwwaFdXcmRxN3crc3U1aEh5ODk5eUMyeXFlV2hVLy0tU2puZHJtbzFUQ09kUTF2dmZPb0VPdz09--91e9acbabcd67fef5bc9e18b769dd6f25114f393; intercom-id-exwli1la=96fc7373-9535-489c-bcd9-481164bde95c; intercom-device-id-exwli1la=a08943b9-bb4f-43f9-a7e7-3c28c32615aa; _ga=GA1.1.721689359.1709818673; _ga_QXGJMZCY3H=GS1.1.1709818673.1.1.1709818710.23.0.0",
+    "accept-encoding": "gzip, deflate",
+    "content-type": "application/json",
+    "content-length": 527
+  },
+  "requestBody": "{\"query\":\"{\\n    fundo_invoice(where: {invoice_set: {generated_for: {_eq: \\\"TMS-240103719\\\"}}}) {\\n      id\\n      human_id\\n      status\\n      finance_status\\n      amount\\n      tax_amount\\n      outstanding_balance\\n      is_debit\\n      type\\n      generation_type\\n      funding_model\\n      funding_type\\n      invoice_set {\\n        fee_transactions {\\n          id\\n          human_id\\n          type\\n          amount\\n          tax_amount\\n          payment_status\\n          status\\n        }\\n      }\\n    }\\n  }\"}",
+  "duration": 318,
+  "allRequestResponses": [
+    {
+      "Request Body": "{\"query\":\"{\\n    fundo_invoice(where: {invoice_set: {generated_for: {_eq: \\\"TMS-240103719\\\"}}}) {\\n      id\\n      human_id\\n      status\\n      finance_status\\n      amount\\n      tax_amount\\n      outstanding_balance\\n      is_debit\\n      type\\n      generation_type\\n      funding_model\\n      funding_type\\n      invoice_set {\\n        fee_transactions {\\n          id\\n          human_id\\n          type\\n          amount\\n          tax_amount\\n          payment_status\\n          status\\n        }\\n      }\\n    }\\n  }\"}",
+      "Request Headers": {
+        "Connection": "keep-alive",
+        "Authorization": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwczovL2hhc3VyYS5pby9qd3QvY2xhaW1zIjoie1wieC1oYXN1cmEtdXNlci1pZFwiOlwiMTkyNDhhNjEtZGZiYi00NzRjLTkwYjctZDA5N2RkMjQ2N2M1XCIsXCJ4LWhhc3VyYS1idXNpbmVzcy1pZFwiOlwiMGRkZGMwNzctNGM4NC00OTJlLThmMTMtMzI1NWYzYThjODk5XCIsXCJ4LWhhc3VyYS1idXNpbmVzcy1jb250YWN0LWlkXCI6XCI1NzViM2U4Mi1lYzAyLTRiY2MtOTJhNy1jZTMyYmVjNjA2ZGNcIixcIngtaGFzdXJhLXVzZXItYnVzaW5lc3MtdHlwZVwiOlwiZnVuZG9fcHJvdmlkZXJcIixcIngtaGFzdXJhLWFsbG93ZWQtcm9sZXNcIjpbXCJwcm92aWRlclwiXSxcIngtaGFzdXJhLWRlZmF1bHQtcm9sZVwiOlwicHJvdmlkZXJcIixcIngtaGFzdXJhLXJvbGVcIjpcInByb3ZpZGVyXCIsXCJ4LWhhc3VyYS1hc3NvY2lhdGVkLWlkXCI6XCIxOTI0OGE2MS1kZmJiLTQ3NGMtOTBiNy1kMDk3ZGQyNDY3YzVcIixcIngtaGFzdXJhLWNvbXBhbnktaWRcIjpcIjg0MDdkMWVhLTA3OGEtNGVmZC1hMWEwLTk1MWZkZWZjNjkwMVwifSIsImFsbG93ZWRfcm9sZXMiOiJbXCJmdW5kb19wcm92aWRlcl9wYXltZW50X2Fzc2lzdGFudFwiXSIsImlhdCI6MTcwOTgxODY5N30.oDVNF2ayGKo8L52tv3Nv48DLsF-RZBV9CeHnHqxbSYrLyNKja014aeAtyrl_j3EsqbLLW3ULgZ_ESEEbEgYj93ccULMitgu-iitzlWFdlpJTNkykDtpvdZdvMX5fvP34HaApl_Lknkj4jH-92xYQZq84gbf6iBTmAw2vwDBRmtZ-Hscrh59ICtpE8aEqx1AyCmgQN-eOYTTQHIDa_ryTqK4U97q_YsH3KZekw1X0N-GYbfOqNMAGP_sqmtBrp2dys4G_v-ZWozwQ4S9SwbSXYvhdcd-X24bATS6NQ41nuS_7sIqu7q6LKu8XWl9TrpgoM7of1KwQWRKu7UJkY2Y0hw",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/13.6.6 Chrome/118.0.5993.159 Electron/27.1.3 Safari/537.36",
+        "accept": "*/*",
+        "cookie": "intercom-session-exwli1la=V3YyaXlsU29zVFVCbmtuVjZ0bTNmd05PWjJiMU54MEJDZWwwaFdXcmRxN3crc3U1aEh5ODk5eUMyeXFlV2hVLy0tU2puZHJtbzFUQ09kUTF2dmZPb0VPdz09--91e9acbabcd67fef5bc9e18b769dd6f25114f393; intercom-id-exwli1la=96fc7373-9535-489c-bcd9-481164bde95c; intercom-device-id-exwli1la=a08943b9-bb4f-43f9-a7e7-3c28c32615aa; _ga=GA1.1.721689359.1709818673; _ga_QXGJMZCY3H=GS1.1.1709818673.1.1.1709818710.23.0.0",
+        "accept-encoding": "gzip, deflate",
+        "content-type": "application/json",
+        "content-length": 527
+      },
+      "Request URL": "https://hasura-staging1.raisetech.io/v1/graphql",
+      "Response Body": {
+        "data": {
+          "fundo_invoice": [
+            {
+              "id": "f6172833-9f28-44aa-93c4-f295c873649f",
+              "human_id": "INV-240021890",
+              "status": "open",
+              "finance_status": "initiated",
+              "amount": 195,
+              "tax_amount": 0,
+              "outstanding_balance": 195,
+              "is_debit": true,
+              "type": "contractor-agency",
+              "generation_type": "timesheet",
+              "funding_model": "direct",
+              "funding_type": "funded",
+              "invoice_set": {
+                "fee_transactions": [
+                  {
+                    "id": "1cc20ab6-0fd6-48db-ab27-2fee8e6c1112",
+                    "human_id": "ACOM-0016755",
+                    "type": "agency_commission",
+                    "amount": 162.5,
+                    "tax_amount": 78.65,
+                    "payment_status": "ready",
+                    "status": "open"
+                  },
+                  {
+                    "id": "81d5a381-9d89-4c00-8bb8-42853cf6bc67",
+                    "human_id": "PFEE-0016756",
+                    "type": "platform_fee",
+                    "amount": -3.06,
+                    "tax_amount": -0.61,
+                    "payment_status": "ready",
+                    "status": "open"
+                  },
+                  {
+                    "id": "4f0328d1-92b2-4aad-a356-1b944da38824",
+                    "human_id": "FFEE-0016757",
+                    "type": "funder_fee",
+                    "amount": -6.73,
+                    "tax_amount": -1.35,
+                    "payment_status": "ready",
+                    "status": "open"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "2514e227-95f8-4859-a0be-43e5fe4dd83f",
+              "human_id": "INV-240021891",
+              "status": "open",
+              "finance_status": "initiated",
+              "amount": 357.5,
+              "tax_amount": 78.65,
+              "outstanding_balance": 436.15,
+              "is_debit": true,
+              "type": "agency-client",
+              "generation_type": "timesheet",
+              "funding_model": "direct",
+              "funding_type": "funded",
+              "invoice_set": {
+                "fee_transactions": [
+                  {
+                    "id": "1cc20ab6-0fd6-48db-ab27-2fee8e6c1112",
+                    "human_id": "ACOM-0016755",
+                    "type": "agency_commission",
+                    "amount": 162.5,
+                    "tax_amount": 78.65,
+                    "payment_status": "ready",
+                    "status": "open"
+                  },
+                  {
+                    "id": "81d5a381-9d89-4c00-8bb8-42853cf6bc67",
+                    "human_id": "PFEE-0016756",
+                    "type": "platform_fee",
+                    "amount": -3.06,
+                    "tax_amount": -0.61,
+                    "payment_status": "ready",
+                    "status": "open"
+                  },
+                  {
+                    "id": "4f0328d1-92b2-4aad-a356-1b944da38824",
+                    "human_id": "FFEE-0016757",
+                    "type": "funder_fee",
+                    "amount": -6.73,
+                    "tax_amount": -1.35,
+                    "payment_status": "ready",
+                    "status": "open"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "Response Headers": {
+        "server": "nginx",
+        "date": "Thu, 07 Mar 2024 13:38:37 GMT",
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "533",
+        "connection": "keep-alive",
+        "x-request-id": "ca03a102-353f-4ad3-ada1-98afe08a15a6",
+        "content-encoding": "gzip",
+        "x-frame-options": "DENY",
+        "content-security-policy": "frame-ancestors 'none';",
+        "x-xss-protection": "1; mode=block",
+        "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+        "x-content-type-options": "nosniff",
+        "access-control-expose-headers": "Origin",
+        "access-control-allow-methods": "GET,POST,PUT,PATCH,DELETE,OPTIONS",
+        "access-control-allow-headers": "X-Custom-Software, X-My-Custom"
+      },
+      "Response Status": 200
+    }
+  ]
+}

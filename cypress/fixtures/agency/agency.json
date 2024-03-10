@@ -1,0 +1,16 @@
+{
+  "rows": [
+    {
+      "company_name": "Agency",
+      "currency": "Pound",
+      "address_line2": null,
+      "address_line3": null,
+      "address_line4": null,
+      "county": null,
+      "country": "United Kingdom",
+      "director_nationality": "United Kingdom",
+      "funder_limit": "5000000",
+      "bad_debt": null
+    }
+  ]
+}

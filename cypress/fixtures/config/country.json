@@ -1,0 +1,1740 @@
+{
+  "success": true,
+  "data": {
+    "config_country": [
+      {
+        "id": "f889daa5-fa4f-4977-8bd8-6d4ff098cacd",
+        "name": "France",
+        "alpha_3_code": "FRN",
+        "updated_at": "2022-08-07T19:22:04.650825+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "cf2b4d6d-971a-4cfd-b7c5-e60fe2c8a79c",
+        "name": "India",
+        "alpha_3_code": "INR",
+        "updated_at": "2022-08-07T19:22:04.650825+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "b06c68c2-e298-4272-aa38-62fe267ee97b",
+        "name": "United Kingdom",
+        "alpha_3_code": "GBP",
+        "updated_at": "2022-08-07T19:22:04.650825+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "84cf4721-0199-47dc-87c2-99b71f402efc",
+        "name": "Finland",
+        "alpha_3_code": "FIN",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "8f81c4e6-6f78-40ca-942d-616f19daab60",
+        "name": "French Guiana",
+        "alpha_3_code": "GUF",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "2242fa96-7339-4c13-9b8d-c12cdbc15a63",
+        "name": "French Polynesia",
+        "alpha_3_code": "PYF",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "0681438e-fb89-4286-8d20-1251f8ebc4e5",
+        "name": "French Southern Territories",
+        "alpha_3_code": "ATF",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "8dc19570-796e-47c5-bac1-43101235fb59",
+        "name": "Gabon",
+        "alpha_3_code": "GAB",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "e8767b6a-92ef-441b-a414-3e9c83a73ecb",
+        "name": "Gambia",
+        "alpha_3_code": "GMB",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "7741373a-8a66-4641-bd84-630ec3e803ab",
+        "name": "Georgia",
+        "alpha_3_code": "GEO",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "27769d5a-4af4-48d0-915f-b8b1fe1ff06d",
+        "name": "Germany",
+        "alpha_3_code": "DEU",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "a9ec4479-3667-4476-8885-d0bd5d6aaaf9",
+        "name": "Croatia",
+        "alpha_3_code": "HRV",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "6cbf6e46-4156-40f6-b15f-49b5a4a9b58f",
+        "name": "Cuba",
+        "alpha_3_code": "CUB",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "278f035f-9c22-4ca7-88e7-3462441d9229",
+        "name": "Cyprus",
+        "alpha_3_code": "CYP",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "33154132-ac4d-4055-b92a-c6dc38228bb4",
+        "name": "Czech Republic",
+        "alpha_3_code": "CZE",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "c35b5dbd-c0f9-4c33-9bcd-3a3044ad0f4d",
+        "name": "Djibouti",
+        "alpha_3_code": "DJI",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "23bcbba9-5ca6-437f-962d-08e5a4a84b60",
+        "name": "Dominica",
+        "alpha_3_code": "DMA",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "1bbef072-c5c3-41c2-87f3-0916b85b6ecb",
+        "name": "Dominican Republic",
+        "alpha_3_code": "DOM",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "5ecca747-260b-4bd0-9e53-cc94c75ac768",
+        "name": "Ecuador",
+        "alpha_3_code": "ECU",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "78d523bd-46d2-41ed-ac45-522d0a1d5822",
+        "name": "Argentina",
+        "alpha_3_code": "ARG",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "07851aa6-c6fb-480a-9dbc-a1c641c36a6e",
+        "name": "Armenia",
+        "alpha_3_code": "ARM",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "3a1408c3-fd02-4116-a18f-7ed8406e84c7",
+        "name": "Aruba",
+        "alpha_3_code": "ABW",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "a4490f62-06a4-4fed-9c24-19899e2abd4b",
+        "name": "Belarus",
+        "alpha_3_code": "BLR",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "c6d4c20b-32f7-41be-b33a-aa3a2f98c513",
+        "name": "Belgium",
+        "alpha_3_code": "BEL",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "3a056366-e099-4261-8c4c-1ee2825a3f3c",
+        "name": "Belize",
+        "alpha_3_code": "BLZ",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "284b2856-0c06-4043-84ea-392f0de9a8c0",
+        "name": "Bouvet Island",
+        "alpha_3_code": "BVT",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "82ee815d-2fae-414b-8603-11c933a083ba",
+        "name": "Brazil",
+        "alpha_3_code": "BRA",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "234807ed-efb6-4d1a-ba68-66e97b2efae7",
+        "name": "British Virgin Islands",
+        "alpha_3_code": "VGB",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "419a9ac4-1e94-47d5-a3b4-25f7875008de",
+        "name": "British Indian Ocean Territory",
+        "alpha_3_code": "IOT",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "7cdf73a7-0f11-4537-a961-1952377216d5",
+        "name": "Brunei Darussalam",
+        "alpha_3_code": "BRN",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "1f22101e-cc97-4d10-9733-8df9a7b6c33f",
+        "name": "Bulgaria",
+        "alpha_3_code": "BGR",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "f568d78f-3222-4de4-90f3-035bdc728b15",
+        "name": "Malawi",
+        "alpha_3_code": "MWI",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "91581503-02bf-4b51-a7fc-1bafd2048ffb",
+        "name": "Virgin Islands, US",
+        "alpha_3_code": "VIR",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "9ed23cf4-9dc3-4e80-8f69-226b1e3d9c2c",
+        "name": "Wallis and Futuna Islands",
+        "alpha_3_code": "WLF",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "712a033a-bbe0-42c3-8e4f-6aa8e869773b",
+        "name": "Benin",
+        "alpha_3_code": "BEN",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "912099c9-c79d-45c7-ba3d-b94c45d97270",
+        "name": "Bermuda",
+        "alpha_3_code": "BMU",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "03761e5d-f882-471c-82b6-40e35d705b65",
+        "name": "Bhutan",
+        "alpha_3_code": "BTN",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "dc0cb159-cd80-48ad-8e6e-261f87d010e3",
+        "name": "Albania",
+        "alpha_3_code": "ALB",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "3e766e6c-3513-4b69-a1d9-e185cc17365e",
+        "name": "Algeria",
+        "alpha_3_code": "DZA",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "9867fdc3-454e-4c1a-bf69-450765f1b06e",
+        "name": "Ireland",
+        "alpha_3_code": "IRL",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "eadd751d-afa9-4a6e-a72e-6f9ab39c930d",
+        "name": "Italy",
+        "alpha_3_code": "ITA",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "3e415a5a-ed0a-41d4-a059-e895843735a4",
+        "name": "Jamaica",
+        "alpha_3_code": "JAM",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "34a2262e-799b-4326-8de4-6fdce46f8f52",
+        "name": "Jordan",
+        "alpha_3_code": "JOR",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "9a89c24a-e6c8-4ed3-8ffe-5ef1322a6fc4",
+        "name": "Kazakhstan",
+        "alpha_3_code": "KAZ",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "16183536-64cc-4c64-8102-71374ab89aff",
+        "name": "Kiribati",
+        "alpha_3_code": "KIR",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "19aff9d6-344e-4c63-a76b-167c95909d34",
+        "name": "Korea (North)",
+        "alpha_3_code": "PRK",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "40323d8d-7a14-469b-aa65-422e110d5f41",
+        "name": "Guinea",
+        "alpha_3_code": "GIN",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "9e05903e-25a4-432d-9c86-d20e5fbcf137",
+        "name": "Holy See (Vatican City State)",
+        "alpha_3_code": "VAT",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "5b8bd91c-a7a1-4579-b91b-bcf822f1ac60",
+        "name": "Honduras",
+        "alpha_3_code": "HND",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "c6756e88-d00d-49df-b5fc-81d043185592",
+        "name": "Iraq",
+        "alpha_3_code": "IRQ",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "e124a2be-31f2-407b-bfd1-625939b4acc6",
+        "name": "Isle of Man",
+        "alpha_3_code": "IMN",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "a69db193-a429-4697-93f9-321e76fd1ce2",
+        "name": "Israel",
+        "alpha_3_code": "ISR",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "de927232-70e0-421d-b4ea-a1fa81fbf364",
+        "name": "Japan",
+        "alpha_3_code": "JPN",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "6933ac48-38b5-4e58-96c9-85f2022f9b1b",
+        "name": "Jersey",
+        "alpha_3_code": "JEY",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "26ce0aee-1b3f-4457-b336-868064cf03ac",
+        "name": "Kenya",
+        "alpha_3_code": "KEN",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "4155e884-496f-40fa-b830-d8a27eebcb36",
+        "name": "Korea (South)",
+        "alpha_3_code": "KOR",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "49fab757-98e8-4ff6-bfb1-cd445581144c",
+        "name": "Kuwait",
+        "alpha_3_code": "KWT",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "f0e3c3d2-797b-49d1-a4f7-c2896f2b7c37",
+        "name": "Martinique",
+        "alpha_3_code": "MTQ",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "546a530a-2226-4349-913d-dbe9d4471cb3",
+        "name": "Ethiopia",
+        "alpha_3_code": "ETH",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "5019d05f-8392-4e26-9e33-4a4aca7b4dc9",
+        "name": "Fiji",
+        "alpha_3_code": "FJI",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "96cd8ca3-db67-4cdf-b4f1-a63b564e71bd",
+        "name": "China",
+        "alpha_3_code": "CHN",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "ab202693-3572-43c2-83f8-53148b4f9e7c",
+        "name": "Hong Kong, SAR China",
+        "alpha_3_code": "HKG",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "50867637-12d1-4db8-a298-d744827d49e1",
+        "name": "Macao, SAR China",
+        "alpha_3_code": "MAC",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "a217de85-40b3-4bd3-b5ac-58f4664582e0",
+        "name": "Christmas Island",
+        "alpha_3_code": "CXR",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "41d5f8ad-f7ad-484d-aa12-2fe1b9b56405",
+        "name": "Cocos (Keeling) Islands",
+        "alpha_3_code": "CCK",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "b74fe248-6a2e-49d4-90c5-267eb5fbc4bb",
+        "name": "Colombia",
+        "alpha_3_code": "COL",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "42abe301-dee3-4938-91ad-87754262ffc6",
+        "name": "Comoros",
+        "alpha_3_code": "COM",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "34d5f583-dd5b-4820-8d3f-9ab7fe025ad9",
+        "name": "Congo (Brazzaville)",
+        "alpha_3_code": "COG",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "0d7202fc-be60-4bc0-b08e-f4bb0ae7f1ef",
+        "name": "Congo, (Kinshasa)",
+        "alpha_3_code": "COD",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "17d680ec-5296-45ff-b1af-08d37f332edc",
+        "name": "Cook Islands",
+        "alpha_3_code": "COK",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "c342f451-088a-4af8-a2d0-427ad5318e86",
+        "name": "Denmark",
+        "alpha_3_code": "DNK",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "d2a8a846-0cf8-4d9f-9c21-5222e85fe3c1",
+        "name": "Egypt",
+        "alpha_3_code": "EGY",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "50d8d4b5-9f74-4bde-8a6f-528c69712724",
+        "name": "El Salvador",
+        "alpha_3_code": "SLV",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "1bf177bd-9133-4f07-8d13-8c2e4ba0dc94",
+        "name": "Equatorial Guinea",
+        "alpha_3_code": "GNQ",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "5fc47dd6-3893-4b54-8400-adf189391140",
+        "name": "Eritrea",
+        "alpha_3_code": "ERI",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "2b082328-e016-44ac-bd9a-fd8a6aa3f9cf",
+        "name": "Falkland Islands (Malvinas)",
+        "alpha_3_code": "FLK",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "b88edc2a-12aa-442a-89ef-6ad78fef344e",
+        "name": "Faroe Islands",
+        "alpha_3_code": "FRO",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "cb8f87b2-c34e-4751-92cb-eeff5725211d",
+        "name": "Malaysia",
+        "alpha_3_code": "MYS",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "50249550-4c9c-40b5-b756-063682da38b7",
+        "name": "Mauritania",
+        "alpha_3_code": "MRT",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "e5d9b8fa-257d-48a0-a772-d8216877cfc0",
+        "name": "Mauritius",
+        "alpha_3_code": "MUS",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "14f64c05-5a03-41a6-907c-e5ddf9a9f386",
+        "name": "Mayotte",
+        "alpha_3_code": "MYT",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "cdb150a4-b0bc-4b2b-9205-869d86d3f260",
+        "name": "Mexico",
+        "alpha_3_code": "MEX",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "07a6abef-11cb-4103-b629-6bd4c55f4afc",
+        "name": "Namibia",
+        "alpha_3_code": "NAM",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "a72d3919-d15d-4db1-aa95-8ba90dd5bcd9",
+        "name": "Nicaragua",
+        "alpha_3_code": "NIC",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "59fc40a7-01ea-4cdc-a5f0-db5ab04588ac",
+        "name": "Niger",
+        "alpha_3_code": "NER",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "9dc2f035-7ded-4088-a327-4ad2e2e00d3b",
+        "name": "Oman",
+        "alpha_3_code": "OMN",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "8ee661f8-9521-4839-aa7e-52f0730a5d4f",
+        "name": "Samoa",
+        "alpha_3_code": "WSM",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "45f673c0-38ee-426a-8620-c18294f2b1b9",
+        "name": "Tuvalu",
+        "alpha_3_code": "TUV",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "b4d95c1c-28da-4383-99ea-4d526cbc7003",
+        "name": "Uganda",
+        "alpha_3_code": "UGA",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "577d489e-0453-47cf-8b16-a365c476acb0",
+        "name": "Ukraine",
+        "alpha_3_code": "UKR",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "2032eb60-5ba0-4614-ab9d-4c050e79215f",
+        "name": "United Arab Emirates",
+        "alpha_3_code": "ARE",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "7a1c5141-3251-4f34-a871-be1b0e3a3f45",
+        "name": "United States of America",
+        "alpha_3_code": "USA",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "57443f89-7f4e-4ef4-97b0-090eb22f3a04",
+        "name": "US Minor Outlying Islands",
+        "alpha_3_code": "UMI",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "5e9bd461-d222-4ac0-b40e-b911a3884aa0",
+        "name": "Uruguay",
+        "alpha_3_code": "URY",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "8654c015-596d-4360-b9dc-f661f7d91438",
+        "name": "Uzbekistan",
+        "alpha_3_code": "UZB",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "b56cdae7-5cce-489a-b8e9-edf7093bf5d8",
+        "name": "Vanuatu",
+        "alpha_3_code": "VUT",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "e9fa3ec0-5a97-472d-b3cb-2e153a948c47",
+        "name": "Venezuela (Bolivarian Republic)",
+        "alpha_3_code": "VEN",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "56d9b12d-23ee-4483-9129-ccedf0f7f90e",
+        "name": "Viet Nam",
+        "alpha_3_code": "VNM",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "367410a3-4195-415e-8968-140f8ea4e65c",
+        "name": "Guatemala",
+        "alpha_3_code": "GTM",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "2cfe07d3-b1a7-4a87-b0d4-767249484ec7",
+        "name": "Guernsey",
+        "alpha_3_code": "GGY",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "90a33d81-ae1f-4fc0-b28e-0a6856c4c6c0",
+        "name": "Guinea-Bissau",
+        "alpha_3_code": "GNB",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "d5d22037-601a-47b5-acd9-65ce286d2cbf",
+        "name": "Guyana",
+        "alpha_3_code": "GUY",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "b8017e86-80d4-4de9-b2af-416eea827758",
+        "name": "Haiti",
+        "alpha_3_code": "HTI",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "771435d5-d263-4b7b-b13e-b1fdb5f312af",
+        "name": "Heard and Mcdonald Islands",
+        "alpha_3_code": "HMD",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "f016a955-b614-4f31-a371-c24ce68edae5",
+        "name": "Hungary",
+        "alpha_3_code": "HUN",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "7557878c-53a2-45d8-bd3c-836ead7c2790",
+        "name": "Iceland",
+        "alpha_3_code": "ISL",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "52f31689-2b4a-4570-988e-01e758153dc3",
+        "name": "Iran, Islamic Republic of",
+        "alpha_3_code": "IRN",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "aafa178c-1881-44cf-9dda-e9bdee94a825",
+        "name": "Kyrgyzstan",
+        "alpha_3_code": "KGZ",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "0f375ad3-365a-4872-b416-10d61276fc7e",
+        "name": "Liechtenstein",
+        "alpha_3_code": "LIE",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "1629d4a9-f5b3-4555-a551-fae3a2201702",
+        "name": "Indonesia",
+        "alpha_3_code": "IDN",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "495c1420-dd24-48f1-815b-2352ec7256ea",
+        "name": "Libya",
+        "alpha_3_code": "LBY",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "0c444ffd-5640-4302-bd68-43ac8f694ca3",
+        "name": "Malta",
+        "alpha_3_code": "MLT",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "c316d97b-651b-4333-98b1-42145ef960f9",
+        "name": "Myanmar",
+        "alpha_3_code": "MMR",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "654abe83-d143-47dd-9a44-e5aefe53f299",
+        "name": "Tokelau",
+        "alpha_3_code": "TKL",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "77673495-9b2c-41ee-91dd-1814affe8bd3",
+        "name": "Ghana",
+        "alpha_3_code": "GHA",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "5a5d6740-931a-455e-9818-ae01066dc53b",
+        "name": "Luxembourg",
+        "alpha_3_code": "LUX",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "e0727131-ffe4-4389-b528-f33d174bca44",
+        "name": "Mali",
+        "alpha_3_code": "MLI",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "6fd7aa64-122f-4a1e-83bb-3a39eb604b6d",
+        "name": "Lithuania",
+        "alpha_3_code": "LTU",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "21c07301-4bf5-44dc-b95c-d2ed9ddabf15",
+        "name": "Maldives",
+        "alpha_3_code": "MDV",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "f9a87816-7a0e-4634-8b43-19499e515921",
+        "name": "Nauru",
+        "alpha_3_code": "NRU",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "15933b39-5157-46d9-8abc-0ab1df78e1d3",
+        "name": "Nepal",
+        "alpha_3_code": "NPL",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "b4f4ba7d-da15-455b-ac18-7275a4901673",
+        "name": "Netherlands",
+        "alpha_3_code": "NLD",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "581683dd-9555-433a-bd2e-393ca5e51923",
+        "name": "Netherlands Antilles",
+        "alpha_3_code": "ANT",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "23e51728-70ff-4408-9c9d-08ea7c9256e1",
+        "name": "Côte d'Ivoire",
+        "alpha_3_code": "CIV",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "0b0d4c02-50e4-4367-9216-ef3f656ae916",
+        "name": "Costa Rica",
+        "alpha_3_code": "CRI",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "87750df1-0558-49a0-b411-a41998aadece",
+        "name": "Australia",
+        "alpha_3_code": "AUS",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "cf5e8420-1b91-4426-8c1c-7591a3481bce",
+        "name": "Austria",
+        "alpha_3_code": "AUT",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "d5fed0a0-a60f-414c-96a7-d121b8ff06d8",
+        "name": "Azerbaijan",
+        "alpha_3_code": "AZE",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "03d846a4-b0c6-4318-9cc2-8c0e1476bba7",
+        "name": "Bahamas",
+        "alpha_3_code": "BHS",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "e1683235-966d-4f3c-908b-70e84f16bcee",
+        "name": "Niue",
+        "alpha_3_code": "NIU",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "8824ae5c-7218-4c1a-89de-613140be62fc",
+        "name": "Yemen",
+        "alpha_3_code": "YEM",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "3d126dab-e4ec-4383-8c60-c105725e5137",
+        "name": "Zambia",
+        "alpha_3_code": "ZMB",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "b254beeb-8aae-435f-9531-41d3dd3caa90",
+        "name": "Bahrain",
+        "alpha_3_code": "BHR",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "f6c551ef-6896-4dad-884d-86a78a567784",
+        "name": "Bangladesh",
+        "alpha_3_code": "BGD",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "fb8372d2-8946-45e2-8e11-783f485cc3a4",
+        "name": "Barbados",
+        "alpha_3_code": "BRB",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "defce1a5-d74f-4f35-a609-4f5d51ee044f",
+        "name": "Burkina Faso",
+        "alpha_3_code": "BFA",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "808ac345-e874-46e8-8136-519f2c080a10",
+        "name": "Burundi",
+        "alpha_3_code": "BDI",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "71db7c6b-1b7b-457c-b6ec-846c87e12f36",
+        "name": "Lao PDR",
+        "alpha_3_code": "LAO",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "976c8cd6-44ad-424c-86c5-9c334b9aaefe",
+        "name": "Latvia",
+        "alpha_3_code": "LVA",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "b5e622cc-3182-49bd-a432-c28cb4db46c3",
+        "name": "Lebanon",
+        "alpha_3_code": "LBN",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "4be01104-f1fc-4548-aec9-1626ce863ccd",
+        "name": "Lesotho",
+        "alpha_3_code": "LSO",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "38038319-74bd-4760-a7d3-5c053164e5fe",
+        "name": "Liberia",
+        "alpha_3_code": "LBR",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "bf30d39a-fc6d-4226-926d-cc9ad9c95cb2",
+        "name": "Macedonia, Republic of",
+        "alpha_3_code": "MKD",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "5eab3897-c05a-4a19-893d-f7ca169dd8d2",
+        "name": "Madagascar",
+        "alpha_3_code": "MDG",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "e8314989-1435-4dea-8ade-f61024c1831b",
+        "name": "American Samoa",
+        "alpha_3_code": "ASM",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "91665b56-feaa-47a3-8e13-ec3e261ad973",
+        "name": "Andorra",
+        "alpha_3_code": "AND",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "77e8563f-8d52-4117-b902-de7e100effdc",
+        "name": "Angola",
+        "alpha_3_code": "AGO",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "fc711c2e-7bb4-4979-8962-a3cea0263e6f",
+        "name": "Anguilla",
+        "alpha_3_code": "AIA",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "17b324e3-0902-4327-b9fc-5b779caa2c6d",
+        "name": "Antarctica",
+        "alpha_3_code": "ATA",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "a11018fc-09a6-4cef-9b4d-83f2f9ee4954",
+        "name": "Antigua and Barbuda",
+        "alpha_3_code": "ATG",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "cfe78e5d-3cb5-42c3-879b-4a1711306d2f",
+        "name": "Micronesia, Federated States of",
+        "alpha_3_code": "FSM",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "fcd6d982-03b9-40fc-813e-f61a1c5ebd1f",
+        "name": "Morocco",
+        "alpha_3_code": "MAR",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "08a29290-e50a-472b-b794-1c3e3b2778d8",
+        "name": "Mozambique",
+        "alpha_3_code": "MOZ",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "4b171898-d447-4850-9121-1f30b5c85651",
+        "name": "Cambodia",
+        "alpha_3_code": "KHM",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "c8f43588-055e-41d9-ae6b-808a904a95de",
+        "name": "Cameroon",
+        "alpha_3_code": "CMR",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "9276f576-bddb-4a56-8054-79b74b064d33",
+        "name": "Canada",
+        "alpha_3_code": "CAN",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "c7371dbd-7fd9-4e0a-a4bb-f52c6787c5a9",
+        "name": "Cape Verde",
+        "alpha_3_code": "CPV",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "ff6a26e2-fc0c-4de6-8143-9fa93b052f09",
+        "name": "Cayman Islands",
+        "alpha_3_code": "CYM",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "0d18608f-1d83-419f-b0bc-7fff2dcb39ff",
+        "name": "Central African Republic",
+        "alpha_3_code": "CAF",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "79eda373-e95f-4a84-bdc0-c3b64311ffbf",
+        "name": "Chad",
+        "alpha_3_code": "TCD",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "f2abbfdd-e6ff-4b09-8300-22dcdee9bae7",
+        "name": "Chile",
+        "alpha_3_code": "CHL",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "bef7bd3f-4646-4542-922f-87905b6c0496",
+        "name": "Estonia",
+        "alpha_3_code": "EST",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "46f0a365-9013-404b-af94-f17c1012da8c",
+        "name": "Moldova",
+        "alpha_3_code": "MDA",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "38baae65-51ce-4e63-835a-f6e7ffed3076",
+        "name": "Monaco",
+        "alpha_3_code": "MCO",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "767df2f3-e23a-4c3e-8185-a1b4ed2e83b2",
+        "name": "Mongolia",
+        "alpha_3_code": "MNG",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "01969c68-e0c1-4260-94b2-ee1cec116b1c",
+        "name": "Montenegro",
+        "alpha_3_code": "MNE",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "dd453817-9ede-4cd1-a06c-635717dc41dc",
+        "name": "Montserrat",
+        "alpha_3_code": "MSR",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "517e0027-d268-4606-a043-a9fd0071b540",
+        "name": "Bolivia",
+        "alpha_3_code": "BOL",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "51459977-a993-4e34-b2d8-ccc4e9310c10",
+        "name": "Bosnia and Herzegovina",
+        "alpha_3_code": "BIH",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "795922f0-e987-4019-90aa-c4a868cbe8f0",
+        "name": "Botswana",
+        "alpha_3_code": "BWA",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "8358b470-5bef-449d-9422-a3291444bf76",
+        "name": "Afghanistan",
+        "alpha_3_code": "AFG",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "4e198598-eade-4d21-b677-1b69f2073203",
+        "name": "Aland Islands",
+        "alpha_3_code": "ALA",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "976a0278-8465-42a1-8faa-b7c0a419e50b",
+        "name": "Sao Tome and Principe",
+        "alpha_3_code": "STP",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "c3394c48-bee2-4127-abad-025a48ebfd01",
+        "name": "Saudi Arabia",
+        "alpha_3_code": "SAU",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "1a9e6416-1744-489c-9695-d8be66669f16",
+        "name": "Senegal",
+        "alpha_3_code": "SEN",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "5a0b8978-b82e-4216-a0ab-e6058aed8897",
+        "name": "Sierra Leone",
+        "alpha_3_code": "SLE",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "4a4d054c-7451-43d7-a875-d86531ecd83c",
+        "name": "Singapore",
+        "alpha_3_code": "SGP",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "37e495cd-2913-4e5b-9d2b-6a9259f4e4ab",
+        "name": "Solomon Islands",
+        "alpha_3_code": "SLB",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "351cb001-3e57-43e1-9ac4-4767d3270e12",
+        "name": "Somalia",
+        "alpha_3_code": "SOM",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "7aae1c63-70e3-4af3-9f9c-a755ba0c7f47",
+        "name": "Thailand",
+        "alpha_3_code": "THA",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "84b906a6-f664-42c4-a1fd-235c88aae788",
+        "name": "New Caledonia",
+        "alpha_3_code": "NCL",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "1151b999-7913-489b-9268-caafd0d4cd0b",
+        "name": "New Zealand",
+        "alpha_3_code": "NZL",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "7a59cd85-6b05-49a9-90d0-e1ea8a4f4a50",
+        "name": "San Marino",
+        "alpha_3_code": "SMR",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "335f44b5-0a44-4e10-9b0f-189ea9c8e449",
+        "name": "Serbia",
+        "alpha_3_code": "SRB",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "39f7b7a2-ee74-46d1-8b3c-29a17ccff954",
+        "name": "Seychelles",
+        "alpha_3_code": "SYC",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "986fcd1d-36ca-4d70-b4cb-95b25868daee",
+        "name": "Slovakia",
+        "alpha_3_code": "SVK",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "2942e7c7-28f2-4460-b348-5ca9a50da69e",
+        "name": "Slovenia",
+        "alpha_3_code": "SVN",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "af1b4726-9c50-4986-8ba8-54238dacbfd7",
+        "name": "Timor-Leste",
+        "alpha_3_code": "TLS",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "ff79a488-fcee-4bb5-aade-43edb7dda176",
+        "name": "Togo",
+        "alpha_3_code": "TGO",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "81a5e27f-94b8-49a2-bccc-bf187b060ae7",
+        "name": "Western Sahara",
+        "alpha_3_code": "ESH",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "9c6ec6a4-11e8-4b7d-9b7e-e7b8f21310f3",
+        "name": "Tonga",
+        "alpha_3_code": "TON",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "9ebb804c-fb17-4688-bd91-83d936d2f2e1",
+        "name": "Trinidad and Tobago",
+        "alpha_3_code": "TTO",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "66aa992f-db98-410a-9e71-3e4fd31b976c",
+        "name": "Zimbabwe",
+        "alpha_3_code": "ZWE",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "e7309b95-e8a6-48ae-b332-404f9152f88c",
+        "name": "Turks and Caicos Islands",
+        "alpha_3_code": "TCA",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "d5c0c637-c008-49b0-9d49-ff6071aa7267",
+        "name": "Panama",
+        "alpha_3_code": "PAN",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "5e34f211-9247-4098-b45d-c369526f8269",
+        "name": "Papua New Guinea",
+        "alpha_3_code": "PNG",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "fb281343-232f-4316-8572-a7294e5279ac",
+        "name": "Paraguay",
+        "alpha_3_code": "PRY",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "20682e54-21f8-4bb3-b107-9ae8b81492d4",
+        "name": "Peru",
+        "alpha_3_code": "PER",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "6565a181-daed-4728-a4c5-ab858bafb41c",
+        "name": "Philippines",
+        "alpha_3_code": "PHL",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "acaad067-cbbe-4922-b348-a04f2afc3b3e",
+        "name": "Pitcairn",
+        "alpha_3_code": "PCN",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "10917560-261f-4fbb-897e-bfb75961f7f8",
+        "name": "Poland",
+        "alpha_3_code": "POL",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "5c415239-b8cb-4dab-bcba-e9dd165dd227",
+        "name": "Portugal",
+        "alpha_3_code": "PRT",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "aff453ea-cae1-4154-9d41-dd9c15f54ef9",
+        "name": "Puerto Rico",
+        "alpha_3_code": "PRI",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "1da0c939-3698-4b1a-b30d-6e065fcd1431",
+        "name": "Turkmenistan",
+        "alpha_3_code": "TKM",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "d2694798-3f11-4304-a1d3-415740e2efa3",
+        "name": "Tunisia",
+        "alpha_3_code": "TUN",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "d063d725-7cff-4a36-83a1-643431988cae",
+        "name": "Turkey",
+        "alpha_3_code": "TUR",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "f8c1f7d1-9934-4f5f-acaa-593a8f6bafc6",
+        "name": "Marshall Islands",
+        "alpha_3_code": "MHL",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "0d620ce3-4533-44ca-83b3-742dad830e1c",
+        "name": "Nigeria",
+        "alpha_3_code": "NGA",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "2b763f16-84e1-4bf5-ada8-12587e3e3205",
+        "name": "Norfolk Island",
+        "alpha_3_code": "NFK",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "7b2b79a7-b91c-4e1c-85ca-9463f07441f3",
+        "name": "Northern Mariana Islands",
+        "alpha_3_code": "MNP",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "a4430c60-c59a-4247-9370-71aa24602cdc",
+        "name": "Norway",
+        "alpha_3_code": "NOR",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "55b4295e-5380-4072-9fcb-2631e8b27dd8",
+        "name": "Saint-Martin (French part)",
+        "alpha_3_code": "MAF",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "84e0c10e-ff1b-4691-9285-18746de74bfa",
+        "name": "Saint Pierre and Miquelon",
+        "alpha_3_code": "SPM",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "d4d51fd0-981f-443b-b252-a6905452abd6",
+        "name": "Pakistan",
+        "alpha_3_code": "PAK",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "dd97e47f-48ac-4e96-b1c4-ee88c157b5a2",
+        "name": "Palestinian Territory",
+        "alpha_3_code": "PSE",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "ebab3369-5b98-4d33-9be9-c07c0216c2dc",
+        "name": "Saint Vincent and Grenadines",
+        "alpha_3_code": "VCT",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "5fa3a9f5-2c51-46c0-9a01-c86505eae936",
+        "name": "Greece",
+        "alpha_3_code": "GRC",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "892528f0-3adb-4288-8920-ec99a1fadb82",
+        "name": "Guadeloupe",
+        "alpha_3_code": "GLP",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "3105cb9e-934f-44cf-8c0b-bd52dd4ea98b",
+        "name": "Guam",
+        "alpha_3_code": "GUM",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "b0da7374-7746-44c7-9494-2dee6b132f4e",
+        "name": "Gibraltar",
+        "alpha_3_code": "GIB",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "0abc7a27-b042-4522-a792-b7c29592fc17",
+        "name": "Greenland",
+        "alpha_3_code": "GRL",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "14fa995c-cb30-48c0-aa0b-457729e6a100",
+        "name": "Grenada",
+        "alpha_3_code": "GRD",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "18ffe969-4d58-4a78-b96c-72d9218804eb",
+        "name": "Palau",
+        "alpha_3_code": "PLW",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "fd41e7d9-e2d5-4ac7-b5a1-d966ecffac2e",
+        "name": "Romania",
+        "alpha_3_code": "ROU",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "56ba95d3-1780-4cfc-96ff-071d2dfc2b37",
+        "name": "Russian Federation",
+        "alpha_3_code": "RUS",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "2b123d62-be5d-4d2e-8b8a-85765c922f40",
+        "name": "Rwanda",
+        "alpha_3_code": "RWA",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "a555a45a-b7a0-41a5-bba1-5d545aaf8933",
+        "name": "Taiwan, Republic of China",
+        "alpha_3_code": "TWN",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "6a85bd66-f287-46b8-9123-d647bdbbfce4",
+        "name": "Tajikistan",
+        "alpha_3_code": "TJK",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "8eb07347-275c-4008-ad10-e839bb4e1fa8",
+        "name": "Tanzania, United Republic of",
+        "alpha_3_code": "TZA",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "773dda56-1f3b-400c-8046-1a53c7f9ff96",
+        "name": "Saint-Barthélemy",
+        "alpha_3_code": "BLM",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "cf3b8b50-a2eb-4e5a-a2f9-a00e8b1d8826",
+        "name": "Saint Helena",
+        "alpha_3_code": "SHN",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "85c607da-dca7-406b-96ee-37a68532a033",
+        "name": "Saint Kitts and Nevis",
+        "alpha_3_code": "KNA",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "3b7d108c-a1ed-4982-a310-4e095028b3ee",
+        "name": "Saint Lucia",
+        "alpha_3_code": "LCA",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "771a2b82-fdbc-4bd8-802f-a926954c5139",
+        "name": "South Africa",
+        "alpha_3_code": "ZAF",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "7bb021d6-3a21-400d-9e4b-44f3c4047510",
+        "name": "South Georgia and the South Sandwich Islands",
+        "alpha_3_code": "SGS",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "4fdc0e9d-8957-4233-a340-96a94e1b9a41",
+        "name": "South Sudan",
+        "alpha_3_code": "SSD",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "10bd40f7-82ea-4600-8d81-c2fd7666d1c7",
+        "name": "Spain",
+        "alpha_3_code": "ESP",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "3b2da175-a14d-4a05-a76b-9a58814e8338",
+        "name": "Sri Lanka",
+        "alpha_3_code": "LKA",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "31037de5-36b2-4e1b-9b2c-ef1051bf5083",
+        "name": "Sudan",
+        "alpha_3_code": "SDN",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "a410c2fb-fb59-4d2b-9b20-80e9feb3a41e",
+        "name": "Suriname",
+        "alpha_3_code": "SUR",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "f66176c9-08ca-42b8-829f-139ce044f654",
+        "name": "Svalbard and Jan Mayen Islands",
+        "alpha_3_code": "SJM",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "99a8943a-80eb-48cb-90b1-427e9aa31bb1",
+        "name": "Swaziland",
+        "alpha_3_code": "SWZ",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "96e2f27e-efdb-4a9d-9910-3c30ceff5520",
+        "name": "Sweden",
+        "alpha_3_code": "SWE",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "280aba7c-1605-41dd-aeae-578e007ad9cf",
+        "name": "Switzerland",
+        "alpha_3_code": "CHE",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "3543971e-19f9-45fb-b6aa-8ed7244d6089",
+        "name": "Syrian Arab Republic (Syria)",
+        "alpha_3_code": "SYR",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "cf5d250d-7fe6-425a-ba75-b4ba8e714b2a",
+        "name": "Qatar",
+        "alpha_3_code": "QAT",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      },
+      {
+        "id": "c6d47065-adf0-4709-ae0a-b3ee0b803ed7",
+        "name": "Réunion",
+        "alpha_3_code": "REU",
+        "updated_at": "2023-04-19T02:55:47.920093+00:00",
+        "computed_actions": []
+      }
+    ],
+    "allowed_for_debugging_only": {
+      "query": "query _20230724_105424_1690196064224{config_country(where:{_and:[{deleted_at:{_is_null:true}}]}){ id name alpha_3_code  updated_at  computed_actions { id } }}",
+      "variables": {}
+    }
+  }
+}

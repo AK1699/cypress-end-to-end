@@ -1,0 +1,117 @@
+{
+  "res": {
+    "success": true,
+    "data": {
+      "records": [
+        {
+          "name": "RAJESH DIR CLIENT",
+          "services_by_to_business": [],
+          "business_contacts": [
+            {
+              "type": [
+                "hiring_manager"
+              ],
+              "user": {
+                "name": "Raj hm S",
+                "first_name": "Raj hm",
+                "last_name": "S",
+                "is_active": true,
+                "is_confirmed": true,
+                "email": "beta.testing.rajesh2023+s4dirclihm@gmail.com"
+              }
+            },
+            {
+              "type": [
+                "invoice_contact"
+              ],
+              "user": {
+                "name": "Raj ivc S",
+                "first_name": "Raj ivc",
+                "last_name": "S",
+                "is_active": true,
+                "is_confirmed": true,
+                "email": "beta.testing.rajesh2023+s4dircliivc@gmail.com"
+              }
+            },
+            {
+              "type": [
+                "timesheet_approver"
+              ],
+              "user": {
+                "name": "Raj tsa S",
+                "first_name": "Raj tsa",
+                "last_name": "S",
+                "is_active": true,
+                "is_confirmed": true,
+                "email": "beta.testing.rajesh2023+s4dirclitsa@gmail.com"
+              }
+            },
+            {
+              "type": [
+                "hiring_manager",
+                "timesheet_approver",
+                "invoice_contact"
+              ],
+              "user": {
+                "name": "Sree SS",
+                "first_name": "Sree",
+                "last_name": "SS",
+                "is_active": true,
+                "is_confirmed": true,
+                "email": "sitraise2.0+SreeDirectclient3user@gmail.com"
+              }
+            }
+          ],
+          "updated_at": "2023-07-05T18:16:34.572098+00:00",
+          "computed_actions": [
+            {
+              "id": "0c66097e-9028-4545-8503-796610b5833d"
+            },
+            {
+              "id": "efd1dc32-d57c-4007-9389-303ccf1b2e4b"
+            },
+            {
+              "id": "fe7d6168-165e-49e3-89a0-20072e4c31eb"
+            }
+          ],
+          "process_actions": [
+            {
+              "id": "1e95f781-89a3-4f62-9f3d-0efd1781ec08"
+            },
+            {
+              "id": "4d290982-270b-43f7-b689-549c8d64fceb"
+            },
+            {
+              "id": "a1077ee6-5cde-4b16-96f4-8217ce7c99f2"
+            },
+            {
+              "id": "51da0c5d-5fea-449a-95e0-9962f98729f5"
+            },
+            {
+              "id": "2459b002-4f38-4ab1-b3bb-704b70f966c1"
+            },
+            {
+              "id": "710803de-6d65-4dd4-b85d-84f876366858"
+            },
+            {
+              "id": "4039a352-3338-4d26-90f2-ea939ef07c7c"
+            },
+            {
+              "id": "4923334c-926e-4042-9a7f-6698de81f43b"
+            },
+            {
+              "id": "4a706a70-2293-4665-9d9e-71713159c48a"
+            },
+            {
+              "id": "6e6b079b-51e3-4e65-9ec1-c9cfddd6f773"
+            }
+          ]
+        }
+      ],
+      "allowed_for_debugging_only": {
+        "query": "query _20230710_073932_1688974772844{records:platform_business(where:{_and:[{name:{_eq:\"RAJESH DIR CLIENT\"}},{deleted_at:{_is_null:true}}]},limit:1){ name services_by_to_business(where:{_and:[{type:{_eq:\"funder-agency\"}},{deleted_at:{_is_null:true}}]}){fundings(where:{_and:[{deleted_at:{_is_null:true}}]}){funding_model}} business_contacts(where:{_and:[{preferences:{_neq:{}}},{deleted_at:{_is_null:true}}]},order_by:{updated_at:desc}){type user{name first_name last_name is_active is_confirmed email}}  updated_at  computed_actions { id }  process_actions { id } }}",
+        "variables": {}
+      }
+    }
+  }
+}

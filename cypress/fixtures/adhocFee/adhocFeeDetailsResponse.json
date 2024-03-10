@@ -1,0 +1,64 @@
+{
+  "data": {
+    "fundo_contract": [
+      {
+        "id": "e7982f3d-ca2c-4f57-9ad3-91f574caa2e0",
+        "type": "adhoc_fee",
+        "requisites": {
+          "to": "funder",
+          "tax": "20",
+          "from": "agency",
+          "amount": 15550
+        },
+        "contract_entities": [
+          {
+            "id": "569a004f-7586-4cca-8c60-67c5dc7b20c4",
+            "business": {
+              "id": "49787f0e-824f-4d1c-9aa1-24762f84f92a",
+              "name": "Cormier LLC",
+              "human_id": "FUN-0017654",
+              "type": "funder",
+              "business_taxes": [
+                {
+                  "id": "0ffc3665-e47d-4bc5-bd8a-a0a58b7b5367",
+                  "value": 20,
+                  "type": "vat",
+                  "is_vat_applicable": true,
+                  "effective_to": null,
+                  "currency": {
+                    "id": "bb9ecacf-f2de-4f71-aee8-9016492861dc",
+                    "name": "Pound Sterling",
+                    "alpha_code": "GBP"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "3e968036-b2db-42f3-87c0-ae98cb2f85f6",
+            "business": {
+              "id": "7c97a0f4-a0ff-4d79-8625-36d62d302b8a",
+              "name": "Gottlieb, Heaney and Douglas",
+              "human_id": "AGY-0017658",
+              "type": "agency",
+              "business_taxes": [
+                {
+                  "id": "1763ece7-a8d2-4616-b9df-876f430aa2db",
+                  "value": 20,
+                  "type": "vat",
+                  "is_vat_applicable": true,
+                  "effective_to": null,
+                  "currency": {
+                    "id": "bb9ecacf-f2de-4f71-aee8-9016492861dc",
+                    "name": "Pound Sterling",
+                    "alpha_code": "GBP"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

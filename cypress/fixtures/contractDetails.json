@@ -1,0 +1,300 @@
+{
+  "data": {
+    "fundo_contract": [
+      {
+        "id": "7534ee88-f722-4221-b99a-889e3a931203",
+        "human_id": "TMP-240008517",
+        "start_date": "2023-10-20",
+        "type": "temp_placement",
+        "end_date": "2024-08-01",
+        "status": "active",
+        "agency_name": "Runolfsdottir and Sons",
+        "client_name": "Zulauf - Hettinger",
+        "contractor_name": "Erik Koch",
+        "contract_rates": [
+          {
+            "id": "06171e87-955e-4c68-aaa2-edd6ef5d5045",
+            "name": "Standard",
+            "client_rate": 570,
+            "contractor_rate": 285
+          }
+        ],
+        "contractor_payment": {
+          "id": "04134851-c3f5-41d8-a031-24e65e902b27",
+          "name": "Rowe - Kutch"
+        },
+        "funding_type": "funded",
+        "funding_model": "indirect",
+        "requisites": {
+          "schedule_details": {
+            "eSign_required_for_agency_client_schedule": {
+              "agency": false,
+              "client": false
+            },
+            "eSign_required_for_agency_contractor_schedule": {
+              "agency": false,
+              "contractor": false
+            }
+          },
+          "client_transfer_fee": null,
+          "expense_funding_type": "not_applicable"
+        },
+        "hiring_manager_details": [
+          {
+            "id": "f4f4ad2a-c239-467b-9a82-fb873d664300",
+            "name": "David Reacher",
+            "email": "shelbyclient2022+2546241786@gmail.com"
+          }
+        ],
+        "timesheet_approver_details": [
+          {
+            "id": "309f106b-13e2-458c-bdcd-acd695100653",
+            "name": "James Smith",
+            "email": "shelbyclient2022+5830911549@gmail.com"
+          }
+        ],
+        "invoice_contact_details": [
+          {
+            "id": "3166b67a-5e73-4056-973a-64fb6a49104a",
+            "name": "Emma Brown",
+            "email": "shelbyclient2022+3181923837@gmail.com"
+          }
+        ],
+        "currency": {
+          "id": "bb9ecacf-f2de-4f71-aee8-9016492861dc",
+          "name": "Pound Sterling",
+          "symbol": "£",
+          "alpha_code": "GBP"
+        },
+        "base_currency_id": "bb9ecacf-f2de-4f71-aee8-9016492861dc",
+        "contract_perm_placement": null,
+        "invoices": [],
+        "contract_entities": [
+          {
+            "type": "client",
+            "business": {
+              "individual": null,
+              "service_charges": []
+            },
+            "bank_account": null,
+            "business_tax": {
+              "value": 20,
+              "currency_id": "bb9ecacf-f2de-4f71-aee8-9016492861dc"
+            },
+            "invoicing_address": {
+              "id": "ddf8bbe8-8f8f-493c-8ccc-776743baf5fe",
+              "name": "Registered Address",
+              "line_1": "Ross House, The Square",
+              "line_2": null,
+              "line_3": null,
+              "line_4": null,
+              "city": "Glasgow City",
+              "country_id": "b06c68c2-e298-4272-aa38-62fe267ee97b",
+              "zipcode": "N16 8JP"
+            }
+          },
+          {
+            "type": "agency",
+            "business": {
+              "individual": null,
+              "service_charges": [
+                {
+                  "id": "9232b748-62a3-47f8-8c03-c44fff287a65",
+                  "value": 0.23,
+                  "service_type": "temp_placement",
+                  "fee_type": "platform_fee",
+                  "funding_type": "funded",
+                  "effective_to": null,
+                  "effective_from": "2024-03-06"
+                },
+                {
+                  "id": "17b917ec-4ed2-4dfc-8abb-99e0b141db57",
+                  "value": 2.234,
+                  "service_type": "temp_placement",
+                  "fee_type": "platform_fee",
+                  "funding_type": "paid_when_paid",
+                  "effective_to": null,
+                  "effective_from": "2024-03-01"
+                },
+                {
+                  "id": "226c5f92-0e71-463e-adf2-8c9d45bbb4a2",
+                  "value": 4.65,
+                  "service_type": "expense",
+                  "fee_type": "platform_fee",
+                  "funding_type": "funded",
+                  "effective_to": null,
+                  "effective_from": "2024-02-04"
+                },
+                {
+                  "id": "5c76d5fb-f760-4154-a43c-53d6ba3d8a91",
+                  "value": 2.68,
+                  "service_type": "expense",
+                  "fee_type": "platform_fee",
+                  "funding_type": "paid_when_paid",
+                  "effective_to": null,
+                  "effective_from": "2024-02-04"
+                },
+                {
+                  "id": "49725105-9351-49d6-897e-1ea9a857e664",
+                  "value": 4.62,
+                  "service_type": "perm_placement",
+                  "fee_type": "platform_fee",
+                  "funding_type": "funded",
+                  "effective_to": null,
+                  "effective_from": "2024-02-04"
+                },
+                {
+                  "id": "8ee6e344-59ad-4267-b5a2-623b3ab880ca",
+                  "value": 4.71,
+                  "service_type": "perm_placement",
+                  "fee_type": "platform_fee",
+                  "funding_type": "paid_when_paid",
+                  "effective_to": null,
+                  "effective_from": "2024-02-04"
+                }
+              ]
+            },
+            "bank_account": {
+              "id": "bd57a095-012f-475f-bcf0-d22b49782ad1",
+              "bank_name": "Citibank",
+              "account_number": "71172417",
+              "account_holder_name": "Runolfsdottir and Sons",
+              "country_id": "b06c68c2-e298-4272-aa38-62fe267ee97b"
+            },
+            "business_tax": {
+              "value": 20,
+              "currency_id": "bb9ecacf-f2de-4f71-aee8-9016492861dc"
+            },
+            "invoicing_address": {
+              "id": "2073668b-9c8b-49cd-8b16-7c303629a5a2",
+              "name": "Registered Address",
+              "line_1": "Leckwith Rd",
+              "line_2": null,
+              "line_3": null,
+              "line_4": null,
+              "city": "Glasgow City",
+              "country_id": "b06c68c2-e298-4272-aa38-62fe267ee97b",
+              "zipcode": "TW12 2LJ"
+            }
+          },
+          {
+            "type": "funder",
+            "business": {
+              "individual": null,
+              "service_charges": []
+            },
+            "bank_account": {
+              "id": "f5407d3e-72ee-4fbd-aa3a-3a071ccda57e",
+              "bank_name": "Nationwide Building Society",
+              "account_number": "87995863",
+              "account_holder_name": "Fay Inc",
+              "country_id": "b06c68c2-e298-4272-aa38-62fe267ee97b"
+            },
+            "business_tax": {
+              "value": 20,
+              "currency_id": "bb9ecacf-f2de-4f71-aee8-9016492861dc"
+            },
+            "invoicing_address": {
+              "id": "882596d5-523f-4df1-9beb-9646a8bc8282",
+              "name": "Registered Address",
+              "line_1": "28 Brandreth Rd",
+              "line_2": null,
+              "line_3": null,
+              "line_4": null,
+              "city": "Herts",
+              "country_id": "b06c68c2-e298-4272-aa38-62fe267ee97b",
+              "zipcode": "BD8 7RS"
+            }
+          },
+          {
+            "type": "contractor",
+            "business": {
+              "individual": {
+                "user": {
+                  "id": "77003a8a-b4a8-4c6c-a591-ba18fef13abe",
+                  "name": "Erik Koch",
+                  "email": "shelbycontractorumb2022+9615673864@gmail.com"
+                }
+              },
+              "service_charges": []
+            },
+            "bank_account": null,
+            "business_tax": {
+              "value": 20,
+              "currency_id": "bb9ecacf-f2de-4f71-aee8-9016492861dc"
+            },
+            "invoicing_address": {
+              "id": "36281db2-3999-45a5-9071-3fa4ea8b2f92",
+              "name": "Registered Address",
+              "line_1": "10 Westminster St",
+              "line_2": null,
+              "line_3": null,
+              "line_4": null,
+              "city": "Conwy",
+              "country_id": "b06c68c2-e298-4272-aa38-62fe267ee97b",
+              "zipcode": "HG1 5JS"
+            }
+          },
+          {
+            "type": "provider",
+            "business": {
+              "individual": null,
+              "service_charges": []
+            },
+            "bank_account": {
+              "id": "66399167-d2bb-409b-bba7-d2802ad334d8",
+              "bank_name": "Bank of ICICI",
+              "account_number": "95001909",
+              "account_holder_name": "New bank account proviuder",
+              "country_id": "b06c68c2-e298-4272-aa38-62fe267ee97b"
+            },
+            "business_tax": {
+              "value": 20,
+              "currency_id": "bb9ecacf-f2de-4f71-aee8-9016492861dc"
+            },
+            "invoicing_address": {
+              "id": "acb0e937-e02f-4677-b838-361d44c9f21d",
+              "name": "38",
+              "line_1": "38 Borough High Streetsd",
+              "line_2": "London",
+              "line_3": "London",
+              "line_4": null,
+              "city": "London",
+              "country_id": "b06c68c2-e298-4272-aa38-62fe267ee97b",
+              "zipcode": "SE1 1XW"
+            }
+          },
+          {
+            "type": "umbrella",
+            "business": {
+              "individual": null,
+              "service_charges": []
+            },
+            "bank_account": {
+              "id": "ee924285-85e3-4bd2-9541-9f5ec8d00b23",
+              "bank_name": "State Bank of Raise",
+              "account_number": "45454523432",
+              "account_holder_name": "Rowe - Kutch",
+              "country_id": "b06c68c2-e298-4272-aa38-62fe267ee97b"
+            },
+            "business_tax": {
+              "value": 20,
+              "currency_id": "bb9ecacf-f2de-4f71-aee8-9016492861dc"
+            },
+            "invoicing_address": {
+              "id": "36281db2-3999-45a5-9071-3fa4ea8b2f92",
+              "name": "Registered Address",
+              "line_1": "10 Westminster St",
+              "line_2": null,
+              "line_3": null,
+              "line_4": null,
+              "city": "Conwy",
+              "country_id": "b06c68c2-e298-4272-aa38-62fe267ee97b",
+              "zipcode": "HG1 5JS"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "rows": [
+    {
+      "company_name": "Client",
+      "currency": "Pound Sterling",
+      "address_line2": null,
+      "address_line3": null,
+      "address_line4": null,
+      "county": null,
+      "country": "United Kingdom",
+      "funder_limit": "100000",
+      "bad_debt_limit": null
+    }
+  ]
+}

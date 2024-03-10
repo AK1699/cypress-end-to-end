@@ -1,0 +1,60 @@
+{
+  "res": {
+    "success": true,
+    "data": {
+      "records": [
+        {
+          "human_id": "CLI-0017000",
+          "updated_at": "2023-06-28T09:30:56.165163+00:00",
+          "computed_actions": [
+            {
+              "id": "0c66097e-9028-4545-8503-796610b5833d"
+            },
+            {
+              "id": "efd1dc32-d57c-4007-9389-303ccf1b2e4b"
+            },
+            {
+              "id": "fe7d6168-165e-49e3-89a0-20072e4c31eb"
+            }
+          ],
+          "process_actions": [
+            {
+              "id": "1e95f781-89a3-4f62-9f3d-0efd1781ec08"
+            },
+            {
+              "id": "4d290982-270b-43f7-b689-549c8d64fceb"
+            },
+            {
+              "id": "a1077ee6-5cde-4b16-96f4-8217ce7c99f2"
+            },
+            {
+              "id": "51da0c5d-5fea-449a-95e0-9962f98729f5"
+            },
+            {
+              "id": "2459b002-4f38-4ab1-b3bb-704b70f966c1"
+            },
+            {
+              "id": "710803de-6d65-4dd4-b85d-84f876366858"
+            },
+            {
+              "id": "4039a352-3338-4d26-90f2-ea939ef07c7c"
+            },
+            {
+              "id": "4923334c-926e-4042-9a7f-6698de81f43b"
+            },
+            {
+              "id": "4a706a70-2293-4665-9d9e-71713159c48a"
+            },
+            {
+              "id": "6e6b079b-51e3-4e65-9ec1-c9cfddd6f773"
+            }
+          ]
+        }
+      ],
+      "allowed_for_debugging_only": {
+        "query": "query _20230628_093127_1687944687058{records:platform_business(where:{_and:[{id:{_eq:\"1c882df0-1387-4e68-adab-43e516275a3f\"}},{deleted_at:{_is_null:true}}]}){ human_id  updated_at  computed_actions { id }  process_actions { id } }}",
+        "variables": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "res": {
+    "errors": [
+      {
+        "message": "parsing Text failed, expected String, but encountered Object",
+        "extensions": {
+          "path": "$.query",
+          "code": "parse-failed"
+        }
+      }
+    ]
+  }
+}
