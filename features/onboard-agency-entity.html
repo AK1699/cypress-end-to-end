@@ -740,7 +740,7 @@ input#darkCheck:checked ~ label>svg#moon {
                         
                             <span class="tag">@onboard</span>
                         
-                            <span class="tag">@direct</span>
+                            <span class="tag">@indirect</span>
                         
                     
                 
@@ -826,7 +826,7 @@ input#darkCheck:checked ~ label>svg#moon {
         
             <tr>
                 <th> Total duration:</th>
-                <tr><td>00:03:28.568</td></tr>
+                <tr><td>00:00:00.000</td></tr>
             </tr>
         
     </table>
@@ -953,13 +953,13 @@ input#darkCheck:checked ~ label>svg#moon {
                             
                                 <span class="tag">@onboard</span>
                             
-                                <span class="tag">@direct</span>
+                                <span class="tag">@indirect</span>
                             
                         
                     
                 </div>
 
-                <h2>Scenario: <small>Onboard an agency mapped to the Direct funder without any rejections</small></h2>
+                <h2>Scenario: <small>Onboard an agency mapped to the Indirect funder without any rejections</small></h2>
 
                 <ul class="nav navbar-right panel_toolbox">
                     <li>
@@ -972,7 +972,7 @@ input#darkCheck:checked ~ label>svg#moon {
 
                     
                         <li>
-                            <span class="step skipped-background" data-toggle="tooltip" title="Scenario is skipped">16</span>
+                            <span class="step skipped-background" data-toggle="tooltip" title="Scenario is skipped">27</span>
                         </li>
                     
 
@@ -983,17 +983,13 @@ input#darkCheck:checked ~ label>svg#moon {
                     
 
                     
-                        <li>
-                            <span class="step passed-background" data-toggle="tooltip" title="Scenario passed">11</span>
-                        </li>
-                    
 
                     
 
                     
                         <li>
                             <span style="font-size:1.2em"> Duration:</span>
-                            <span style=padding-right:5em>00:03:28.568</span>
+                            <span style=padding-right:5em>00:00:00.000</span>
                         </li>
                     
                 </ul>
@@ -1009,8 +1005,8 @@ input#darkCheck:checked ~ label>svg#moon {
 
                                 
                                     
-                                        <div class="label" title="Success">
-                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
+                                        <div class="label" data-toggle="tooltip" data-placement="top" title="Step failed">
+                                            <i class="fa fa-exclamation-circle fa-2x failed-color"></i>
                                         </div>
                                     
                                 
@@ -1025,7 +1021,7 @@ input#darkCheck:checked ~ label>svg#moon {
 
                                     
                                         
-                                            <span class="duration">00:00:08.176</span>
+                                            <span class="duration">0s</span>
                                         
                                     
 
@@ -1034,6 +1030,8 @@ input#darkCheck:checked ~ label>svg#moon {
                                 
                                     
 
+                                    
+                                        <a href="#error0-0-error" data-toggle="collapse">+ Show Error</a>
                                     
 
                                     
@@ -1049,6 +1047,31 @@ input#darkCheck:checked ~ label>svg#moon {
                             </div>
 
                         
+                            
+                                <div id="error0-0-error" class="scenario-step-collapse collapse">
+                                    <pre class=info>CypressError: Timed out retrying after 60000ms: `cy.wait()` timed out waiting `60000ms` for the 1st request to the route: `metaDataQuery`. No request ever occurred.
+    at cypressErr (https://staging3-ops.raisetech.io/__cypress/runner/cypress_runner.js:75611:18)
+    at Object.errByPath (https://staging3-ops.raisetech.io/__cypress/runner/cypress_runner.js:75666:10)
+    at checkForXhr (https://staging3-ops.raisetech.io/__cypress/runner/cypress_runner.js:135227:84)
+    at (unknown) (https://staging3-ops.raisetech.io/__cypress/runner/cypress_runner.js:135253:28)
+    at tryCatcher (https://staging3-ops.raisetech.io/__cypress/runner/cypress_runner.js:1807:23)
+    at Promise.attempt.Promise.try (https://staging3-ops.raisetech.io/__cypress/runner/cypress_runner.js:4315:29)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (https://staging3-ops.raisetech.io/__cypress/runner/cypress_runner.js:3486:19)
+    at Promise._then (https://staging3-ops.raisetech.io/__cypress/runner/cypress_runner.js:1239:17)
+    at Promise.then (https://staging3-ops.raisetech.io/__cypress/runner/cypress_runner.js:1132:17)
+    at next (https://staging3-ops.raisetech.io/__cypress/runner/cypress_runner.js:144101:64)
+    at (unknown) (https://staging3-ops.raisetech.io/__cypress/runner/cypress_runner.js:144122:16)
+    at tryCatcher (https://staging3-ops.raisetech.io/__cypress/runner/cypress_runner.js:1807:23)
+    at Promise._settlePromiseFromHandler (https://staging3-ops.raisetech.io/__cypress/runner/cypress_runner.js:1519:31)
+    at Promise._settlePromise (https://staging3-ops.raisetech.io/__cypress/runner/cypress_runner.js:1576:18)
+    at Promise._settlePromise0 (https://staging3-ops.raisetech.io/__cypress/runner/cypress_runner.js:1621:10)
+    at Promise._settlePromises (https://staging3-ops.raisetech.io/__cypress/runner/cypress_runner.js:1701:18)
+    at (unknown) (https://staging3-ops.raisetech.io/__cypress/runner/cypress_runner.js:2392:25)
+From Your Spec Code:
+    at Login.eval [as clickLoginButton] (cypress/pages/LoginPage.js:80:32)
+    at Context.eval (cypress/support/commands.js:1207:12)</pre>
+                                </div>
                             
 
                             
@@ -1073,8 +1096,8 @@ input#darkCheck:checked ~ label>svg#moon {
 
                                 
                                     
-                                        <div class="label" title="Success">
-                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
+                                        <div class="label" data-toggle="tooltip" data-placement="top" title="Step is skipped">
+                                            <i class="fa fa-arrow-circle-right fa-2x skipped-color"></i>
                                         </div>
                                     
                                 
@@ -1089,7 +1112,7 @@ input#darkCheck:checked ~ label>svg#moon {
 
                                     
                                         
-                                            <span class="duration">00:00:03.252</span>
+                                            <span class="duration">0s</span>
                                         
                                     
 
@@ -1137,8 +1160,8 @@ input#darkCheck:checked ~ label>svg#moon {
 
                                 
                                     
-                                        <div class="label" title="Success">
-                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
+                                        <div class="label" data-toggle="tooltip" data-placement="top" title="Step is skipped">
+                                            <i class="fa fa-arrow-circle-right fa-2x skipped-color"></i>
                                         </div>
                                     
                                 
@@ -1153,7 +1176,7 @@ input#darkCheck:checked ~ label>svg#moon {
 
                                     
                                         
-                                            <span class="duration">00:00:01.480</span>
+                                            <span class="duration">0s</span>
                                         
                                     
 
@@ -1201,8 +1224,8 @@ input#darkCheck:checked ~ label>svg#moon {
 
                                 
                                     
-                                        <div class="label" title="Success">
-                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
+                                        <div class="label" data-toggle="tooltip" data-placement="top" title="Step is skipped">
+                                            <i class="fa fa-arrow-circle-right fa-2x skipped-color"></i>
                                         </div>
                                     
                                 
@@ -1217,7 +1240,7 @@ input#darkCheck:checked ~ label>svg#moon {
 
                                     
                                         
-                                            <span class="duration">00:00:16.957</span>
+                                            <span class="duration">0s</span>
                                         
                                     
 
@@ -1265,8 +1288,8 @@ input#darkCheck:checked ~ label>svg#moon {
 
                                 
                                     
-                                        <div class="label" title="Success">
-                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
+                                        <div class="label" data-toggle="tooltip" data-placement="top" title="Step is skipped">
+                                            <i class="fa fa-arrow-circle-right fa-2x skipped-color"></i>
                                         </div>
                                     
                                 
@@ -1281,7 +1304,7 @@ input#darkCheck:checked ~ label>svg#moon {
 
                                     
                                         
-                                            <span class="duration">00:00:15.299</span>
+                                            <span class="duration">0s</span>
                                         
                                     
 
@@ -1329,8 +1352,8 @@ input#darkCheck:checked ~ label>svg#moon {
 
                                 
                                     
-                                        <div class="label" title="Success">
-                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
+                                        <div class="label" data-toggle="tooltip" data-placement="top" title="Step is skipped">
+                                            <i class="fa fa-arrow-circle-right fa-2x skipped-color"></i>
                                         </div>
                                     
                                 
@@ -1345,7 +1368,7 @@ input#darkCheck:checked ~ label>svg#moon {
 
                                     
                                         
-                                            <span class="duration">00:00:03.867</span>
+                                            <span class="duration">0s</span>
                                         
                                     
 
@@ -1393,8 +1416,8 @@ input#darkCheck:checked ~ label>svg#moon {
 
                                 
                                     
-                                        <div class="label" title="Success">
-                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
+                                        <div class="label" data-toggle="tooltip" data-placement="top" title="Step is skipped">
+                                            <i class="fa fa-arrow-circle-right fa-2x skipped-color"></i>
                                         </div>
                                     
                                 
@@ -1409,7 +1432,7 @@ input#darkCheck:checked ~ label>svg#moon {
 
                                     
                                         
-                                            <span class="duration">00:00:07.314</span>
+                                            <span class="duration">0s</span>
                                         
                                     
 
@@ -1457,8 +1480,8 @@ input#darkCheck:checked ~ label>svg#moon {
 
                                 
                                     
-                                        <div class="label" title="Success">
-                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
+                                        <div class="label" data-toggle="tooltip" data-placement="top" title="Step is skipped">
+                                            <i class="fa fa-arrow-circle-right fa-2x skipped-color"></i>
                                         </div>
                                     
                                 
@@ -1473,7 +1496,7 @@ input#darkCheck:checked ~ label>svg#moon {
 
                                     
                                         
-                                            <span class="duration">00:00:03.228</span>
+                                            <span class="duration">0s</span>
                                         
                                     
 
@@ -1521,8 +1544,8 @@ input#darkCheck:checked ~ label>svg#moon {
 
                                 
                                     
-                                        <div class="label" title="Success">
-                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
+                                        <div class="label" data-toggle="tooltip" data-placement="top" title="Step is skipped">
+                                            <i class="fa fa-arrow-circle-right fa-2x skipped-color"></i>
                                         </div>
                                     
                                 
@@ -1537,7 +1560,7 @@ input#darkCheck:checked ~ label>svg#moon {
 
                                     
                                         
-                                            <span class="duration">00:00:12.538</span>
+                                            <span class="duration">0s</span>
                                         
                                     
 
@@ -1585,8 +1608,8 @@ input#darkCheck:checked ~ label>svg#moon {
 
                                 
                                     
-                                        <div class="label" title="Success">
-                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
+                                        <div class="label" data-toggle="tooltip" data-placement="top" title="Step is skipped">
+                                            <i class="fa fa-arrow-circle-right fa-2x skipped-color"></i>
                                         </div>
                                     
                                 
@@ -1601,7 +1624,7 @@ input#darkCheck:checked ~ label>svg#moon {
 
                                     
                                         
-                                            <span class="duration">00:00:04.627</span>
+                                            <span class="duration">0s</span>
                                         
                                     
 
@@ -1649,8 +1672,8 @@ input#darkCheck:checked ~ label>svg#moon {
 
                                 
                                     
-                                        <div class="label" title="Success">
-                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
+                                        <div class="label" data-toggle="tooltip" data-placement="top" title="Step is skipped">
+                                            <i class="fa fa-arrow-circle-right fa-2x skipped-color"></i>
                                         </div>
                                     
                                 
@@ -1665,7 +1688,7 @@ input#darkCheck:checked ~ label>svg#moon {
 
                                     
                                         
-                                            <span class="duration">00:00:03.310</span>
+                                            <span class="duration">0s</span>
                                         
                                     
 
@@ -1713,8 +1736,8 @@ input#darkCheck:checked ~ label>svg#moon {
 
                                 
                                     
-                                        <div class="label" data-toggle="tooltip" data-placement="top" title="Step failed">
-                                            <i class="fa fa-exclamation-circle fa-2x failed-color"></i>
+                                        <div class="label" data-toggle="tooltip" data-placement="top" title="Step is skipped">
+                                            <i class="fa fa-arrow-circle-right fa-2x skipped-color"></i>
                                         </div>
                                     
                                 
@@ -1729,7 +1752,7 @@ input#darkCheck:checked ~ label>svg#moon {
 
                                     
                                         
-                                            <span class="duration">00:02:08.520</span>
+                                            <span class="duration">0s</span>
                                         
                                     
 
@@ -1738,8 +1761,6 @@ input#darkCheck:checked ~ label>svg#moon {
                                 
                                     
 
-                                    
-                                        <a href="#error0-11-error" data-toggle="collapse">+ Show Error</a>
                                     
 
                                     
@@ -1755,11 +1776,6 @@ input#darkCheck:checked ~ label>svg#moon {
                             </div>
 
                         
-                            
-                                <div id="error0-11-error" class="scenario-step-collapse collapse">
-                                    <pre class=info>AssertionError: Timed out retrying after 80000ms: Expected to find element: `[class="swal2-actions"]`, but never found it.
-    at Context.eval (cypress/support/commands.js:750:9)</pre>
-                                </div>
                             
 
                             
@@ -2178,7 +2194,7 @@ input#darkCheck:checked ~ label>svg#moon {
                                     <span class="keyword highlight">Then </span>
 
                                     
-                                        fill the mandatory fields within each tabs of agency allocation details and map with "Direct" funder
+                                        fill the mandatory fields within each tabs of agency allocation details and map with "Indirect" funder
                                         
                                     
 
@@ -2754,7 +2770,7 @@ input#darkCheck:checked ~ label>svg#moon {
                                     <span class="keyword highlight">Then </span>
 
                                     
-                                        "Direct" funder mapped Agency is successfully onboarded
+                                        "Indirect" funder mapped Agency is successfully onboarded
                                         
                                     
 
