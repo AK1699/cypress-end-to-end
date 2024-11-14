@@ -738,23 +738,25 @@ input#darkCheck:checked ~ label>svg#moon {
                         
                             <span class="tag">@Regression-2412</span>
                         
-                            <span class="tag">@internalUsers</span>
+                            <span class="tag">@Overduedirectinvoicechase</span>
                         
-                            <span class="tag">@externalUsers</span>
+                            <span class="tag">@Direct</span>
+                        
+                            <span class="tag">@Indirect</span>
                         
                     
                 
             </div>
             <h1>Feature:
-                <small>HMRC(His Majesty's Revenue & Customs) Intermediary Report</small>
+                <small>Invoice Chase</small>
             </h1>
             
                 <p>
                <p><strong>File name:</strong>
-                    intermediaryReport.feature
+                    invoice.feature
                 </p>
                 <p><strong>Relative path:</strong>
-                    intermediaryReport.feature</p>
+                    invoice.feature</p>
             
         </div>
 
@@ -792,7 +794,7 @@ input#darkCheck:checked ~ label>svg#moon {
         <tr>
             <td class="chart">
                 <canvas id="scenario-chart"></canvas>
-                <div class="total">12</div>
+                <div class="total">6</div>
             </td>
             <td>
                 <table class="tile_info">
@@ -824,7 +826,7 @@ input#darkCheck:checked ~ label>svg#moon {
         
             <tr>
                 <th> Total duration:</th>
-                <tr><td>00:08:28.680</td></tr>
+                <tr><td>00:17:03.484</td></tr>
             </tr>
         
     </table>
@@ -949,13 +951,15 @@ input#darkCheck:checked ~ label>svg#moon {
                             
                                 <span class="tag">@Regression-2412</span>
                             
-                                <span class="tag">@internalUsers</span>
+                                <span class="tag">@Overduedirectinvoicechase</span>
+                            
+                                <span class="tag">@Direct</span>
                             
                         
                     
                 </div>
 
-                <h2>Scenario: <small>Verify the "Onboarding Agent" user is able to verify the HMRC intermediary reports</small></h2>
+                <h2>Scenario: <small>Ability to Chase Direct model client(Agency-Client) Invoice by Payment Assistant</small></h2>
 
                 <ul class="nav navbar-right panel_toolbox">
                     <li>
@@ -972,7 +976,7 @@ input#darkCheck:checked ~ label>svg#moon {
 
                     
                         <li>
-                            <span class="step passed-background" data-toggle="tooltip" title="Scenario passed">7</span>
+                            <span class="step passed-background" data-toggle="tooltip" title="Scenario passed">8</span>
                         </li>
                     
 
@@ -981,7 +985,7 @@ input#darkCheck:checked ~ label>svg#moon {
                     
                         <li>
                             <span style="font-size:1.2em"> Duration:</span>
-                            <span style=padding-right:5em>00:00:45.746</span>
+                            <span style=padding-right:5em>00:02:49.679</span>
                         </li>
                     
                 </ul>
@@ -1007,520 +1011,13 @@ input#darkCheck:checked ~ label>svg#moon {
                                     <span class="keyword highlight">Given </span>
 
                                     
-                                        Business Details to validate the Intermediary HMRC Reports
+                                        Active Business name for invoice
                                         
                                     
 
                                     
                                         
-                                            <span class="duration">00:00:20.609</span>
-                                        
-                                    
-
-                                </div>
-
-                                
-                                    
-
-                                    
-
-                                    
-                                    
-                                    
-
-                                    
-
-                                    
-
-                                    
-                                
-                            </div>
-
-                        
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-                        
-
-                        
-                            
-                        
-
-                    
-                
-                        
-                            <div class="scenario-step-container">
-
-                                
-                                    
-                                        <div class="label" title="Success">
-                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
-                                        </div>
-                                    
-                                
-
-                                <div class="text">
-                                    <span class="keyword highlight">Given </span>
-
-                                    
-                                        login as "Onboarding Agent" user
-                                        
-                                    
-
-                                    
-                                        
-                                            <span class="duration">00:00:13.927</span>
-                                        
-                                    
-
-                                </div>
-
-                                
-                                    
-
-                                    
-
-                                    
-                                    
-                                    
-
-                                    
-
-                                    
-
-                                    
-                                
-                            </div>
-
-                        
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-                        
-
-                        
-                            
-                        
-
-                    
-                
-                        
-                            <div class="scenario-step-container">
-
-                                
-                                    
-                                        <div class="label" title="Success">
-                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
-                                        </div>
-                                    
-                                
-
-                                <div class="text">
-                                    <span class="keyword highlight">And </span>
-
-                                    
-                                        navigate to the reports to select the intermediary report
-                                        
-                                    
-
-                                    
-                                        
-                                            <span class="duration">00:00:03.176</span>
-                                        
-                                    
-
-                                </div>
-
-                                
-                                    
-
-                                    
-
-                                    
-                                    
-                                    
-
-                                    
-
-                                    
-
-                                    
-                                
-                            </div>
-
-                        
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-                        
-
-                        
-                            
-                        
-
-                    
-                
-                        
-                            <div class="scenario-step-container">
-
-                                
-                                    
-                                        <div class="label" title="Success">
-                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
-                                        </div>
-                                    
-                                
-
-                                <div class="text">
-                                    <span class="keyword highlight">Then </span>
-
-                                    
-                                        select the respective intermediary years, quarter, and also date range
-                                        
-                                    
-
-                                    
-                                        
-                                            <span class="duration">00:00:04.233</span>
-                                        
-                                    
-
-                                </div>
-
-                                
-                                    
-
-                                    
-
-                                    
-                                    
-                                    
-
-                                    
-
-                                    
-
-                                    
-                                
-                            </div>
-
-                        
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-                        
-
-                        
-                            
-                        
-
-                    
-                
-                        
-                            <div class="scenario-step-container">
-
-                                
-                                    
-                                        <div class="label" title="Success">
-                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
-                                        </div>
-                                    
-                                
-
-                                <div class="text">
-                                    <span class="keyword highlight">And </span>
-
-                                    
-                                        download the available data
-                                        
-                                    
-
-                                    
-                                        
-                                            <span class="duration">00:00:01.306</span>
-                                        
-                                    
-
-                                </div>
-
-                                
-                                    
-
-                                    
-
-                                    
-                                    
-                                    
-
-                                    
-
-                                    
-
-                                    
-                                
-                            </div>
-
-                        
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-                        
-
-                        
-                            
-                        
-
-                    
-                
-                        
-                            <div class="scenario-step-container">
-
-                                
-                                    
-                                        <div class="label" title="Success">
-                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
-                                        </div>
-                                    
-                                
-
-                                <div class="text">
-                                    <span class="keyword highlight">Then </span>
-
-                                    
-                                        validate the report, ensuring it contains contractors paid invoices record
-                                        
-                                    
-
-                                    
-                                        
-                                            <span class="duration">00:00:02.116</span>
-                                        
-                                    
-
-                                </div>
-
-                                
-                                    
-
-                                    
-
-                                    
-                                    
-                                    
-
-                                    
-
-                                    
-
-                                    
-                                
-                            </div>
-
-                        
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-                        
-
-                        
-                            
-                        
-
-                    
-                
-                        
-                            <div class="scenario-step-container">
-
-                                
-                                    
-                                        <div class="label" title="Success">
-                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
-                                        </div>
-                                    
-                                
-
-                                <div class="text">
-                                    <span class="keyword highlight">And </span>
-
-                                    
-                                        check the Employment intermediary"agency", Worker"contractor" and Intermediary for worker"s services"payment company" Headers
-                                        
-                                    
-
-                                    
-                                        
-                                            <span class="duration">00:00:00.379</span>
-                                        
-                                    
-
-                                </div>
-
-                                
-                                    
-
-                                    
-
-                                    
-                                    
-                                    
-
-                                    
-
-                                    
-
-                                    
-                                
-                            </div>
-
-                        
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-                        
-
-                        
-                            
-                        
-
-                    
-                
-            </div>
-        </div>
-    </div>
-
-    <div class="col-md-12 col-sm-12 col-xs-12">
-        <div class="x_panel" style="height: auto;">
-            <div class="x_title">
-
-                <div class="tags">
-                    
-                        
-                        
-                            <i class="fa fa-tags fa-lg"></i>
-                            
-                                <span class="tag">@Regression-2412</span>
-                            
-                                <span class="tag">@internalUsers</span>
-                            
-                        
-                    
-                </div>
-
-                <h2>Scenario: <small>Verify the "Payment Assistant" user is able to verify the HMRC intermediary reports</small></h2>
-
-                <ul class="nav navbar-right panel_toolbox">
-                    <li>
-                        <a class="collapse-link"><i class="fa fa-chevron-down"></i></a>
-                    </li>
-
-                    
-
-                    
-
-                    
-
-                    
-
-                    
-                        <li>
-                            <span class="step passed-background" data-toggle="tooltip" title="Scenario passed">7</span>
-                        </li>
-                    
-
-                    
-
-                    
-                        <li>
-                            <span style="font-size:1.2em"> Duration:</span>
-                            <span style=padding-right:5em>00:00:41.792</span>
-                        </li>
-                    
-                </ul>
-
-                <div class="clearfix"></div>
-            </div>
-
-            <div class="x_content" style="display: none;">
-                <div class="scenario-step-container"></div>
-                    
-                        
-                            <div class="scenario-step-container">
-
-                                
-                                    
-                                        <div class="label" title="Success">
-                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
-                                        </div>
-                                    
-                                
-
-                                <div class="text">
-                                    <span class="keyword highlight">Given </span>
-
-                                    
-                                        Business Details to validate the Intermediary HMRC Reports
-                                        
-                                    
-
-                                    
-                                        
-                                            <span class="duration">00:00:16.139</span>
+                                            <span class="duration">00:00:00.217</span>
                                         
                                     
 
@@ -1584,71 +1081,7 @@ input#darkCheck:checked ~ label>svg#moon {
 
                                     
                                         
-                                            <span class="duration">00:00:14.363</span>
-                                        
-                                    
-
-                                </div>
-
-                                
-                                    
-
-                                    
-
-                                    
-                                    
-                                    
-
-                                    
-
-                                    
-
-                                    
-                                
-                            </div>
-
-                        
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-                        
-
-                        
-                            
-                        
-
-                    
-                
-                        
-                            <div class="scenario-step-container">
-
-                                
-                                    
-                                        <div class="label" title="Success">
-                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
-                                        </div>
-                                    
-                                
-
-                                <div class="text">
-                                    <span class="keyword highlight">And </span>
-
-                                    
-                                        navigate to the reports to select the intermediary report
-                                        
-                                    
-
-                                    
-                                        
-                                            <span class="duration">00:00:03.193</span>
+                                            <span class="duration">00:00:14.039</span>
                                         
                                     
 
@@ -1706,77 +1139,13 @@ input#darkCheck:checked ~ label>svg#moon {
                                     <span class="keyword highlight">Then </span>
 
                                     
-                                        select the respective intermediary years, quarter, and also date range
+                                        navigate to the invoice list page
                                         
                                     
 
                                     
                                         
-                                            <span class="duration">00:00:04.222</span>
-                                        
-                                    
-
-                                </div>
-
-                                
-                                    
-
-                                    
-
-                                    
-                                    
-                                    
-
-                                    
-
-                                    
-
-                                    
-                                
-                            </div>
-
-                        
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-                        
-
-                        
-                            
-                        
-
-                    
-                
-                        
-                            <div class="scenario-step-container">
-
-                                
-                                    
-                                        <div class="label" title="Success">
-                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
-                                        </div>
-                                    
-                                
-
-                                <div class="text">
-                                    <span class="keyword highlight">And </span>
-
-                                    
-                                        download the available data
-                                        
-                                    
-
-                                    
-                                        
-                                            <span class="duration">00:00:01.308</span>
+                                            <span class="duration">00:00:07.911</span>
                                         
                                     
 
@@ -1834,13 +1203,141 @@ input#darkCheck:checked ~ label>svg#moon {
                                     <span class="keyword highlight">Then </span>
 
                                     
-                                        validate the report, ensuring it contains contractors paid invoices record
+                                        filter the client Invoices with overdue status based on "Direct"
                                         
                                     
 
                                     
                                         
-                                            <span class="duration">00:00:02.153</span>
+                                            <span class="duration">00:00:08.533</span>
+                                        
+                                    
+
+                                </div>
+
+                                
+                                    
+
+                                    
+
+                                    
+                                    
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                
+                            </div>
+
+                        
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+                        
+
+                        
+                            
+                        
+
+                    
+                
+                        
+                            <div class="scenario-step-container">
+
+                                
+                                    
+                                        <div class="label" title="Success">
+                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
+                                        </div>
+                                    
+                                
+
+                                <div class="text">
+                                    <span class="keyword highlight">Then </span>
+
+                                    
+                                        select the checkbox and click the chase action on the list page
+                                        
+                                    
+
+                                    
+                                        
+                                            <span class="duration">00:00:03.311</span>
+                                        
+                                    
+
+                                </div>
+
+                                
+                                    
+
+                                    
+
+                                    
+                                    
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                
+                            </div>
+
+                        
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+                        
+
+                        
+                            
+                        
+
+                    
+                
+                        
+                            <div class="scenario-step-container">
+
+                                
+                                    
+                                        <div class="label" title="Success">
+                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
+                                        </div>
+                                    
+                                
+
+                                <div class="text">
+                                    <span class="keyword highlight">Then </span>
+
+                                    
+                                        validate the invoice chaser form and enter the comment for the "Direct" model
+                                        
+                                    
+
+                                    
+                                        
+                                            <span class="duration">00:00:01.532</span>
                                         
                                     
 
@@ -1898,13 +1395,77 @@ input#darkCheck:checked ~ label>svg#moon {
                                     <span class="keyword highlight">And </span>
 
                                     
-                                        check the Employment intermediary"agency", Worker"contractor" and Intermediary for worker"s services"payment company" Headers
+                                        click the chase action on the chaser form
                                         
                                     
 
                                     
                                         
-                                            <span class="duration">00:00:00.414</span>
+                                            <span class="duration">00:00:11.949</span>
+                                        
+                                    
+
+                                </div>
+
+                                
+                                    
+
+                                    
+
+                                    
+                                    
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                
+                            </div>
+
+                        
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+                        
+
+                        
+                            
+                        
+
+                    
+                
+                        
+                            <div class="scenario-step-container">
+
+                                
+                                    
+                                        <div class="label" title="Success">
+                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
+                                        </div>
+                                    
+                                
+
+                                <div class="text">
+                                    <span class="keyword highlight">Then </span>
+
+                                    
+                                        validate the chaser mail send to the respective "Direct" invoice contact
+                                        
+                                    
+
+                                    
+                                        
+                                            <span class="duration">00:02:02.187</span>
                                         
                                     
 
@@ -1963,13 +1524,15 @@ input#darkCheck:checked ~ label>svg#moon {
                             
                                 <span class="tag">@Regression-2412</span>
                             
-                                <span class="tag">@internalUsers</span>
+                                <span class="tag">@Overduedirectinvoicechase</span>
+                            
+                                <span class="tag">@Direct</span>
                             
                         
                     
                 </div>
 
-                <h2>Scenario: <small>Verify the "Payment Approver" user is able to verify the HMRC intermediary reports</small></h2>
+                <h2>Scenario: <small>Ability to Chase Direct model client(Agency-Client) Invoice by Collection Assistant</small></h2>
 
                 <ul class="nav navbar-right panel_toolbox">
                     <li>
@@ -1986,7 +1549,7 @@ input#darkCheck:checked ~ label>svg#moon {
 
                     
                         <li>
-                            <span class="step passed-background" data-toggle="tooltip" title="Scenario passed">7</span>
+                            <span class="step passed-background" data-toggle="tooltip" title="Scenario passed">8</span>
                         </li>
                     
 
@@ -1995,7 +1558,7 @@ input#darkCheck:checked ~ label>svg#moon {
                     
                         <li>
                             <span style="font-size:1.2em"> Duration:</span>
-                            <span style=padding-right:5em>00:00:41.190</span>
+                            <span style=padding-right:5em>00:02:50.650</span>
                         </li>
                     
                 </ul>
@@ -2021,520 +1584,13 @@ input#darkCheck:checked ~ label>svg#moon {
                                     <span class="keyword highlight">Given </span>
 
                                     
-                                        Business Details to validate the Intermediary HMRC Reports
+                                        Active Business name for invoice
                                         
                                     
 
                                     
                                         
-                                            <span class="duration">00:00:15.630</span>
-                                        
-                                    
-
-                                </div>
-
-                                
-                                    
-
-                                    
-
-                                    
-                                    
-                                    
-
-                                    
-
-                                    
-
-                                    
-                                
-                            </div>
-
-                        
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-                        
-
-                        
-                            
-                        
-
-                    
-                
-                        
-                            <div class="scenario-step-container">
-
-                                
-                                    
-                                        <div class="label" title="Success">
-                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
-                                        </div>
-                                    
-                                
-
-                                <div class="text">
-                                    <span class="keyword highlight">Given </span>
-
-                                    
-                                        login as "Payment Approver" user
-                                        
-                                    
-
-                                    
-                                        
-                                            <span class="duration">00:00:14.315</span>
-                                        
-                                    
-
-                                </div>
-
-                                
-                                    
-
-                                    
-
-                                    
-                                    
-                                    
-
-                                    
-
-                                    
-
-                                    
-                                
-                            </div>
-
-                        
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-                        
-
-                        
-                            
-                        
-
-                    
-                
-                        
-                            <div class="scenario-step-container">
-
-                                
-                                    
-                                        <div class="label" title="Success">
-                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
-                                        </div>
-                                    
-                                
-
-                                <div class="text">
-                                    <span class="keyword highlight">And </span>
-
-                                    
-                                        navigate to the reports to select the intermediary report
-                                        
-                                    
-
-                                    
-                                        
-                                            <span class="duration">00:00:03.187</span>
-                                        
-                                    
-
-                                </div>
-
-                                
-                                    
-
-                                    
-
-                                    
-                                    
-                                    
-
-                                    
-
-                                    
-
-                                    
-                                
-                            </div>
-
-                        
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-                        
-
-                        
-                            
-                        
-
-                    
-                
-                        
-                            <div class="scenario-step-container">
-
-                                
-                                    
-                                        <div class="label" title="Success">
-                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
-                                        </div>
-                                    
-                                
-
-                                <div class="text">
-                                    <span class="keyword highlight">Then </span>
-
-                                    
-                                        select the respective intermediary years, quarter, and also date range
-                                        
-                                    
-
-                                    
-                                        
-                                            <span class="duration">00:00:04.219</span>
-                                        
-                                    
-
-                                </div>
-
-                                
-                                    
-
-                                    
-
-                                    
-                                    
-                                    
-
-                                    
-
-                                    
-
-                                    
-                                
-                            </div>
-
-                        
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-                        
-
-                        
-                            
-                        
-
-                    
-                
-                        
-                            <div class="scenario-step-container">
-
-                                
-                                    
-                                        <div class="label" title="Success">
-                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
-                                        </div>
-                                    
-                                
-
-                                <div class="text">
-                                    <span class="keyword highlight">And </span>
-
-                                    
-                                        download the available data
-                                        
-                                    
-
-                                    
-                                        
-                                            <span class="duration">00:00:01.307</span>
-                                        
-                                    
-
-                                </div>
-
-                                
-                                    
-
-                                    
-
-                                    
-                                    
-                                    
-
-                                    
-
-                                    
-
-                                    
-                                
-                            </div>
-
-                        
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-                        
-
-                        
-                            
-                        
-
-                    
-                
-                        
-                            <div class="scenario-step-container">
-
-                                
-                                    
-                                        <div class="label" title="Success">
-                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
-                                        </div>
-                                    
-                                
-
-                                <div class="text">
-                                    <span class="keyword highlight">Then </span>
-
-                                    
-                                        validate the report, ensuring it contains contractors paid invoices record
-                                        
-                                    
-
-                                    
-                                        
-                                            <span class="duration">00:00:02.139</span>
-                                        
-                                    
-
-                                </div>
-
-                                
-                                    
-
-                                    
-
-                                    
-                                    
-                                    
-
-                                    
-
-                                    
-
-                                    
-                                
-                            </div>
-
-                        
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-                        
-
-                        
-                            
-                        
-
-                    
-                
-                        
-                            <div class="scenario-step-container">
-
-                                
-                                    
-                                        <div class="label" title="Success">
-                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
-                                        </div>
-                                    
-                                
-
-                                <div class="text">
-                                    <span class="keyword highlight">And </span>
-
-                                    
-                                        check the Employment intermediary"agency", Worker"contractor" and Intermediary for worker"s services"payment company" Headers
-                                        
-                                    
-
-                                    
-                                        
-                                            <span class="duration">00:00:00.393</span>
-                                        
-                                    
-
-                                </div>
-
-                                
-                                    
-
-                                    
-
-                                    
-                                    
-                                    
-
-                                    
-
-                                    
-
-                                    
-                                
-                            </div>
-
-                        
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-                        
-
-                        
-                            
-                        
-
-                    
-                
-            </div>
-        </div>
-    </div>
-
-    <div class="col-md-12 col-sm-12 col-xs-12">
-        <div class="x_panel" style="height: auto;">
-            <div class="x_title">
-
-                <div class="tags">
-                    
-                        
-                        
-                            <i class="fa fa-tags fa-lg"></i>
-                            
-                                <span class="tag">@Regression-2412</span>
-                            
-                                <span class="tag">@internalUsers</span>
-                            
-                        
-                    
-                </div>
-
-                <h2>Scenario: <small>Verify the "Collection Assistant" user is able to verify the HMRC intermediary reports</small></h2>
-
-                <ul class="nav navbar-right panel_toolbox">
-                    <li>
-                        <a class="collapse-link"><i class="fa fa-chevron-down"></i></a>
-                    </li>
-
-                    
-
-                    
-
-                    
-
-                    
-
-                    
-                        <li>
-                            <span class="step passed-background" data-toggle="tooltip" title="Scenario passed">7</span>
-                        </li>
-                    
-
-                    
-
-                    
-                        <li>
-                            <span style="font-size:1.2em"> Duration:</span>
-                            <span style=padding-right:5em>00:00:40.415</span>
-                        </li>
-                    
-                </ul>
-
-                <div class="clearfix"></div>
-            </div>
-
-            <div class="x_content" style="display: none;">
-                <div class="scenario-step-container"></div>
-                    
-                        
-                            <div class="scenario-step-container">
-
-                                
-                                    
-                                        <div class="label" title="Success">
-                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
-                                        </div>
-                                    
-                                
-
-                                <div class="text">
-                                    <span class="keyword highlight">Given </span>
-
-                                    
-                                        Business Details to validate the Intermediary HMRC Reports
-                                        
-                                    
-
-                                    
-                                        
-                                            <span class="duration">00:00:15.459</span>
+                                            <span class="duration">00:00:00.336</span>
                                         
                                     
 
@@ -2598,71 +1654,7 @@ input#darkCheck:checked ~ label>svg#moon {
 
                                     
                                         
-                                            <span class="duration">00:00:13.714</span>
-                                        
-                                    
-
-                                </div>
-
-                                
-                                    
-
-                                    
-
-                                    
-                                    
-                                    
-
-                                    
-
-                                    
-
-                                    
-                                
-                            </div>
-
-                        
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-                        
-
-                        
-                            
-                        
-
-                    
-                
-                        
-                            <div class="scenario-step-container">
-
-                                
-                                    
-                                        <div class="label" title="Success">
-                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
-                                        </div>
-                                    
-                                
-
-                                <div class="text">
-                                    <span class="keyword highlight">And </span>
-
-                                    
-                                        navigate to the reports to select the intermediary report
-                                        
-                                    
-
-                                    
-                                        
-                                            <span class="duration">00:00:03.142</span>
+                                            <span class="duration">00:00:13.334</span>
                                         
                                     
 
@@ -2720,77 +1712,13 @@ input#darkCheck:checked ~ label>svg#moon {
                                     <span class="keyword highlight">Then </span>
 
                                     
-                                        select the respective intermediary years, quarter, and also date range
+                                        navigate to the invoice list page
                                         
                                     
 
                                     
                                         
-                                            <span class="duration">00:00:04.226</span>
-                                        
-                                    
-
-                                </div>
-
-                                
-                                    
-
-                                    
-
-                                    
-                                    
-                                    
-
-                                    
-
-                                    
-
-                                    
-                                
-                            </div>
-
-                        
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-                        
-
-                        
-                            
-                        
-
-                    
-                
-                        
-                            <div class="scenario-step-container">
-
-                                
-                                    
-                                        <div class="label" title="Success">
-                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
-                                        </div>
-                                    
-                                
-
-                                <div class="text">
-                                    <span class="keyword highlight">And </span>
-
-                                    
-                                        download the available data
-                                        
-                                    
-
-                                    
-                                        
-                                            <span class="duration">00:00:01.328</span>
+                                            <span class="duration">00:00:07.956</span>
                                         
                                     
 
@@ -2848,13 +1776,141 @@ input#darkCheck:checked ~ label>svg#moon {
                                     <span class="keyword highlight">Then </span>
 
                                     
-                                        validate the report, ensuring it contains contractors paid invoices record
+                                        filter the client Invoices with overdue status based on "Direct"
                                         
                                     
 
                                     
                                         
-                                            <span class="duration">00:00:02.145</span>
+                                            <span class="duration">00:00:09.557</span>
+                                        
+                                    
+
+                                </div>
+
+                                
+                                    
+
+                                    
+
+                                    
+                                    
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                
+                            </div>
+
+                        
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+                        
+
+                        
+                            
+                        
+
+                    
+                
+                        
+                            <div class="scenario-step-container">
+
+                                
+                                    
+                                        <div class="label" title="Success">
+                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
+                                        </div>
+                                    
+                                
+
+                                <div class="text">
+                                    <span class="keyword highlight">Then </span>
+
+                                    
+                                        select the checkbox and click the chase action on the list page
+                                        
+                                    
+
+                                    
+                                        
+                                            <span class="duration">00:00:03.438</span>
+                                        
+                                    
+
+                                </div>
+
+                                
+                                    
+
+                                    
+
+                                    
+                                    
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                
+                            </div>
+
+                        
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+                        
+
+                        
+                            
+                        
+
+                    
+                
+                        
+                            <div class="scenario-step-container">
+
+                                
+                                    
+                                        <div class="label" title="Success">
+                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
+                                        </div>
+                                    
+                                
+
+                                <div class="text">
+                                    <span class="keyword highlight">Then </span>
+
+                                    
+                                        validate the invoice chaser form and enter the comment for the "Direct" model
+                                        
+                                    
+
+                                    
+                                        
+                                            <span class="duration">00:00:01.627</span>
                                         
                                     
 
@@ -2912,13 +1968,77 @@ input#darkCheck:checked ~ label>svg#moon {
                                     <span class="keyword highlight">And </span>
 
                                     
-                                        check the Employment intermediary"agency", Worker"contractor" and Intermediary for worker"s services"payment company" Headers
+                                        click the chase action on the chaser form
                                         
                                     
 
                                     
                                         
-                                            <span class="duration">00:00:00.401</span>
+                                            <span class="duration">00:00:12.045</span>
+                                        
+                                    
+
+                                </div>
+
+                                
+                                    
+
+                                    
+
+                                    
+                                    
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                
+                            </div>
+
+                        
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+                        
+
+                        
+                            
+                        
+
+                    
+                
+                        
+                            <div class="scenario-step-container">
+
+                                
+                                    
+                                        <div class="label" title="Success">
+                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
+                                        </div>
+                                    
+                                
+
+                                <div class="text">
+                                    <span class="keyword highlight">Then </span>
+
+                                    
+                                        validate the chaser mail send to the respective "Direct" invoice contact
+                                        
+                                    
+
+                                    
+                                        
+                                            <span class="duration">00:02:02.357</span>
                                         
                                     
 
@@ -2977,13 +2097,15 @@ input#darkCheck:checked ~ label>svg#moon {
                             
                                 <span class="tag">@Regression-2412</span>
                             
-                                <span class="tag">@internalUsers</span>
+                                <span class="tag">@Overduedirectinvoicechase</span>
+                            
+                                <span class="tag">@Direct</span>
                             
                         
                     
                 </div>
 
-                <h2>Scenario: <small>Verify the "Collection Lead" user is able to verify the HMRC intermediary reports</small></h2>
+                <h2>Scenario: <small>Ability to Chase Direct model client(Agency-Client) Invoice by Collection Lead</small></h2>
 
                 <ul class="nav navbar-right panel_toolbox">
                     <li>
@@ -3000,7 +2122,7 @@ input#darkCheck:checked ~ label>svg#moon {
 
                     
                         <li>
-                            <span class="step passed-background" data-toggle="tooltip" title="Scenario passed">7</span>
+                            <span class="step passed-background" data-toggle="tooltip" title="Scenario passed">8</span>
                         </li>
                     
 
@@ -3009,7 +2131,7 @@ input#darkCheck:checked ~ label>svg#moon {
                     
                         <li>
                             <span style="font-size:1.2em"> Duration:</span>
-                            <span style=padding-right:5em>00:00:40.631</span>
+                            <span style=padding-right:5em>00:02:52.759</span>
                         </li>
                     
                 </ul>
@@ -3035,13 +2157,13 @@ input#darkCheck:checked ~ label>svg#moon {
                                     <span class="keyword highlight">Given </span>
 
                                     
-                                        Business Details to validate the Intermediary HMRC Reports
+                                        Active Business name for invoice
                                         
                                     
 
                                     
                                         
-                                            <span class="duration">00:00:15.135</span>
+                                            <span class="duration">00:00:01.363</span>
                                         
                                     
 
@@ -3105,71 +2227,7 @@ input#darkCheck:checked ~ label>svg#moon {
 
                                     
                                         
-                                            <span class="duration">00:00:14.155</span>
-                                        
-                                    
-
-                                </div>
-
-                                
-                                    
-
-                                    
-
-                                    
-                                    
-                                    
-
-                                    
-
-                                    
-
-                                    
-                                
-                            </div>
-
-                        
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-                        
-
-                        
-                            
-                        
-
-                    
-                
-                        
-                            <div class="scenario-step-container">
-
-                                
-                                    
-                                        <div class="label" title="Success">
-                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
-                                        </div>
-                                    
-                                
-
-                                <div class="text">
-                                    <span class="keyword highlight">And </span>
-
-                                    
-                                        navigate to the reports to select the intermediary report
-                                        
-                                    
-
-                                    
-                                        
-                                            <span class="duration">00:00:03.188</span>
+                                            <span class="duration">00:00:13.534</span>
                                         
                                     
 
@@ -3227,77 +2285,13 @@ input#darkCheck:checked ~ label>svg#moon {
                                     <span class="keyword highlight">Then </span>
 
                                     
-                                        select the respective intermediary years, quarter, and also date range
+                                        navigate to the invoice list page
                                         
                                     
 
                                     
                                         
-                                            <span class="duration">00:00:04.312</span>
-                                        
-                                    
-
-                                </div>
-
-                                
-                                    
-
-                                    
-
-                                    
-                                    
-                                    
-
-                                    
-
-                                    
-
-                                    
-                                
-                            </div>
-
-                        
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-                        
-
-                        
-                            
-                        
-
-                    
-                
-                        
-                            <div class="scenario-step-container">
-
-                                
-                                    
-                                        <div class="label" title="Success">
-                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
-                                        </div>
-                                    
-                                
-
-                                <div class="text">
-                                    <span class="keyword highlight">And </span>
-
-                                    
-                                        download the available data
-                                        
-                                    
-
-                                    
-                                        
-                                            <span class="duration">00:00:01.297</span>
+                                            <span class="duration">00:00:07.675</span>
                                         
                                     
 
@@ -3355,13 +2349,141 @@ input#darkCheck:checked ~ label>svg#moon {
                                     <span class="keyword highlight">Then </span>
 
                                     
-                                        validate the report, ensuring it contains contractors paid invoices record
+                                        filter the client Invoices with overdue status based on "Direct"
                                         
                                     
 
                                     
                                         
-                                            <span class="duration">00:00:02.144</span>
+                                            <span class="duration">00:00:09.098</span>
+                                        
+                                    
+
+                                </div>
+
+                                
+                                    
+
+                                    
+
+                                    
+                                    
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                
+                            </div>
+
+                        
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+                        
+
+                        
+                            
+                        
+
+                    
+                
+                        
+                            <div class="scenario-step-container">
+
+                                
+                                    
+                                        <div class="label" title="Success">
+                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
+                                        </div>
+                                    
+                                
+
+                                <div class="text">
+                                    <span class="keyword highlight">Then </span>
+
+                                    
+                                        select the checkbox and click the chase action on the list page
+                                        
+                                    
+
+                                    
+                                        
+                                            <span class="duration">00:00:03.513</span>
+                                        
+                                    
+
+                                </div>
+
+                                
+                                    
+
+                                    
+
+                                    
+                                    
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                
+                            </div>
+
+                        
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+                        
+
+                        
+                            
+                        
+
+                    
+                
+                        
+                            <div class="scenario-step-container">
+
+                                
+                                    
+                                        <div class="label" title="Success">
+                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
+                                        </div>
+                                    
+                                
+
+                                <div class="text">
+                                    <span class="keyword highlight">Then </span>
+
+                                    
+                                        validate the invoice chaser form and enter the comment for the "Direct" model
+                                        
+                                    
+
+                                    
+                                        
+                                            <span class="duration">00:00:02.763</span>
                                         
                                     
 
@@ -3419,13 +2541,77 @@ input#darkCheck:checked ~ label>svg#moon {
                                     <span class="keyword highlight">And </span>
 
                                     
-                                        check the Employment intermediary"agency", Worker"contractor" and Intermediary for worker"s services"payment company" Headers
+                                        click the chase action on the chaser form
                                         
                                     
 
                                     
                                         
-                                            <span class="duration">00:00:00.400</span>
+                                            <span class="duration">00:00:12.108</span>
+                                        
+                                    
+
+                                </div>
+
+                                
+                                    
+
+                                    
+
+                                    
+                                    
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                
+                            </div>
+
+                        
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+                        
+
+                        
+                            
+                        
+
+                    
+                
+                        
+                            <div class="scenario-step-container">
+
+                                
+                                    
+                                        <div class="label" title="Success">
+                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
+                                        </div>
+                                    
+                                
+
+                                <div class="text">
+                                    <span class="keyword highlight">Then </span>
+
+                                    
+                                        validate the chaser mail send to the respective "Direct" invoice contact
+                                        
+                                    
+
+                                    
+                                        
+                                            <span class="duration">00:02:02.705</span>
                                         
                                     
 
@@ -3484,13 +2670,15 @@ input#darkCheck:checked ~ label>svg#moon {
                             
                                 <span class="tag">@Regression-2412</span>
                             
-                                <span class="tag">@internalUsers</span>
+                                <span class="tag">@Overduedirectinvoicechase</span>
+                            
+                                <span class="tag">@Indirect</span>
                             
                         
                     
                 </div>
 
-                <h2>Scenario: <small>Verify the "Credit Risk Assistant" user is able to verify the HMRC intermediary reports</small></h2>
+                <h2>Scenario: <small>Ability to Chase Indirect model client(Provider-Client) Invoice by Payment Assistant</small></h2>
 
                 <ul class="nav navbar-right panel_toolbox">
                     <li>
@@ -3507,7 +2695,7 @@ input#darkCheck:checked ~ label>svg#moon {
 
                     
                         <li>
-                            <span class="step passed-background" data-toggle="tooltip" title="Scenario passed">7</span>
+                            <span class="step passed-background" data-toggle="tooltip" title="Scenario passed">8</span>
                         </li>
                     
 
@@ -3516,7 +2704,7 @@ input#darkCheck:checked ~ label>svg#moon {
                     
                         <li>
                             <span style="font-size:1.2em"> Duration:</span>
-                            <span style=padding-right:5em>00:00:41.248</span>
+                            <span style=padding-right:5em>00:02:50.577</span>
                         </li>
                     
                 </ul>
@@ -3542,13 +2730,13 @@ input#darkCheck:checked ~ label>svg#moon {
                                     <span class="keyword highlight">Given </span>
 
                                     
-                                        Business Details to validate the Intermediary HMRC Reports
+                                        Active Business name for invoice
                                         
                                     
 
                                     
                                         
-                                            <span class="duration">00:00:16.180</span>
+                                            <span class="duration">00:00:00.761</span>
                                         
                                     
 
@@ -3606,77 +2794,13 @@ input#darkCheck:checked ~ label>svg#moon {
                                     <span class="keyword highlight">Given </span>
 
                                     
-                                        login as "Credit Risk Assistant" user
+                                        login as "Payment Assistant" user
                                         
                                     
 
                                     
                                         
-                                            <span class="duration">00:00:13.888</span>
-                                        
-                                    
-
-                                </div>
-
-                                
-                                    
-
-                                    
-
-                                    
-                                    
-                                    
-
-                                    
-
-                                    
-
-                                    
-                                
-                            </div>
-
-                        
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-                        
-
-                        
-                            
-                        
-
-                    
-                
-                        
-                            <div class="scenario-step-container">
-
-                                
-                                    
-                                        <div class="label" title="Success">
-                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
-                                        </div>
-                                    
-                                
-
-                                <div class="text">
-                                    <span class="keyword highlight">And </span>
-
-                                    
-                                        navigate to the reports to select the intermediary report
-                                        
-                                    
-
-                                    
-                                        
-                                            <span class="duration">00:00:03.166</span>
+                                            <span class="duration">00:00:13.113</span>
                                         
                                     
 
@@ -3734,77 +2858,13 @@ input#darkCheck:checked ~ label>svg#moon {
                                     <span class="keyword highlight">Then </span>
 
                                     
-                                        select the respective intermediary years, quarter, and also date range
+                                        navigate to the invoice list page
                                         
                                     
 
                                     
                                         
-                                            <span class="duration">00:00:04.192</span>
-                                        
-                                    
-
-                                </div>
-
-                                
-                                    
-
-                                    
-
-                                    
-                                    
-                                    
-
-                                    
-
-                                    
-
-                                    
-                                
-                            </div>
-
-                        
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-                        
-
-                        
-                            
-                        
-
-                    
-                
-                        
-                            <div class="scenario-step-container">
-
-                                
-                                    
-                                        <div class="label" title="Success">
-                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
-                                        </div>
-                                    
-                                
-
-                                <div class="text">
-                                    <span class="keyword highlight">And </span>
-
-                                    
-                                        download the available data
-                                        
-                                    
-
-                                    
-                                        
-                                            <span class="duration">00:00:01.306</span>
+                                            <span class="duration">00:00:07.818</span>
                                         
                                     
 
@@ -3862,13 +2922,141 @@ input#darkCheck:checked ~ label>svg#moon {
                                     <span class="keyword highlight">Then </span>
 
                                     
-                                        validate the report, ensuring it contains contractors paid invoices record
+                                        filter the client Invoices with overdue status based on "Indirect"
                                         
                                     
 
                                     
                                         
-                                            <span class="duration">00:00:02.136</span>
+                                            <span class="duration">00:00:10.771</span>
+                                        
+                                    
+
+                                </div>
+
+                                
+                                    
+
+                                    
+
+                                    
+                                    
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                
+                            </div>
+
+                        
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+                        
+
+                        
+                            
+                        
+
+                    
+                
+                        
+                            <div class="scenario-step-container">
+
+                                
+                                    
+                                        <div class="label" title="Success">
+                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
+                                        </div>
+                                    
+                                
+
+                                <div class="text">
+                                    <span class="keyword highlight">Then </span>
+
+                                    
+                                        select the checkbox and click the chase action on the list page
+                                        
+                                    
+
+                                    
+                                        
+                                            <span class="duration">00:00:03.400</span>
+                                        
+                                    
+
+                                </div>
+
+                                
+                                    
+
+                                    
+
+                                    
+                                    
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                
+                            </div>
+
+                        
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+                        
+
+                        
+                            
+                        
+
+                    
+                
+                        
+                            <div class="scenario-step-container">
+
+                                
+                                    
+                                        <div class="label" title="Success">
+                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
+                                        </div>
+                                    
+                                
+
+                                <div class="text">
+                                    <span class="keyword highlight">Then </span>
+
+                                    
+                                        validate the invoice chaser form and enter the comment for the "Indirect" model
+                                        
+                                    
+
+                                    
+                                        
+                                            <span class="duration">00:00:00.363</span>
                                         
                                     
 
@@ -3926,13 +3114,77 @@ input#darkCheck:checked ~ label>svg#moon {
                                     <span class="keyword highlight">And </span>
 
                                     
-                                        check the Employment intermediary"agency", Worker"contractor" and Intermediary for worker"s services"payment company" Headers
+                                        click the chase action on the chaser form
                                         
                                     
 
                                     
                                         
-                                            <span class="duration">00:00:00.380</span>
+                                            <span class="duration">00:00:12.047</span>
+                                        
+                                    
+
+                                </div>
+
+                                
+                                    
+
+                                    
+
+                                    
+                                    
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                
+                            </div>
+
+                        
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+                        
+
+                        
+                            
+                        
+
+                    
+                
+                        
+                            <div class="scenario-step-container">
+
+                                
+                                    
+                                        <div class="label" title="Success">
+                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
+                                        </div>
+                                    
+                                
+
+                                <div class="text">
+                                    <span class="keyword highlight">Then </span>
+
+                                    
+                                        validate the chaser mail send to the respective "Indirect" invoice contact
+                                        
+                                    
+
+                                    
+                                        
+                                            <span class="duration">00:02:02.304</span>
                                         
                                     
 
@@ -3991,13 +3243,15 @@ input#darkCheck:checked ~ label>svg#moon {
                             
                                 <span class="tag">@Regression-2412</span>
                             
-                                <span class="tag">@internalUsers</span>
+                                <span class="tag">@Overduedirectinvoicechase</span>
+                            
+                                <span class="tag">@Indirect</span>
                             
                         
                     
                 </div>
 
-                <h2>Scenario: <small>Verify the "Compliance Approver" user is able to verify the HMRC intermediary reports</small></h2>
+                <h2>Scenario: <small>Ability to Chase Indirect model client(Provider-Client) Invoice by Collection Assistant</small></h2>
 
                 <ul class="nav navbar-right panel_toolbox">
                     <li>
@@ -4014,7 +3268,7 @@ input#darkCheck:checked ~ label>svg#moon {
 
                     
                         <li>
-                            <span class="step passed-background" data-toggle="tooltip" title="Scenario passed">7</span>
+                            <span class="step passed-background" data-toggle="tooltip" title="Scenario passed">8</span>
                         </li>
                     
 
@@ -4023,7 +3277,7 @@ input#darkCheck:checked ~ label>svg#moon {
                     
                         <li>
                             <span style="font-size:1.2em"> Duration:</span>
-                            <span style=padding-right:5em>00:00:41.547</span>
+                            <span style=padding-right:5em>00:02:49.376</span>
                         </li>
                     
                 </ul>
@@ -4049,13 +3303,13 @@ input#darkCheck:checked ~ label>svg#moon {
                                     <span class="keyword highlight">Given </span>
 
                                     
-                                        Business Details to validate the Intermediary HMRC Reports
+                                        Active Business name for invoice
                                         
                                     
 
                                     
                                         
-                                            <span class="duration">00:00:15.996</span>
+                                            <span class="duration">00:00:01.727</span>
                                         
                                     
 
@@ -4113,77 +3367,13 @@ input#darkCheck:checked ~ label>svg#moon {
                                     <span class="keyword highlight">Given </span>
 
                                     
-                                        login as "Compliance Approver" user
+                                        login as "Collection Assistant" user
                                         
                                     
 
                                     
                                         
-                                            <span class="duration">00:00:14.275</span>
-                                        
-                                    
-
-                                </div>
-
-                                
-                                    
-
-                                    
-
-                                    
-                                    
-                                    
-
-                                    
-
-                                    
-
-                                    
-                                
-                            </div>
-
-                        
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-                        
-
-                        
-                            
-                        
-
-                    
-                
-                        
-                            <div class="scenario-step-container">
-
-                                
-                                    
-                                        <div class="label" title="Success">
-                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
-                                        </div>
-                                    
-                                
-
-                                <div class="text">
-                                    <span class="keyword highlight">And </span>
-
-                                    
-                                        navigate to the reports to select the intermediary report
-                                        
-                                    
-
-                                    
-                                        
-                                            <span class="duration">00:00:03.198</span>
+                                            <span class="duration">00:00:13.215</span>
                                         
                                     
 
@@ -4241,77 +3431,13 @@ input#darkCheck:checked ~ label>svg#moon {
                                     <span class="keyword highlight">Then </span>
 
                                     
-                                        select the respective intermediary years, quarter, and also date range
+                                        navigate to the invoice list page
                                         
                                     
 
                                     
                                         
-                                            <span class="duration">00:00:04.229</span>
-                                        
-                                    
-
-                                </div>
-
-                                
-                                    
-
-                                    
-
-                                    
-                                    
-                                    
-
-                                    
-
-                                    
-
-                                    
-                                
-                            </div>
-
-                        
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-                        
-
-                        
-                            
-                        
-
-                    
-                
-                        
-                            <div class="scenario-step-container">
-
-                                
-                                    
-                                        <div class="label" title="Success">
-                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
-                                        </div>
-                                    
-                                
-
-                                <div class="text">
-                                    <span class="keyword highlight">And </span>
-
-                                    
-                                        download the available data
-                                        
-                                    
-
-                                    
-                                        
-                                            <span class="duration">00:00:01.316</span>
+                                            <span class="duration">00:00:07.437</span>
                                         
                                     
 
@@ -4369,13 +3495,141 @@ input#darkCheck:checked ~ label>svg#moon {
                                     <span class="keyword highlight">Then </span>
 
                                     
-                                        validate the report, ensuring it contains contractors paid invoices record
+                                        filter the client Invoices with overdue status based on "Indirect"
                                         
                                     
 
                                     
                                         
-                                            <span class="duration">00:00:02.135</span>
+                                            <span class="duration">00:00:09.031</span>
+                                        
+                                    
+
+                                </div>
+
+                                
+                                    
+
+                                    
+
+                                    
+                                    
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                
+                            </div>
+
+                        
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+                        
+
+                        
+                            
+                        
+
+                    
+                
+                        
+                            <div class="scenario-step-container">
+
+                                
+                                    
+                                        <div class="label" title="Success">
+                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
+                                        </div>
+                                    
+                                
+
+                                <div class="text">
+                                    <span class="keyword highlight">Then </span>
+
+                                    
+                                        select the checkbox and click the chase action on the list page
+                                        
+                                    
+
+                                    
+                                        
+                                            <span class="duration">00:00:03.398</span>
+                                        
+                                    
+
+                                </div>
+
+                                
+                                    
+
+                                    
+
+                                    
+                                    
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                
+                            </div>
+
+                        
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+                        
+
+                        
+                            
+                        
+
+                    
+                
+                        
+                            <div class="scenario-step-container">
+
+                                
+                                    
+                                        <div class="label" title="Success">
+                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
+                                        </div>
+                                    
+                                
+
+                                <div class="text">
+                                    <span class="keyword highlight">Then </span>
+
+                                    
+                                        validate the invoice chaser form and enter the comment for the "Indirect" model
+                                        
+                                    
+
+                                    
+                                        
+                                            <span class="duration">00:00:00.347</span>
                                         
                                     
 
@@ -4433,13 +3687,77 @@ input#darkCheck:checked ~ label>svg#moon {
                                     <span class="keyword highlight">And </span>
 
                                     
-                                        check the Employment intermediary"agency", Worker"contractor" and Intermediary for worker"s services"payment company" Headers
+                                        click the chase action on the chaser form
                                         
                                     
 
                                     
                                         
-                                            <span class="duration">00:00:00.398</span>
+                                            <span class="duration">00:00:12.004</span>
+                                        
+                                    
+
+                                </div>
+
+                                
+                                    
+
+                                    
+
+                                    
+                                    
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                
+                            </div>
+
+                        
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+                        
+
+                        
+                            
+                        
+
+                    
+                
+                        
+                            <div class="scenario-step-container">
+
+                                
+                                    
+                                        <div class="label" title="Success">
+                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
+                                        </div>
+                                    
+                                
+
+                                <div class="text">
+                                    <span class="keyword highlight">Then </span>
+
+                                    
+                                        validate the chaser mail send to the respective "Indirect" invoice contact
+                                        
+                                    
+
+                                    
+                                        
+                                            <span class="duration">00:02:02.217</span>
                                         
                                     
 
@@ -4498,13 +3816,15 @@ input#darkCheck:checked ~ label>svg#moon {
                             
                                 <span class="tag">@Regression-2412</span>
                             
-                                <span class="tag">@internalUsers</span>
+                                <span class="tag">@Overduedirectinvoicechase</span>
+                            
+                                <span class="tag">@Indirect</span>
                             
                         
                     
                 </div>
 
-                <h2>Scenario: <small>Verify the "Compliance Manager" user is able to verify the HMRC intermediary reports</small></h2>
+                <h2>Scenario: <small>Ability to Chase Indirect model client(Provider-Client) Invoice by Collection Lead</small></h2>
 
                 <ul class="nav navbar-right panel_toolbox">
                     <li>
@@ -4521,7 +3841,7 @@ input#darkCheck:checked ~ label>svg#moon {
 
                     
                         <li>
-                            <span class="step passed-background" data-toggle="tooltip" title="Scenario passed">7</span>
+                            <span class="step passed-background" data-toggle="tooltip" title="Scenario passed">8</span>
                         </li>
                     
 
@@ -4530,7 +3850,7 @@ input#darkCheck:checked ~ label>svg#moon {
                     
                         <li>
                             <span style="font-size:1.2em"> Duration:</span>
-                            <span style=padding-right:5em>00:00:52.430</span>
+                            <span style=padding-right:5em>00:02:50.443</span>
                         </li>
                     
                 </ul>
@@ -4556,520 +3876,13 @@ input#darkCheck:checked ~ label>svg#moon {
                                     <span class="keyword highlight">Given </span>
 
                                     
-                                        Business Details to validate the Intermediary HMRC Reports
+                                        Active Business name for invoice
                                         
                                     
 
                                     
                                         
-                                            <span class="duration">00:00:17.561</span>
-                                        
-                                    
-
-                                </div>
-
-                                
-                                    
-
-                                    
-
-                                    
-                                    
-                                    
-
-                                    
-
-                                    
-
-                                    
-                                
-                            </div>
-
-                        
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-                        
-
-                        
-                            
-                        
-
-                    
-                
-                        
-                            <div class="scenario-step-container">
-
-                                
-                                    
-                                        <div class="label" title="Success">
-                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
-                                        </div>
-                                    
-                                
-
-                                <div class="text">
-                                    <span class="keyword highlight">Given </span>
-
-                                    
-                                        login as "Compliance Manager" user
-                                        
-                                    
-
-                                    
-                                        
-                                            <span class="duration">00:00:23.577</span>
-                                        
-                                    
-
-                                </div>
-
-                                
-                                    
-
-                                    
-
-                                    
-                                    
-                                    
-
-                                    
-
-                                    
-
-                                    
-                                
-                            </div>
-
-                        
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-                        
-
-                        
-                            
-                        
-
-                    
-                
-                        
-                            <div class="scenario-step-container">
-
-                                
-                                    
-                                        <div class="label" title="Success">
-                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
-                                        </div>
-                                    
-                                
-
-                                <div class="text">
-                                    <span class="keyword highlight">And </span>
-
-                                    
-                                        navigate to the reports to select the intermediary report
-                                        
-                                    
-
-                                    
-                                        
-                                            <span class="duration">00:00:03.211</span>
-                                        
-                                    
-
-                                </div>
-
-                                
-                                    
-
-                                    
-
-                                    
-                                    
-                                    
-
-                                    
-
-                                    
-
-                                    
-                                
-                            </div>
-
-                        
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-                        
-
-                        
-                            
-                        
-
-                    
-                
-                        
-                            <div class="scenario-step-container">
-
-                                
-                                    
-                                        <div class="label" title="Success">
-                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
-                                        </div>
-                                    
-                                
-
-                                <div class="text">
-                                    <span class="keyword highlight">Then </span>
-
-                                    
-                                        select the respective intermediary years, quarter, and also date range
-                                        
-                                    
-
-                                    
-                                        
-                                            <span class="duration">00:00:04.219</span>
-                                        
-                                    
-
-                                </div>
-
-                                
-                                    
-
-                                    
-
-                                    
-                                    
-                                    
-
-                                    
-
-                                    
-
-                                    
-                                
-                            </div>
-
-                        
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-                        
-
-                        
-                            
-                        
-
-                    
-                
-                        
-                            <div class="scenario-step-container">
-
-                                
-                                    
-                                        <div class="label" title="Success">
-                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
-                                        </div>
-                                    
-                                
-
-                                <div class="text">
-                                    <span class="keyword highlight">And </span>
-
-                                    
-                                        download the available data
-                                        
-                                    
-
-                                    
-                                        
-                                            <span class="duration">00:00:01.321</span>
-                                        
-                                    
-
-                                </div>
-
-                                
-                                    
-
-                                    
-
-                                    
-                                    
-                                    
-
-                                    
-
-                                    
-
-                                    
-                                
-                            </div>
-
-                        
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-                        
-
-                        
-                            
-                        
-
-                    
-                
-                        
-                            <div class="scenario-step-container">
-
-                                
-                                    
-                                        <div class="label" title="Success">
-                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
-                                        </div>
-                                    
-                                
-
-                                <div class="text">
-                                    <span class="keyword highlight">Then </span>
-
-                                    
-                                        validate the report, ensuring it contains contractors paid invoices record
-                                        
-                                    
-
-                                    
-                                        
-                                            <span class="duration">00:00:02.153</span>
-                                        
-                                    
-
-                                </div>
-
-                                
-                                    
-
-                                    
-
-                                    
-                                    
-                                    
-
-                                    
-
-                                    
-
-                                    
-                                
-                            </div>
-
-                        
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-                        
-
-                        
-                            
-                        
-
-                    
-                
-                        
-                            <div class="scenario-step-container">
-
-                                
-                                    
-                                        <div class="label" title="Success">
-                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
-                                        </div>
-                                    
-                                
-
-                                <div class="text">
-                                    <span class="keyword highlight">And </span>
-
-                                    
-                                        check the Employment intermediary"agency", Worker"contractor" and Intermediary for worker"s services"payment company" Headers
-                                        
-                                    
-
-                                    
-                                        
-                                            <span class="duration">00:00:00.388</span>
-                                        
-                                    
-
-                                </div>
-
-                                
-                                    
-
-                                    
-
-                                    
-                                    
-                                    
-
-                                    
-
-                                    
-
-                                    
-                                
-                            </div>
-
-                        
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-                        
-
-                        
-                            
-                        
-
-                    
-                
-            </div>
-        </div>
-    </div>
-
-    <div class="col-md-12 col-sm-12 col-xs-12">
-        <div class="x_panel" style="height: auto;">
-            <div class="x_title">
-
-                <div class="tags">
-                    
-                        
-                        
-                            <i class="fa fa-tags fa-lg"></i>
-                            
-                                <span class="tag">@Regression-2412</span>
-                            
-                                <span class="tag">@internalUsers</span>
-                            
-                        
-                    
-                </div>
-
-                <h2>Scenario: <small>Verify the "Financial Management" user is able to verify the HMRC intermediary reports</small></h2>
-
-                <ul class="nav navbar-right panel_toolbox">
-                    <li>
-                        <a class="collapse-link"><i class="fa fa-chevron-down"></i></a>
-                    </li>
-
-                    
-
-                    
-
-                    
-
-                    
-
-                    
-                        <li>
-                            <span class="step passed-background" data-toggle="tooltip" title="Scenario passed">7</span>
-                        </li>
-                    
-
-                    
-
-                    
-                        <li>
-                            <span style="font-size:1.2em"> Duration:</span>
-                            <span style=padding-right:5em>00:00:41.300</span>
-                        </li>
-                    
-                </ul>
-
-                <div class="clearfix"></div>
-            </div>
-
-            <div class="x_content" style="display: none;">
-                <div class="scenario-step-container"></div>
-                    
-                        
-                            <div class="scenario-step-container">
-
-                                
-                                    
-                                        <div class="label" title="Success">
-                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
-                                        </div>
-                                    
-                                
-
-                                <div class="text">
-                                    <span class="keyword highlight">Given </span>
-
-                                    
-                                        Business Details to validate the Intermediary HMRC Reports
-                                        
-                                    
-
-                                    
-                                        
-                                            <span class="duration">00:00:15.697</span>
+                                            <span class="duration">00:00:00.247</span>
                                         
                                     
 
@@ -5127,77 +3940,13 @@ input#darkCheck:checked ~ label>svg#moon {
                                     <span class="keyword highlight">Given </span>
 
                                     
-                                        login as "Financial Management" user
+                                        login as "Collection Lead" user
                                         
                                     
 
                                     
                                         
-                                            <span class="duration">00:00:14.182</span>
-                                        
-                                    
-
-                                </div>
-
-                                
-                                    
-
-                                    
-
-                                    
-                                    
-                                    
-
-                                    
-
-                                    
-
-                                    
-                                
-                            </div>
-
-                        
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-                        
-
-                        
-                            
-                        
-
-                    
-                
-                        
-                            <div class="scenario-step-container">
-
-                                
-                                    
-                                        <div class="label" title="Success">
-                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
-                                        </div>
-                                    
-                                
-
-                                <div class="text">
-                                    <span class="keyword highlight">And </span>
-
-                                    
-                                        navigate to the reports to select the intermediary report
-                                        
-                                    
-
-                                    
-                                        
-                                            <span class="duration">00:00:03.232</span>
+                                            <span class="duration">00:00:13.085</span>
                                         
                                     
 
@@ -5255,77 +4004,13 @@ input#darkCheck:checked ~ label>svg#moon {
                                     <span class="keyword highlight">Then </span>
 
                                     
-                                        select the respective intermediary years, quarter, and also date range
+                                        navigate to the invoice list page
                                         
                                     
 
                                     
                                         
-                                            <span class="duration">00:00:04.207</span>
-                                        
-                                    
-
-                                </div>
-
-                                
-                                    
-
-                                    
-
-                                    
-                                    
-                                    
-
-                                    
-
-                                    
-
-                                    
-                                
-                            </div>
-
-                        
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-                        
-
-                        
-                            
-                        
-
-                    
-                
-                        
-                            <div class="scenario-step-container">
-
-                                
-                                    
-                                        <div class="label" title="Success">
-                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
-                                        </div>
-                                    
-                                
-
-                                <div class="text">
-                                    <span class="keyword highlight">And </span>
-
-                                    
-                                        download the available data
-                                        
-                                    
-
-                                    
-                                        
-                                            <span class="duration">00:00:01.306</span>
+                                            <span class="duration">00:00:07.541</span>
                                         
                                     
 
@@ -5383,328 +4068,13 @@ input#darkCheck:checked ~ label>svg#moon {
                                     <span class="keyword highlight">Then </span>
 
                                     
-                                        validate the report, ensuring it contains contractors paid invoices record
+                                        filter the client Invoices with overdue status based on "Indirect"
                                         
                                     
 
                                     
                                         
-                                            <span class="duration">00:00:02.270</span>
-                                        
-                                    
-
-                                </div>
-
-                                
-                                    
-
-                                    
-
-                                    
-                                    
-                                    
-
-                                    
-
-                                    
-
-                                    
-                                
-                            </div>
-
-                        
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-                        
-
-                        
-                            
-                        
-
-                    
-                
-                        
-                            <div class="scenario-step-container">
-
-                                
-                                    
-                                        <div class="label" title="Success">
-                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
-                                        </div>
-                                    
-                                
-
-                                <div class="text">
-                                    <span class="keyword highlight">And </span>
-
-                                    
-                                        check the Employment intermediary"agency", Worker"contractor" and Intermediary for worker"s services"payment company" Headers
-                                        
-                                    
-
-                                    
-                                        
-                                            <span class="duration">00:00:00.406</span>
-                                        
-                                    
-
-                                </div>
-
-                                
-                                    
-
-                                    
-
-                                    
-                                    
-                                    
-
-                                    
-
-                                    
-
-                                    
-                                
-                            </div>
-
-                        
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-                        
-
-                        
-                            
-                        
-
-                    
-                
-            </div>
-        </div>
-    </div>
-
-    <div class="col-md-12 col-sm-12 col-xs-12">
-        <div class="x_panel" style="height: auto;">
-            <div class="x_title">
-
-                <div class="tags">
-                    
-                        
-                        
-                            <i class="fa fa-tags fa-lg"></i>
-                            
-                                <span class="tag">@Regression-2412</span>
-                            
-                                <span class="tag">@internalUsers</span>
-                            
-                        
-                    
-                </div>
-
-                <h2>Scenario: <small>Verify the "User Management" user is able to verify the HMRC intermediary reports</small></h2>
-
-                <ul class="nav navbar-right panel_toolbox">
-                    <li>
-                        <a class="collapse-link"><i class="fa fa-chevron-down"></i></a>
-                    </li>
-
-                    
-
-                    
-
-                    
-
-                    
-
-                    
-                        <li>
-                            <span class="step passed-background" data-toggle="tooltip" title="Scenario passed">7</span>
-                        </li>
-                    
-
-                    
-
-                    
-                        <li>
-                            <span style="font-size:1.2em"> Duration:</span>
-                            <span style=padding-right:5em>00:00:40.716</span>
-                        </li>
-                    
-                </ul>
-
-                <div class="clearfix"></div>
-            </div>
-
-            <div class="x_content" style="display: none;">
-                <div class="scenario-step-container"></div>
-                    
-                        
-                            <div class="scenario-step-container">
-
-                                
-                                    
-                                        <div class="label" title="Success">
-                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
-                                        </div>
-                                    
-                                
-
-                                <div class="text">
-                                    <span class="keyword highlight">Given </span>
-
-                                    
-                                        Business Details to validate the Intermediary HMRC Reports
-                                        
-                                    
-
-                                    
-                                        
-                                            <span class="duration">00:00:15.554</span>
-                                        
-                                    
-
-                                </div>
-
-                                
-                                    
-
-                                    
-
-                                    
-                                    
-                                    
-
-                                    
-
-                                    
-
-                                    
-                                
-                            </div>
-
-                        
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-                        
-
-                        
-                            
-                        
-
-                    
-                
-                        
-                            <div class="scenario-step-container">
-
-                                
-                                    
-                                        <div class="label" title="Success">
-                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
-                                        </div>
-                                    
-                                
-
-                                <div class="text">
-                                    <span class="keyword highlight">Given </span>
-
-                                    
-                                        login as "User Management" user
-                                        
-                                    
-
-                                    
-                                        
-                                            <span class="duration">00:00:13.875</span>
-                                        
-                                    
-
-                                </div>
-
-                                
-                                    
-
-                                    
-
-                                    
-                                    
-                                    
-
-                                    
-
-                                    
-
-                                    
-                                
-                            </div>
-
-                        
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-                        
-
-                        
-                            
-                        
-
-                    
-                
-                        
-                            <div class="scenario-step-container">
-
-                                
-                                    
-                                        <div class="label" title="Success">
-                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
-                                        </div>
-                                    
-                                
-
-                                <div class="text">
-                                    <span class="keyword highlight">And </span>
-
-                                    
-                                        navigate to the reports to select the intermediary report
-                                        
-                                    
-
-                                    
-                                        
-                                            <span class="duration">00:00:03.205</span>
+                                            <span class="duration">00:00:10.220</span>
                                         
                                     
 
@@ -5762,77 +4132,13 @@ input#darkCheck:checked ~ label>svg#moon {
                                     <span class="keyword highlight">Then </span>
 
                                     
-                                        select the respective intermediary years, quarter, and also date range
+                                        select the checkbox and click the chase action on the list page
                                         
                                     
 
                                     
                                         
-                                            <span class="duration">00:00:04.235</span>
-                                        
-                                    
-
-                                </div>
-
-                                
-                                    
-
-                                    
-
-                                    
-                                    
-                                    
-
-                                    
-
-                                    
-
-                                    
-                                
-                            </div>
-
-                        
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-                        
-
-                        
-                            
-                        
-
-                    
-                
-                        
-                            <div class="scenario-step-container">
-
-                                
-                                    
-                                        <div class="label" title="Success">
-                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
-                                        </div>
-                                    
-                                
-
-                                <div class="text">
-                                    <span class="keyword highlight">And </span>
-
-                                    
-                                        download the available data
-                                        
-                                    
-
-                                    
-                                        
-                                            <span class="duration">00:00:01.314</span>
+                                            <span class="duration">00:00:04.012</span>
                                         
                                     
 
@@ -5890,264 +4196,13 @@ input#darkCheck:checked ~ label>svg#moon {
                                     <span class="keyword highlight">Then </span>
 
                                     
-                                        validate the report, ensuring it contains contractors paid invoices record
+                                        validate the invoice chaser form and enter the comment for the "Indirect" model
                                         
                                     
 
                                     
                                         
-                                            <span class="duration">00:00:02.125</span>
-                                        
-                                    
-
-                                </div>
-
-                                
-                                    
-
-                                    
-
-                                    
-                                    
-                                    
-
-                                    
-
-                                    
-
-                                    
-                                
-                            </div>
-
-                        
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-                        
-
-                        
-                            
-                        
-
-                    
-                
-                        
-                            <div class="scenario-step-container">
-
-                                
-                                    
-                                        <div class="label" title="Success">
-                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
-                                        </div>
-                                    
-                                
-
-                                <div class="text">
-                                    <span class="keyword highlight">And </span>
-
-                                    
-                                        check the Employment intermediary"agency", Worker"contractor" and Intermediary for worker"s services"payment company" Headers
-                                        
-                                    
-
-                                    
-                                        
-                                            <span class="duration">00:00:00.408</span>
-                                        
-                                    
-
-                                </div>
-
-                                
-                                    
-
-                                    
-
-                                    
-                                    
-                                    
-
-                                    
-
-                                    
-
-                                    
-                                
-                            </div>
-
-                        
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-                        
-
-                        
-                            
-                        
-
-                    
-                
-            </div>
-        </div>
-    </div>
-
-    <div class="col-md-12 col-sm-12 col-xs-12">
-        <div class="x_panel" style="height: auto;">
-            <div class="x_title">
-
-                <div class="tags">
-                    
-                        
-                        
-                            <i class="fa fa-tags fa-lg"></i>
-                            
-                                <span class="tag">@Regression-2412</span>
-                            
-                                <span class="tag">@internalUsers</span>
-                            
-                        
-                    
-                </div>
-
-                <h2>Scenario: <small>Verify the "Credit Risk Manager" user is able to verify the HMRC intermediary reports</small></h2>
-
-                <ul class="nav navbar-right panel_toolbox">
-                    <li>
-                        <a class="collapse-link"><i class="fa fa-chevron-down"></i></a>
-                    </li>
-
-                    
-
-                    
-
-                    
-
-                    
-
-                    
-                        <li>
-                            <span class="step passed-background" data-toggle="tooltip" title="Scenario passed">7</span>
-                        </li>
-                    
-
-                    
-
-                    
-                        <li>
-                            <span style="font-size:1.2em"> Duration:</span>
-                            <span style=padding-right:5em>00:00:42.694</span>
-                        </li>
-                    
-                </ul>
-
-                <div class="clearfix"></div>
-            </div>
-
-            <div class="x_content" style="display: none;">
-                <div class="scenario-step-container"></div>
-                    
-                        
-                            <div class="scenario-step-container">
-
-                                
-                                    
-                                        <div class="label" title="Success">
-                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
-                                        </div>
-                                    
-                                
-
-                                <div class="text">
-                                    <span class="keyword highlight">Given </span>
-
-                                    
-                                        Business Details to validate the Intermediary HMRC Reports
-                                        
-                                    
-
-                                    
-                                        
-                                            <span class="duration">00:00:17.379</span>
-                                        
-                                    
-
-                                </div>
-
-                                
-                                    
-
-                                    
-
-                                    
-                                    
-                                    
-
-                                    
-
-                                    
-
-                                    
-                                
-                            </div>
-
-                        
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-                        
-
-                        
-                            
-                        
-
-                    
-                
-                        
-                            <div class="scenario-step-container">
-
-                                
-                                    
-                                        <div class="label" title="Success">
-                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
-                                        </div>
-                                    
-                                
-
-                                <div class="text">
-                                    <span class="keyword highlight">Given </span>
-
-                                    
-                                        login as "Credit Risk Manager" user
-                                        
-                                    
-
-                                    
-                                        
-                                            <span class="duration">00:00:14.014</span>
+                                            <span class="duration">00:00:00.578</span>
                                         
                                     
 
@@ -6205,13 +4260,13 @@ input#darkCheck:checked ~ label>svg#moon {
                                     <span class="keyword highlight">And </span>
 
                                     
-                                        navigate to the reports to select the intermediary report
+                                        click the chase action on the chaser form
                                         
                                     
 
                                     
                                         
-                                            <span class="duration">00:00:03.184</span>
+                                            <span class="duration">00:00:12.393</span>
                                         
                                     
 
@@ -6269,712 +4324,13 @@ input#darkCheck:checked ~ label>svg#moon {
                                     <span class="keyword highlight">Then </span>
 
                                     
-                                        select the respective intermediary years, quarter, and also date range
+                                        validate the chaser mail send to the respective "Indirect" invoice contact
                                         
                                     
 
                                     
                                         
-                                            <span class="duration">00:00:04.260</span>
-                                        
-                                    
-
-                                </div>
-
-                                
-                                    
-
-                                    
-
-                                    
-                                    
-                                    
-
-                                    
-
-                                    
-
-                                    
-                                
-                            </div>
-
-                        
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-                        
-
-                        
-                            
-                        
-
-                    
-                
-                        
-                            <div class="scenario-step-container">
-
-                                
-                                    
-                                        <div class="label" title="Success">
-                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
-                                        </div>
-                                    
-                                
-
-                                <div class="text">
-                                    <span class="keyword highlight">And </span>
-
-                                    
-                                        download the available data
-                                        
-                                    
-
-                                    
-                                        
-                                            <span class="duration">00:00:01.309</span>
-                                        
-                                    
-
-                                </div>
-
-                                
-                                    
-
-                                    
-
-                                    
-                                    
-                                    
-
-                                    
-
-                                    
-
-                                    
-                                
-                            </div>
-
-                        
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-                        
-
-                        
-                            
-                        
-
-                    
-                
-                        
-                            <div class="scenario-step-container">
-
-                                
-                                    
-                                        <div class="label" title="Success">
-                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
-                                        </div>
-                                    
-                                
-
-                                <div class="text">
-                                    <span class="keyword highlight">Then </span>
-
-                                    
-                                        validate the report, ensuring it contains contractors paid invoices record
-                                        
-                                    
-
-                                    
-                                        
-                                            <span class="duration">00:00:02.143</span>
-                                        
-                                    
-
-                                </div>
-
-                                
-                                    
-
-                                    
-
-                                    
-                                    
-                                    
-
-                                    
-
-                                    
-
-                                    
-                                
-                            </div>
-
-                        
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-                        
-
-                        
-                            
-                        
-
-                    
-                
-                        
-                            <div class="scenario-step-container">
-
-                                
-                                    
-                                        <div class="label" title="Success">
-                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
-                                        </div>
-                                    
-                                
-
-                                <div class="text">
-                                    <span class="keyword highlight">And </span>
-
-                                    
-                                        check the Employment intermediary"agency", Worker"contractor" and Intermediary for worker"s services"payment company" Headers
-                                        
-                                    
-
-                                    
-                                        
-                                            <span class="duration">00:00:00.405</span>
-                                        
-                                    
-
-                                </div>
-
-                                
-                                    
-
-                                    
-
-                                    
-                                    
-                                    
-
-                                    
-
-                                    
-
-                                    
-                                
-                            </div>
-
-                        
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-                        
-
-                        
-                            
-                        
-
-                    
-                
-            </div>
-        </div>
-    </div>
-
-    <div class="col-md-12 col-sm-12 col-xs-12">
-        <div class="x_panel" style="height: auto;">
-            <div class="x_title">
-
-                <div class="tags">
-                    
-                        
-                        
-                            <i class="fa fa-tags fa-lg"></i>
-                            
-                                <span class="tag">@Regression-2412</span>
-                            
-                                <span class="tag">@externalUsers</span>
-                            
-                        
-                    
-                </div>
-
-                <h2>Scenario: <small>Verify the "Agency Admin" user is able to verify the HMRC intermediary reports</small></h2>
-
-                <ul class="nav navbar-right panel_toolbox">
-                    <li>
-                        <a class="collapse-link"><i class="fa fa-chevron-down"></i></a>
-                    </li>
-
-                    
-
-                    
-
-                    
-
-                    
-
-                    
-                        <li>
-                            <span class="step passed-background" data-toggle="tooltip" title="Scenario passed">7</span>
-                        </li>
-                    
-
-                    
-
-                    
-                        <li>
-                            <span style="font-size:1.2em"> Duration:</span>
-                            <span style=padding-right:5em>00:00:38.971</span>
-                        </li>
-                    
-                </ul>
-
-                <div class="clearfix"></div>
-            </div>
-
-            <div class="x_content" style="display: none;">
-                <div class="scenario-step-container"></div>
-                    
-                        
-                            <div class="scenario-step-container">
-
-                                
-                                    
-                                        <div class="label" title="Success">
-                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
-                                        </div>
-                                    
-                                
-
-                                <div class="text">
-                                    <span class="keyword highlight">Given </span>
-
-                                    
-                                        Business Details to validate the Intermediary HMRC Reports
-                                        
-                                    
-
-                                    
-                                        
-                                            <span class="duration">00:00:16.076</span>
-                                        
-                                    
-
-                                </div>
-
-                                
-                                    
-
-                                    
-
-                                    
-                                    
-                                    
-
-                                    
-
-                                    
-
-                                    
-                                
-                            </div>
-
-                        
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-                        
-
-                        
-                            
-                        
-
-                    
-                
-                        
-                            <div class="scenario-step-container">
-
-                                
-                                    
-                                        <div class="label" title="Success">
-                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
-                                        </div>
-                                    
-                                
-
-                                <div class="text">
-                                    <span class="keyword highlight">Given </span>
-
-                                    
-                                        login as "Agency Admin" user
-                                        
-                                    
-
-                                    
-                                        
-                                            <span class="duration">00:00:18.533</span>
-                                        
-                                    
-
-                                </div>
-
-                                
-                                    
-
-                                    
-
-                                    
-                                    
-                                    
-
-                                    
-
-                                    
-
-                                    
-                                
-                            </div>
-
-                        
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-                        
-
-                        
-                            
-                        
-
-                    
-                
-                        
-                            <div class="scenario-step-container">
-
-                                
-                                    
-                                        <div class="label" title="Success">
-                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
-                                        </div>
-                                    
-                                
-
-                                <div class="text">
-                                    <span class="keyword highlight">And </span>
-
-                                    
-                                        navigate to the reports to select the intermediary report
-                                        
-                                    
-
-                                    
-                                        
-                                            <span class="duration">00:00:00.412</span>
-                                        
-                                    
-
-                                </div>
-
-                                
-                                    
-
-                                    
-
-                                    
-                                    
-                                    
-
-                                    
-
-                                    
-
-                                    
-                                
-                            </div>
-
-                        
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-                        
-
-                        
-                            
-                        
-
-                    
-                
-                        
-                            <div class="scenario-step-container">
-
-                                
-                                    
-                                        <div class="label" title="Success">
-                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
-                                        </div>
-                                    
-                                
-
-                                <div class="text">
-                                    <span class="keyword highlight">Then </span>
-
-                                    
-                                        select the respective intermediary years, quarter, and also date range
-                                        
-                                    
-
-                                    
-                                        
-                                            <span class="duration">00:00:01.134</span>
-                                        
-                                    
-
-                                </div>
-
-                                
-                                    
-
-                                    
-
-                                    
-                                    
-                                    
-
-                                    
-
-                                    
-
-                                    
-                                
-                            </div>
-
-                        
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-                        
-
-                        
-                            
-                        
-
-                    
-                
-                        
-                            <div class="scenario-step-container">
-
-                                
-                                    
-                                        <div class="label" title="Success">
-                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
-                                        </div>
-                                    
-                                
-
-                                <div class="text">
-                                    <span class="keyword highlight">And </span>
-
-                                    
-                                        download the available data
-                                        
-                                    
-
-                                    
-                                        
-                                            <span class="duration">00:00:00.449</span>
-                                        
-                                    
-
-                                </div>
-
-                                
-                                    
-
-                                    
-
-                                    
-                                    
-                                    
-
-                                    
-
-                                    
-
-                                    
-                                
-                            </div>
-
-                        
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-                        
-
-                        
-                            
-                        
-
-                    
-                
-                        
-                            <div class="scenario-step-container">
-
-                                
-                                    
-                                        <div class="label" title="Success">
-                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
-                                        </div>
-                                    
-                                
-
-                                <div class="text">
-                                    <span class="keyword highlight">Then </span>
-
-                                    
-                                        validate the report, ensuring it contains contractors paid invoices record
-                                        
-                                    
-
-                                    
-                                        
-                                            <span class="duration">00:00:02.143</span>
-                                        
-                                    
-
-                                </div>
-
-                                
-                                    
-
-                                    
-
-                                    
-                                    
-                                    
-
-                                    
-
-                                    
-
-                                    
-                                
-                            </div>
-
-                        
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-
-                            
-                        
-
-                        
-                            
-                        
-
-                    
-                
-                        
-                            <div class="scenario-step-container">
-
-                                
-                                    
-                                        <div class="label" title="Success">
-                                            <i class="fa fa-check-circle fa-2x passed-color" data-toggle="tooltip" data-placement="top" title="Step passed"></i>
-                                        </div>
-                                    
-                                
-
-                                <div class="text">
-                                    <span class="keyword highlight">And </span>
-
-                                    
-                                        check the Employment intermediary"agency", Worker"contractor" and Intermediary for worker"s services"payment company" Headers
-                                        
-                                    
-
-                                    
-                                        
-                                            <span class="duration">00:00:00.224</span>
+                                            <span class="duration">00:02:02.367</span>
                                         
                                     
 
@@ -7073,7 +4429,7 @@ input#darkCheck:checked ~ label>svg#moon {
                     ],
                     datasets: [{
                         data: [
-                            12,
+                            6,
                             0,
                             0,
                             0,
